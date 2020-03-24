@@ -1,0 +1,161 @@
+---
+title: "Seagrass Shoots"
+header-includes: 
+  \usepackage{graphicx}
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyhead[RO,RE]{Seagrass Shoots}
+  \graphicspath{ {./graphics/} }
+  \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+  \fancyfoot[CO,CE]{\thepage}
+output: pdf_document
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{shoots_landing_page}$$
+
+
+\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+
+\vspace*{\fill}
+\begin{center}
+\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
+marinegeo@si.edu
+\end{center}
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt} 
+
+## Introduction
+
+This protocol provides standardized data on characteristics of the seagrass canopy and fouling/sessile (attached) organisms on the seagrass blades from shoot collections. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found on the Seagrass section of the MarineGEO protocol website: https://marinegeo.github.io/modules/seagrass-shoots.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+This assay quantifies physical characteristics of seagrass blades and the associated fouling community, measured as:
+
+*	Blade length (mm)
+*	Blade width (mm)
+*	Sheath length (mm)
+*	Blade mass (mg)
+*	Grazing scars (number)
+*	Fouling biomass (mg)
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 2 people 
+
+Estimated Total Time Per Location (*n* = 3 transects):
+
+|    Preparation: 1 person x 1 day
+|    Field work: 2 people x 1 day
+|    Post processing: 1 person x 3-5 days
+|    Data processing: 1 person x 1 day
+
+*Estimated times will vary by site and conditions
+
+Replication: Six (6) shoot samples (1 shoot of each of the dominant species) taken along three (3) transects (total *n* = 18).
+ 
+Materials:
+
+\underline{Survey Design:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 1 50-m metric transect tape
+  \item Hand-held GPS unit
+  \item 2 PVC marker poles (diameter and length as needed)
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 18 plastic bags with external and internal labels \href{https://ziploc.com/en/Products/Bags/Sandwich-and-Snack/Sandwich-Bags}{(example)}
+  \item 1 cooler with ice (optional)
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 72+ pre-weighed foil tins \href{https://www.thomassci.com/Laboratory-Supplies/Weighing-Dishes/_/Aluminum-Weighing-Boats?=&q=Weigh+Boat}{(example)}
+  \item Sorting tray
+  \item Pencil/pen
+  \item Permanent marker
+  \item Microscope slide
+  \item Ruler (mm)
+  \item Drying oven
+\end{itemize}
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\underline{Preparation:}
+1.	Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes *n* = 6 shoots taken every 8 m along a 50-m transect, replicated along 3 separate transects.
+2.	Label 18 disposable plastic bags with the sampling location, transect, and replicate number using a permanent marker.
+3.	Place 18 internal labels with the same metadata written on waterproof paper inside the corresponding plastic bag (Fig. 1). 
+4.	Fill a cooler with ice immediately before departing for the field.
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+1.	At each predetermined point along the transect where the sample is to be collected, randomly select a patch ~1 m to any side of the transect. Be sure NOT to sample within the quadrat used for quantifying percent cover, as this may affect surveys in subsequent years.
+2.	Use your fingers to gently break off a single seagrass shoot at the rhizome (Fig. 2), being careful not to disturb any material on the shoot. Place the shoot and any attached material into the corresponding labeled plastic bag. 
+3.	If a quadrat contains more than 1 seagrass species, repeat this procedure for each seagrass species and store in the same labeled plastic bag.
+4.	Place the bag and contents on ice in the cooler.
+5.	Repeat steps 1-4 at the at the remaining 5 sampling locations along the transect.
+6.	Repeat steps 1-5 for the remaining two transects.
+7.	Transport cooler with samples back to the lab for immediate processing.
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+Samples are best processed immediately (within 24 hours) upon returning from the field. Samples can be stored for longer in the freezer but risks decay.
+
+1.	Print lab data sheets.
+2.	Weigh foil tins and record the weight of the tin directly on the foil using a pen. Tins can be either pre-made, or constructed by folding an aluminum foil square over on itself and sealing the sides.
+3.	Select a labeled bag and record the metadata on the lab data sheet.
+4.	Gently transfer the shoot from the bag into a shallow sorting tray without any water.
+5.	Separate seagrasses by species (if more than one) If any belowground material was accidentally sampled, separate by gently pinching at the meristem (the intersection of the shoots and rhizomes) and discard it.
+6.	For each seagrass species, select a pre-weighed tin and label with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group), and contents (fouling material).
+7.	Lightly scrape the fouling material, including epiphytic algae and sessile invertebrates, from the surface of the blades into one of the pre-weighed tins. *Be careful that no mobile (non-sessile) animals are transferred with the scraped material. This may require picking animals one-by-one out of more complex samples.* For sites with highly abundant epifaunal communities, you can gently submerge the shoot in freshwater for 30-60 seconds to remove any mobile animals (being careful not to dislodge the attached material).
+8.	Next, for each shoot of each species, measure and record:
+      a. The length and width of the single longest (oldest) leaf (Fig. 2); and
+      b. The sheath length: from the top of the sheath surrounding the leaf bundle to the meristem (the visible constriction at the shoot base) (Fig. 2).
+9.	Examine the blades for any evidence of grazing scars and record the number on the lab data sheet.
+10.	Transfer the scraped blades into a pre-weighed tin labeled with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group), and contents (blades). If the sample contains more than one species of seagrass, weigh each species in a separate tin.
+11.	Place all the tins (fouling material and blades) in a drying oven at 60°C. Dry samples until they register a constant weight (usually 1-3 days, depending on the volume of material).
+12.	Remove tins from the oven and weigh each to the nearest mg. Record this dry mass (including foil) on the lab data sheet. Note: you will have at least two weights per sample: fouling dry-mass, and blade dry-mass of the dominant species.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally.
+2. Enter data into provided data entry template.
+3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
+4. Contact us if you have any questions: marinegeo@si.edu.
+

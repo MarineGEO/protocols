@@ -1,0 +1,162 @@
+---
+title: "Predation Assay"
+output: pdf_document
+header-includes: 
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{ {./graphics/} }
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Predation Assay}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{predation_landing_page}$$
+
+
+\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+
+\vspace*{\fill}
+\begin{center}
+\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
+marinegeo@si.edu
+\end{center}
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt} 
+
+## Introduction
+
+The goal of this protocol is to implement a simple, standard method to quantify the relative intensity of feeding by generalist predators that is comparable across a wide range of sites and conditions.
+
+Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/predation-assay.  
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+This assay quantities the rate of consumption, measured as:
+
+* Bait loss after 1 hour and after 24 hours  
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 2 people
+
+Estimated Total Time Per Location (*n* = 1 transect):
+
+|    Preparation: 1 person x 1-2 days
+|    Field work: 2 people x 2 days
+|    Post processing: None
+|    Data processing: 1 person x 1 day
+
+*Estimated times will vary by site and conditions
+
+Replication: Twenty-five (25) baited stakes are taken along one (1) transect (total *n* = 25)
+
+Materials: 
+
+\underline{Survey Design:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 1 50-m metric transect tape
+  \item Hand-help GPS unit
+  \item 2 PVC marker poles (diameter and length as needed) 
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item Dried squid mantle 
+  \item 13-mm diameter auger punch or cork borer 
+  \item Scissors
+  \item Sewing needle (or other thin, sharp tool)
+  \item Thin monofilament line (2-10 lb test)
+  \item Electrical tape (1 roll)
+  \item 25 fiberglass garden stakes (30-50 cm in length)
+\end{itemize}
+\vspace{\baselineskip}
+
+*Notes:* We use dried squid as bait because most marine predators will readily eat it, it is widely available, and the dried bait can be shipped and stored without refrigeration. It is important to get the unseasoned squid that has been dried whole. MarineGEO recommends Hang Tai Marine Products Co. Dried Squid in 7oz. packages
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+\begin{wrapfigure}{r}{0.32\textwidth}
+  \begin{center}
+    \includegraphics[width=0.32\textwidth]{making_squidpops}
+  \end{center}
+  \setlength{\belowcaptionskip}{-20pt}
+  \caption{'Squidpop' baits are discs cut from mantle of dried squid using a cork borer or auger punch.}
+\end{wrapfigure}
+\paragraph{}
+
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\underline{Preparation:}
+
+1. Cut 25 discs from dried squid mantle using auger punch or cork borer (Fig. 1).
+2. Secure squid to line by threading a sewing needle with monofilament line. Pierce the bait with the needle, wrap the line around the bait, and tie a knot around the squid.
+3. Cut the line approximately 5 cm from squid bait. Wrap the free end of the line to the stake and tape it in place using the electrical tape. Leave ~1 cm of line between the bait and the end of the stake to prevent tangling (Fig. 2).
+4. Print out a field datasheet for each site, preferably on waterproof pape
+
+*Note:* Keep the Squidpops dry and refrigerated, otherwise the squid can become oily or slimy.  
+
+\vspace{\baselineskip}
+
+\begin{wrapfigure}{r}{0.32\textwidth}
+  \begin{center}
+    \vspace{5mm}
+    \includegraphics[width=0.32\textwidth]{squidpop_sticks}
+  \end{center}
+  \vspace{-5mm}
+  \caption{Final 'squidpops' ready for deployment.}
+\end{wrapfigure}
+
+\underline{Fieldwork: Day 1}
+
+1. Review the MarineGEO survey design (e.g. [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass)) for site selection and setup. This protocol assumes *n* = 25 Squidpops deployed along a 50-m transect, replicated once per location.
+2. Deploy the Squidpops every 2-m along the transect by pushing them firmly into the substrate. They should be roughly the same height above the bottom (about 5-15 cm) and high enough to be visible to predators).
+3. After the last replicate has been deployed, record the time.
+4. After one hour, revisit each replicate and record the bait as present (**P**) or absent (**A**). Bait absent means the entire bait is absent; partial baits are counted as present. Record any missing or dislodged Squidpop stakes as missing (**M**) on the datasheet (i.e., those that cannot be located and have been presumably been lost)  
+5. Leave all Squidpops in place for 24-h. 
+\vspace{\baselineskip}
+
+\underline{Fieldwork: Day 2}
+
+1. Return to the site and locate the start point of the transect.
+2. Revisit each replicate and record as present (**P**), absent (**A**), or missing (**M**) 
+3. Remove all stakes and any other materials from the field. 
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally.
+2. Enter data into provided data entry template.
+3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
+4. Contact us if you have any questions: marinegeo@si.edu.
+
