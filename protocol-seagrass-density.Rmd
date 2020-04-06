@@ -10,7 +10,7 @@ header-includes:
   \usepackage{fancyhdr}
     \pagestyle{fancy}
     \renewcommand{\headrulewidth}{0pt}
-    \fancyhead[RO,RE]{Seagrass Density}
+    \fancyhead[RO,RE]{Seagrass Cover and Density}
     \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
     \fancyfoot[CO,CE]{\thepage}
 urlcolor: blue
@@ -48,10 +48,9 @@ This protocol provides standardized data on seagrass percent cover, species comp
 
 This assay quantifies seagrass community structure, measured as:
 
-*	Percent cover of each seagrass and macroalgae species (in bins: 0-10%, 10-40%, 40-70%, 70-100% cover)
-*	Macroinvertebrate abundance (number 0.25 m^2^) and approximate size (cm)
-*	Grazing scars (present/absent)
-*	Shoot density (number 0.0625 m^2^)
+*	Percent cover of each seagrass and macroalgae species (0.25 m^-2^)
+*	Macroinvertebrate abundance (number 0.25 m^-2^) and approximate size (cm)
+*	Shoot density (number 0.0625 m^-2^)
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -87,9 +86,10 @@ Materials:
 \renewcommand{\labelitemi}{$\square$}
 \setlength{\parskip}{0.1em}
 \begin{itemize}
-  \item  1 50 cm-x-50 cm (0.25 m\textsuperscript{2} quadrat (PVC or other material) divided in 4 equal 25cm x 25cm (0.0625 m\textsuperscript{2}) quadrants (Fig. 1)
+  \item  Quadrats to measure cover and density.  (Recommended: 50 x 50 cm quadrat for cover and 25 x 25 cm quadrat for density, OR any size that collects best representative samples of cover and density at your site
   \item Pencil
-  \item Waterproof paper
+  \item Seagrass Cover datasheet printed on waterproof paper
+  \item Seagrass Density datasheet printed on waterproof paper
   \item Clipboard
   \item \emph{RECOMMENDED:} Waterproof camera
 \end{itemize}
@@ -112,39 +112,49 @@ Fully review this and any additional protocols necessary for the sampling excurs
 \underline{Preparation:}
 
 1. Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes *n* = 12 quadrats for percent cover taken every 4m and *n* = 6 shoot density counts taken every 8m along a 50-m transect, replicated along 3 separate transects.
-2. Print field data sheets on waterproof paper. You will need at least 3 sheets, but having more available is useful.
+2. Print field data sheets on waterproof paper. You will need at least 3 sheets but having more available is useful, especially when >1 seagrass species is present.
 \vspace{\baselineskip}
 
 \underline{Fieldwork:}
 
-1. At each predetermined point along the transect where the sample is to be collected, lay down the 50cm x 50cm quadrat immediately adjacent to the transect line. If visibility is too poor to perform a visual survey of percent cover, skip to step 7.
+1. At each predetermined point along the transect where the sample is to be collected, lay down a quadrat immediately adjacent to the transect line. If visibility is too poor to perform a visual survey of percent cover, skip to step 5.
 2. Estimate and record cover of the following in bins according to the Braun-Blanquet method  (Table 1):
       a. Each seagrass species;
       b. Other sessile organisms (e.g., macroalgae, sponges, etc.). Be as specific as you can in identifying these organisms but do not guess if you are unsure (e.g., record ‘red sponge’ not ‘Acarnus erithacus?’);
       c. Bare substratum. Note the type (e.g., sand, mud, mixed).
 
-|    **Table 1.** Values of the Braun-Blanquet scale representing discrete percent cover bins.
+---- 
 
-Bin |	Interpretation | Cover
-------------- | ------------- | ------------- 
-0	| Absent | 0%
-0.1	| A single shoot | < 5%
-0.5	| A few shoots | < 5%
-1 | Some cover | 5-25%
-2 | Moderate cover | 25-50%
-3 | Majority cover | 50-75%
-4 | Total or near total cover | 75-100%
+Acceptable methods for estimating cover include:
 
-3. Record the presence and size of any large mobile benthic macroinvertebrates (>10 cm) that fall within the quadrat (e.g., gastropods, urchins, sea cucumbers).
-4. Record the presence of any conspicuous grazing scars (e.g., turtle, manatee, parrotfish) within the quadrat.
-5. Count and record the number of reproductive (i.e., flowering/fruiting) shoots in the lower right quadrant (25cm x 25cm).
-6. In every other replicate, obtain a measurement of shoot density by counting and recording the number of seagrass shoots within the lower right quadrant (25cm x 25cm). If visibility is poor, shoot density can be obtained by touch. 
-7. If shoot densities cannot be assessed visually OR by touch, a biomass core can be used to destructively sample the bed and count shoot densities in the lab (see: Seagrass Biomass protocol). 
-8. Repeat steps 1-7 for each replicate on the first transect.
-9. Repeat steps 1-8 for the remaining two transects.
+a.	Assign percentage bins (represented by letters) according to the modified Braun-Blanquet method^2^   described in Table 1
+b.	Estimate cover to the nearest 5% bin
+c.	Point count: using a quadrat fitted with a grid, record cover type under each grid intersection. Record the total number of points counted on your datasheet.
+
+Be sure to record the **dimensions of your quadrat** and the **method used** (Braun-Blanquet, % bins, or point count) on your datasheet.
+
+----
+
+|    **Table 1.** Values of the modified Braun-Blanquet scale representing discrete percent cover bins.  Each letter of the modified bins corresponds to a number representing a bin from the Braun-Blaquet scale.  Please use letter bins in data entry spreadsheets to facilitate the MarineGEO data curation process.
+
+Modified Braun-Blanquet Bin | Braun-Blanquet Bin |	Interpretation | Cover
+------------- | ------------- | ------------- | -------------
+A | 0	| Absent | 0%
+B | 0.1	| A single shoot (1-2% cover) | < 5%
+C | 0.5	| A few shoots (3-5% cover) | < 5%
+D | 1 | Some cover | 5-25%
+E | 2 | Moderate cover | 25-50%
+F | 3 | Majority cover | 50-75%
+G | 4 | Total or near total cover | 75-100%
+
+3. Record the presence and approximate size of any large mobile benthic macroinvertebrates (>10 cm) that fall within the quadrat (e.g., gastropods, urchins, sea cucumbers).
+4. In every *other* replicate, obtain a measurement of shoot density by counting and recording the number of seagrass shoots within a 25 x 25 cm quadrat (or other fixed area of appropriate size for your site) (**specify dimensions** on your datasheet) If visibility is poor, shoot density can be obtained by touch. Record shoot counts on the Seagrass Density datasheet.
+5. If shoot densities cannot be assessed visually OR by touch, a biomass core can be used to destructively sample the bed and count shoot densities in the lab (see: Seagrass Biomass protocol). 
+6. Repeat steps 1-5 for each replicate on the first transect.
+7. Repeat steps 1-6 for the remaining two transects.
 
 \vspace{\baselineskip}
-^1^Fourqurean, J. W., Willsie, A., Rose, C. D., & Rutten, L. M. (2001). Spatial and temporal pattern in seagrass community composition and productivity in south Florida. Marine Biology, 138(2), 341-354.
+^2^Fourqurean, J. W., Willsie, A., Rose, C. D., & Rutten, L. M. (2001). Spatial and temporal pattern in seagrass community composition and productivity in south Florida. Marine Biology, 138(2), 341-354.
 
 \noindent\rule{\textwidth}{0.4pt}
 

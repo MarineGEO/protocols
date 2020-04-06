@@ -2,6 +2,11 @@
 
 # extract file paths to all the protocol-generating .Rmd files within the Modules dir
 
+# generate_protocols <- function(protocol = NULL){
+#   if a protocol is given, render specified protocol
+#   else generate all protocols
+# }
+
 protocol_paths <- list.files(pattern = "*.Rmd", 
                              recursive = TRUE, 
                              full.names = TRUE)

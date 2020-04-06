@@ -1,0 +1,19 @@
+\usepackage{titling}
+\usepackage{wrapfig}
+\usepackage{float}
+	\floatplacement{figure}{H}
+\usepackage{graphicx}
+    \graphicspath{ {./graphics/} }
+\usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Seagrass Protocol}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[width=4.5cm,height=14.4cm]{marinegeo}\\[\bigskipamount]
+}
+\posttitle{\end{center}}
