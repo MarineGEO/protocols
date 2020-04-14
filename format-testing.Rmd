@@ -1,5 +1,4 @@
 ---
-title: "MarineGEO Protocol"
 output:
   pdf_document:
     includes:
@@ -8,8 +7,17 @@ urlcolor: blue
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+```{r}
+title_var <- "MarineGEO Protocol"
+```
+
+---
+title: `r title_var`
+---
 
 \noindent\rule{\textwidth}{0.4pt}
 
