@@ -37,3 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Dropbox token
+.rds
+*droptoken.rds*
+*token.rds*
