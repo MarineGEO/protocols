@@ -42,3 +42,7 @@ vignettes/*.pdf
 .rds
 *droptoken.rds*
 *token.rds*
+
+# Unnecessary scripts and output
+*junk_code.R*
+*test.tex*
