@@ -2,6 +2,9 @@
 
 # extract file paths to all the protocol-generating .Rmd files within the Modules dir
 
+library(tidyverse)
+
+# output_dropbox = TRUE (default false) option
 generate_protocols <- function(protocol = NULL){
 
   protocol_paths <- list.files(pattern = "*.Rmd", 
@@ -26,9 +29,31 @@ generate_protocols <- function(protocol = NULL){
   # remove temporary log files
   do.call(file.remove, list(list.files(pattern = "*.log", 
                                        full.names = TRUE)))
+  
 }
 
 # test function
-# generate_protocols("water")
+# generate_protocols("format")
 
+
+saveProtocols <- function(){
+  # setwd(tempdir())
+    
+  git_protocols <- list.files("protocols-final",
+                              full.names = TRUE)
+  
+  # select protocols to ignore
+  # ignore <- c("format-testing.pdf", "protocol-template.pdf")
+  # git_protocols <- git_protocols[git_protocols != ignore]
+
+      for (f in 1:length(git_protocols)) {
+        
+        # designate destination of protocol within Dropbox
+        # destination <- drop_dir(path = "/MarineGEO/Research/Modules", recursive = TRUE) %>%
+        #   filter(name == "Protocol") %>%
+        #   select(name, path_display)
+        
+        drop_upload(git_protocols[f], path = "MarineGEO/Research/Modules/R-generated-protocols/")
+      }
+  }
 

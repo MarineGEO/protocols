@@ -22,6 +22,7 @@ urlcolor: blue
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
+library(knitr)
 library(kableExtra)
 library(tidyverse)
 library(readxl)
@@ -146,12 +147,12 @@ Fully review this and any additional protocols necessary for the sampling excurs
 
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=0.9\linewidth, height=5cm]{pelagic_survey} 
-\caption{Swimming Animal survey diagram (Method 1).}
+\caption{Method 1: Swimming Animal survey diagram.}
 \label{fig:subim1}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=0.9\linewidth, height=5cm]{benthic_survey}
-\caption{Macroinvertebrate and Cryptic Fish survey diagram (Method 2).}
+\caption{Method 2: Macroinvertebrate and Cryptic Fish survey diagram.}
 \label{fig:subim2}
 \end{subfigure}
 
@@ -172,10 +173,9 @@ As soon as possible after the dive, determine the identity of species that could
 
 ```{r echo=FALSE, results='asis'}
 
-appendix <- read_xlsx("visual-census-table.xlsx") %>%
-  fill("GROUPS")
-
-knitr::kable(appendix, "latex", booktabs = TRUE,
+read_xlsx(here::here("visual-census-table.xlsx")) %>%
+  fill("GROUPS") %>%
+  knitr::kable(., "latex", booktabs = TRUE,
              caption = "Appendix 1. Groups of Macroinvertebrates to Count During Macroinvertebrate and Cryptic Fish Survey") %>% 
   column_spec(3, width = "15em") %>%
   kable_styling(latex_options= "striped")
