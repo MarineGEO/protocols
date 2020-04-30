@@ -18,6 +18,8 @@ urlcolor: blue
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(lubridate)
 ```
 
 \noindent\rule{\textwidth}{0.4pt}
@@ -120,9 +122,9 @@ Materials:
 Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
 \vspace{\baselineskip}
 
-\begin{wrapfigure}{r}{0.3\textwidth}
+\begin{wrapfigure}{r}{0.35\textwidth}
   \begin{center}
-    \includegraphics[width=0.3\textwidth]{label_example}
+    \includegraphics[width=0.35\textwidth]{label_example}
   \end{center}
   \setlength{\belowcaptionskip}{-20pt}
   \caption{Example label with site (Carrie Bow), method (biomass), transect (1), and replicate (40 m).}
@@ -137,7 +139,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 \underline{Fieldwork:}
 1.	At each predetermined point along the transect where the sample is to be collected, randomly select a patch ~1 m to any side of the transect. Be sure NOT to sample within the quadrat used for quantifying percent cover, as this may affect surveys in subsequent years.
 2.	Position the mesh bag over the canopy and gently lower it over the seagrass, being careful to avoid disturbing or dislodging any organisms or macroalgae. It may be necessary to move the bag from side-to-side and gently guide the seagrass blades through the opening.
-3.	Once the opening of the bag is just above the surface of the sediment, close the bag by pulling the drawstring and either cut or tear the exposed shoots at the sediment surface to release them into the bag.
+3.	Once the opening of the bag is just above the surface of the sediment, close the bag by pulling the drawstring and either cut or tear the exposed shoots at the sediment surface to release them into the bag. Avoid bagging sediment along with the sample, which could result in accidental collection of sediment-associated organisms.
 4.	Invert the closed bag and bring it up to the surface, flushing the contents fully into the bottom of the bag, then close the drawstring and tie a knot at the top of the bag to prevent the bag from accidentally opening.
 5.	Place the bag with contents on ice in the cooler.
 6.	Repeat steps 1-5 at the next location along the first transect until all 6 replicates are taken.
@@ -153,7 +155,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 1.	Print lab data sheets.
 2.	Weigh foil tins and record the weight of the tin directly on the foil using a pen. Tins can be either pre-made, or constructed by folding an aluminum foil square over on itself and sealing the sides.
 3.	Open a mesh bag and record the metadata from the internal label on the lab data sheet.
-4.	Gently rinse the contents of the bag into a shallow sorting tray with water.
+4.	Gently rinse the contents of the bag into a shallow sorting tray with water. Be sure to check the seams and folds of the bag for organisms clinging to the mesh.
 5.	Sort all seagrasses and macroalgae by species.
 6.	For each macrophyte species, select a pre-weighed tin and label with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group). Place the macrophytes into the corresponding tins. For each seagrass, gently scrape epibiota (periphyton, sessile organisms) into a separate tin. For each non-seagrass macrophyte species (e.g., unrooted macroalga), place entire individuals into labeled tins. *Be careful that no animals are transferred with the macrophytes.* This may require picking animals one-by-one out of more complex substrates.
 7.	For each taxon sorted above: record the sample data, species name, and the empty tin weight on the lab data sheet.
@@ -183,6 +185,10 @@ This step can be done at your leisure as organisms are now preserved in 70% etha
 16.	Gently rinse the animals through the sieve tower. Take care not to use too much pressure to avoid damage fragile specimens. The goal is for animals to pass through larger sieves until they reach and are retained by the sieve mesh appropriate to their body size.
 17.	Transfer the contents of each sieve into a separate labeled into a 10-cm Petri dish or similar vessel for sorting.
 18.	Identify each taxon in each sieve size class in each sample to species and record the species name on the lab datasheet. If you cannot reliably identify a taxon to species, identify it to the lowest taxonomic group that you feel confident. Then, give it a provisional name (e.g., Nereid polychaete A). Photograph unidentified species and label image file names with the sample information and the provisional species name you assigned on the data sheet. These images can be used to later clarify the species’ identity. *Be sure to maintain the naming scheme for all future samples* (especially if samples are processed by different people).
+      a) Only count metazoans:  exclude protozoans (e.g. foraminera)
+      b) Only count mobile macrofauna:  exclude sessile animals (e.g. bryozoans, sponges, hydroids) and meiofauana (e.g. copepods, ostracods, and larvae).
+      c) Only count animals that were alive at the time of collection:  discard empty shells and exoskeletons
+      d) Only count heads:  this prevents counting the same individual twice.  Discard disembodied limbs, posterior ends of polychaetes, crustacean bodies with missing heads, etc.
 19.	Count and record the number of individuals for each species.
 20.	Return all specimens to the labeled 20-mL vial, fill with 70% ethanol, and seal for long-term storage.
 
@@ -192,6 +198,7 @@ This step can be done at your leisure as organisms are now preserved in 70% etha
 
 1. Scan the completed field data sheets and save both paper and electronic versions locally.
 2. Enter data into provided data entry template.
-3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
-4. Contact us if you have any questions: marinegeo@si.edu.
+3. Manually check entered data against lab datasheets for accuracy, and correct any data entry  errors.
+4. Use our online submission portal to upload the Excel Spreadsheet (coming `r year(Sys.time())`). 
+5. Contact us if you have any questions: marinegeo@si.edu.
 
