@@ -46,3 +46,5 @@ vignettes/*.pdf
 # Unnecessary scripts and output
 *junk_code.R*
 *test.tex*
+*format-testing.Rmd*
+*header.tex*
