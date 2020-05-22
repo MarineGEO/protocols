@@ -1,6 +1,6 @@
 ---
 title: "Seagrass Shoots"
-header-includes: 
+header-includes:
   \usepackage{graphicx}
   \usepackage{fancyhdr}
   \pagestyle{fancy}
@@ -34,7 +34,7 @@ marinegeo@si.edu
 \clearpage
 \pagenumbering{arabic}
 
-\noindent\rule{\textwidth}{0.4pt} 
+\noindent\rule{\textwidth}{0.4pt}
 
 ## Introduction
 
@@ -57,7 +57,7 @@ This assay quantifies physical characteristics of seagrass blades and the associ
 
 ## Requirements
 
-Personnel: 2 people 
+Personnel: 2 people
 
 Estimated Total Time Per Location (*n* = 3 transects):
 
@@ -69,7 +69,7 @@ Estimated Total Time Per Location (*n* = 3 transects):
 *Estimated times will vary by site and conditions
 
 Replication: Six (6) shoot samples (1 shoot of each of the dominant species) taken along three (3) transects (total *n* = 18).
- 
+
 Materials:
 
 \underline{Survey Design:}
@@ -118,18 +118,18 @@ Fully review this and any additional protocols necessary for the sampling excurs
 \underline{Preparation:}
 1.	Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes *n* = 6 shoots taken every 8 m along a 50-m transect, replicated along 3 separate transects.
 2.	Label 18 disposable plastic bags with the sampling location, transect, and replicate number using a permanent marker.
-3.	Place 18 internal labels with the same metadata written on waterproof paper inside the corresponding plastic bag (Fig. 1). 
-4.	Fill a cooler with ice immediately before departing for the field.
+3.	Place 18 internal labels with the same metadata written on waterproof paper inside the corresponding plastic bag (Fig. 1).
+4.	Fill a container with ice immediately before departing for the field.
 \vspace{\baselineskip}
 
 \underline{Fieldwork:}
 1.	At each predetermined point along the transect where the sample is to be collected, randomly select a patch ~1 m to any side of the transect. Be sure *NOT* to sample within the 0.5-0.5 m quadrat used for quantifying percent cover and shoot density, as this may affect cover and density surveys in subsequent years.
-2.	Use your fingers to gently break off a single seagrass shoot at the base of the shoot at the rhizome (Fig. 2), being careful not to disturb any material on the shoot. Place the shoot and any attached material into the corresponding labeled plastic bag. 
+2.	Use your fingers to gently break off a single seagrass shoot at the base of the shoot at the rhizome (Fig. 2), being careful not to disturb any material on the shoot. For some species this may require digging into the sediment to acquire the entire sheath. Place the shoot and any attached material into the corresponding labeled plastic bag.
 3.	If a quadrat contains more than 1 seagrass species, repeat this procedure for each seagrass species and store in the same labeled plastic bag.
-4.	Place the bag and contents on ice in the cooler.
+4.	Place the bag and contents on ice in the container.
 5.	Repeat steps 1-4 at the at the remaining 5 sampling locations along the transect.
 6.	Repeat steps 1-5 for the remaining two transects.
-7.	Transport cooler with samples back to the lab for immediate processing.
+7.	Transport container with samples back to the lab for immediate processing.
 \vspace{\baselineskip}
 
 \underline{Post-Processing:}
@@ -139,23 +139,22 @@ Samples are best processed immediately (within 24 hours) upon returning from the
 2.	Weigh foil tins and record the weight of the tin directly on the foil using a pen. Tins can be either pre-made, or constructed by folding an aluminum foil square over on itself and sealing the sides.
 3.	Select a labeled bag and record the metadata on the lab data sheet.
 4.	Gently transfer the shoot from the bag into a shallow sorting tray without any water.
-5.	Separate seagrasses by species (if more than one) If any belowground material was accidentally sampled, separate by gently pinching at the meristem (the intersection of the shoots and rhizomes) and discard it.
+5.	Separate seagrasses by species (if more than one). If any belowground material was accidentally sampled, separate by gently pinching at the meristem (the intersection of the shoots and rhizomes) and discard it.
 6.	For each seagrass species, select a pre-weighed tin and label with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group), and contents (fouling material).
 7.	Lightly scrape the fouling material, including epiphytic algae and sessile invertebrates, from the surface of the blades into one of the pre-weighed tins. *Be careful that no mobile (non-sessile) animals are transferred with the scraped material. This may require picking animals one-by-one out of more complex samples.* For sites with highly abundant epifaunal communities, you can gently submerge the shoot in freshwater for 30-60 seconds to remove any mobile animals (being careful not to dislodge the attached material).
 8.	Next, for each shoot of each species, measure and record:
       a. The length, width, and rank of each leaf (Fig. 2); and
       b. The sheath length: from the top of the sheath surrounding the leaf bundle to the meristem (the visible constriction at the shoot base) (Fig. 2).
-9.	Examine each blade for any evidence of grazing scars and record the total number on the lab data sheet.
+9.	Examine each blade for any evidence of grazing scars and record the presence/absence on the lab sheet.
 10.	Transfer the scraped blades into a pre-weighed tin labeled with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group), and contents (blades). If the sample contains more than one species of seagrass, weigh each species in a separate tin.
 11.	Place all the tins (fouling material and blades) in a drying oven at 60°C. Dry samples until they register a constant weight (usually 1-3 days, depending on the volume of material).
-12.	Remove tins from the oven and weigh each to the nearest mg. Record this dry mass (including foil) on the lab data sheet. Note: you will have at least two weights per sample: fouling dry-mass, and blade dry-mass of 1 or more seagrass species.
+12.	Remove tins from the oven and weigh each to the nearest mg. Record this dry mass (including foil) on the lab data sheet. Note: you will have *at least* two weights per sample: fouling dry-mass, and blade dry-mass of 1 or more seagrass species.
 
 \noindent\rule{\textwidth}{0.4pt}
 
 ## Data Submission
 
-1. Scan the completed field data sheets and save both paper and electronic versions locally.
-2. Enter data into provided data entry template.
-3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
-4. Contact us if you have any questions: marinegeo@si.edu.
-
+1. Scan the completed ﬁeld data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data_submission](https://marinegeo.github.io/data_submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
