@@ -1,7 +1,7 @@
 ---
 title: "Diver Visual Survey"
 output: pdf_document
-header-includes: 
+header-includes:
   \usepackage{wrapfig}
   \usepackage{caption}
     \captionsetup[table]{labelformat=empty}
@@ -45,7 +45,7 @@ marinegeo@si.edu
 \clearpage
 \pagenumbering{arabic}
 
-\noindent\rule{\textwidth}{0.4pt} 
+\noindent\rule{\textwidth}{0.4pt}
 
 ## Introduction
 
@@ -53,7 +53,7 @@ Visual census provides a rapid, non-destructive way to quantify these variables 
 
 These methods are identical to, and adopted from, those employed by the [Reef Life Survey](https://reeflifesurvey.com/) (RLS) network, and diver visual survey data collected as part of MarineGEO activities will be integrated into both MarineGEO and RLS global databases. We provide an abbreviated summary of their detailed protocol below, but those working in high diversity systems, with schooling fishes, in kelp forests, or facing other challenges may wish to consult the [RLS Manual](https://marinegeo.github.io/assets/modules/visual-census/RLS Methods Manual.pdf) directly for further details.
 
-Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/visual-census. 
+Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/visual-census.
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -98,7 +98,7 @@ Materials:
   \item 1 50-m metric transect tape
   \item Hand-held GPS unit
   \item Dive slate
-  \item Pencils 
+  \item Pencils
   \item Field data sheet printed on waterproof paper
   \item Underwater camera to record images of species that cannot be identified in field
 \end{itemize}
@@ -146,7 +146,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 \label{fig:image2}
 
 \begin{subfigure}{0.5\textwidth}
-\includegraphics[width=0.9\linewidth, height=5cm]{pelagic_survey} 
+\includegraphics[width=0.9\linewidth, height=5cm]{pelagic_survey}
 \caption{Method 1: Swimming Animal survey diagram.}
 \label{fig:subim1}
 \end{subfigure}
@@ -158,16 +158,16 @@ Fully review this and any additional protocols necessary for the sampling excurs
 
 \end{figure}
 
-As soon as possible after the dive, determine the identity of species that could not be identified in the field by consulting local guides/experts, and record those names on the data sheets. 
+As soon as possible after the dive, determine the identity of species that could not be identified in the field by consulting local guides/experts, and record those names on the data sheets.
 
 \noindent\rule{\textwidth}{0.4pt}
 
 ## Data Submission
 
-1. Scan the completed field data sheets and save both paper and electronic versions locally.
-2. Enter data into provided data entry template.
-3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
-4. Contact us if you have any questions: marinegeo@si.edu.
+1. Scan the completed ﬁeld data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data_submission](https://marinegeo.github.io/data_submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
 
 \clearpage
 
@@ -176,7 +176,7 @@ As soon as possible after the dive, determine the identity of species that could
 read_xlsx(here::here("visual-census-table.xlsx")) %>%
   fill("GROUPS") %>%
   knitr::kable(., "latex", booktabs = TRUE,
-             caption = "Appendix 1. Groups of Macroinvertebrates to Count During Macroinvertebrate and Cryptic Fish Survey") %>% 
+             caption = "Appendix 1. Groups of Macroinvertebrates to Count During Macroinvertebrate and Cryptic Fish Survey") %>%
   column_spec(3, width = "15em") %>%
   kable_styling(latex_options= "striped")
 
