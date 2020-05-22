@@ -1,7 +1,7 @@
 ---
 title: "Fish Trawls"
 output: pdf_document
-header-includes: 
+header-includes:
   \usepackage{wrapfig}
   \usepackage{float}
     \floatplacement{figure}{H}
@@ -37,7 +37,7 @@ marinegeo@si.edu
 \clearpage
 \pagenumbering{arabic}
 
-\noindent\rule{\textwidth}{0.4pt} 
+\noindent\rule{\textwidth}{0.4pt}
 
 ## Introduction
 
@@ -57,9 +57,9 @@ This assay quantifies mobile fish and invertebrate community structure, measured
 
 ## Requirements
 
-Personnel: 3 people 
+Personnel: 3 people
 
-Estimated Total Time Per Location (*n* = 2 trawls): 
+Estimated Total Time Per Location (*n* = 2 trawls):
 
 |    Preparation: 1 person x 1 day
 |    Field work: 3 persons x 2 day
@@ -69,7 +69,7 @@ Estimated Total Time Per Location (*n* = 2 trawls):
 *Estimated times will vary by site and conditions
 
 Replication: Two (2) trawls for approximately 2 minutes each (total *n* = 2 per location)
- 
+
 Materials:
 
 \underline{Survey Design:}
@@ -112,8 +112,9 @@ Fully review this and any additional protocols necessary for the sampling excurs
 
 \underline{Preparation:}
 
-1.	Review the MarineGEO survey design (e.g., [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass)) for site selection and setup. This protocol assumes *n* = 2 trawls taken at different positions within the habitat.
-2.	Print field data sheets on waterproof paper.
+1.	This protocol assumes *n* = 1 two-minute trawl, replicated twice per location. Please refer to the appropriate habitat survey design document for the placement of trawls.
+2.  Acquire appropriate institutional permissions for handling vertebrates (e.g., IACUC). MarineGEO is not responsible for any issues arising from failure to comply with institutional standards for ethical animal treatment.
+3.	Print field data sheets on waterproof paper.
 \vspace{\baselineskip}
 
 \underline{Fieldwork:}
@@ -123,17 +124,16 @@ Fully review this and any additional protocols necessary for the sampling excurs
 3.	Deploy otter trawl over side of boat.
 4.	Throttle forward at low speed (3-4 knots) to keep wings open for approximately 2 minutes or until no longer in the target habitat. The track of the boat should be as linear as possible.
 5.	Record ending location using GPS.
-6.	Retrieve the otter trawl and work through the net, removing and recording the identity of all organisms >5 cm in length. For the first 20 individuals of each species, also record their length (in mm). For fishes, measure total length (tip of the snout to tip of the caudal fin); for invertebrates, measure carapace width or total length (Fig. 1).
-7.	Photograph any unidentifiable, rare, unique, or interesting species and include the photos in your data submission.
-8.	Repeat steps 2-7 for the second location. 
+6.	Retrieve the otter trawl and work through the net, removing and recording the identity of all organisms >5 cm in length. For the first 20 individuals of each species, also record their length (in mm). For fishes, measure total length (tip of the snout to tip of the caudal fin); for invertebrates, measure carapace width or total length (Fig. 1).  Return all organisms to the water as rapidly as possible to minimize handling time.
+7.	Photograph any unidentifiable species for potential identification later.
+8.	Repeat steps 2-7 for the second location.
 \vspace{\baselineskip}
 
 \noindent\rule{\textwidth}{0.4pt}
 
 ## Data Submission
 
-1. Scan the completed field data sheets and save both paper and electronic versions locally.
-2. Enter data into provided data entry template.
-3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
-4. Contact us if you have any questions: marinegeo@si.edu.
-
+1.  Scan the completed ﬁeld data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2.  Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3.  Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data_submission](https://marinegeo.github.io/data_submission)
+4.  Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
