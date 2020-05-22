@@ -115,7 +115,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 
 1.	This protocol assumes *n* = 1 seine tow taken along a 50-m transect, replicated along two transects per location. Please refer to the appropriate habitat survey design document for the placement of transects.
 2.  Acquire appropriate institutional permissions for handling vertebrates (e.g., IACUC). MarineGEO is not responsible for any issues arising from failure to comply with institutional standards for ethical animal treatment.
-2.	Print field data sheets on waterproof paper.
+3.	Print field data sheets on waterproof paper.
 \vspace{\baselineskip}
 
 \underline{Fieldwork:}
