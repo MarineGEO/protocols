@@ -1,7 +1,7 @@
 ---
-title: "Seagrass Density"
+title: "Seagrass Cover and Density"
 output: pdf_document
-header-includes: 
+header-includes:
   \usepackage{wrapfig}
   \usepackage{float}
     \floatplacement{figure}{H}
@@ -36,11 +36,11 @@ marinegeo@si.edu
 \clearpage
 \pagenumbering{arabic}
 
-\noindent\rule{\textwidth}{0.4pt} 
+\noindent\rule{\textwidth}{0.4pt}
 
 ## Introduction
 
-This protocol provides standardized data on seagrass percent cover, species composition, and shoot density using a common non-destructive method: the quadrat. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found here: https://marinegeo.github.io/modules/seagrass-density. 
+This protocol provides standardized data on seagrass percent cover, species composition, and shoot density using a common non-destructive method: the quadrat. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found here: https://marinegeo.github.io/modules/seagrass-density.
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -58,7 +58,7 @@ This assay quantifies seagrass community structure, measured as:
 
 Personnel: 2 people  
 
-Estimated Total Time Per Location (*n* = 3 transects): 
+Estimated Total Time Per Location (*n* = 3 transects):
 
 |    Preparation: 1 person x 1 day
 |    Fieldwork: 2 people x 1 day
@@ -117,25 +117,27 @@ Fully review this and any additional protocols necessary for the sampling excurs
 
 \underline{Fieldwork:}
 
-1. At each predetermined point along the transect where the sample is to be collected, lay down a quadrat immediately adjacent to the transect line. If visibility is too poor to perform a visual survey of percent cover, skip to step 5.
-2. Estimate and record cover of the following in bins according to the Braun-Blanquet method  (Table 1):
+1. At each predetermined point along the transect where the sample is to be collected, lay down a quadrat immediately adjacent to the transect line (either side is fine, just remain consistent). If visibility is too poor to perform a visual survey of percent cover, skip to step 5.
+2. Estimate and record cover of the following:
       a. Each seagrass species;
       b. Other sessile organisms (e.g., macroalgae, sponges, etc.). Be as specific as you can in identifying these organisms but do not guess if you are unsure (e.g., record ‘red sponge’ not ‘Acarnus erithacus?’);
       c. Bare substratum. Note the type (e.g., sand, mud, mixed).
 
----- 
+----
 
 Acceptable methods for estimating cover include:
 
-a.	Assign percentage bins (represented by letters) according to the modified Braun-Blanquet method^2^   described in Table 1
-b.	Estimate cover to the nearest 5% bin
+a.	Assign percentage bins (represented by letters) according to the modified Braun-Blanquet method^2^  described in Table 1.
+b.	Estimate cover to the nearest 5% bin.
 c.	Point count: using a quadrat fitted with a grid, record cover type under each grid intersection. Record the total number of points counted on your datasheet.
+
+Note that for methods a and b, total cover can exceed 100% if, for example, macroalgae exists on top of seagrass.
 
 Be sure to record the **dimensions of your quadrat** and the **method used** (Braun-Blanquet, % bins, or point count) on your datasheet.
 
 ----
 
-|    **Table 1.** Values of the modified Braun-Blanquet scale representing discrete percent cover bins.  Each letter of the modified bins corresponds to a number representing a bin from the Braun-Blaquet scale.  Please use letter bins in data entry spreadsheets to facilitate the MarineGEO data curation process.
+|    **Table 1.** Values of the modified Braun-Blanquet scale representing discrete percent cover bins.  Each letter of the modified bins corresponds to a number representing a bin from the Braun-Blanquet scale.  Please use letter bins in data entry spreadsheets to facilitate the MarineGEO data curation process (and not to be confused with numeric % cover).
 
 Modified Braun-Blanquet Bin | Braun-Blanquet Bin |	Interpretation | Cover
 ------------- | ------------- | ------------- | -------------
@@ -147,10 +149,10 @@ E | 2 | Moderate cover | 25-50%
 F | 3 | Majority cover | 50-75%
 G | 4 | Total or near total cover | 75-100%
 
-3. Record the presence and approximate size of any large mobile benthic macroinvertebrates (>10 cm) that fall within the quadrat (e.g., gastropods, urchins, sea cucumbers).
-4. In every *other* replicate, obtain a measurement of shoot density by counting and recording the number of seagrass shoots within a 25 x 25 cm quadrat (or other fixed area of appropriate size for your site) (**specify dimensions** on your datasheet) If visibility is poor, shoot density can be obtained by touch. Record shoot counts on the Seagrass Density datasheet.
-5. If shoot densities cannot be assessed visually OR by touch, a biomass core can be used to destructively sample the bed and count shoot densities in the lab (see: Seagrass Biomass protocol). 
-6. Repeat steps 1-5 for each replicate on the first transect.
+3. Record the presence and approximate size of any large mobile benthic macroinvertebrates (>10 cm) that fall within the quadrat and are immediately visible in the quadrat (e.g., gastropods, urchins, sea cucumbers).
+4. In every *other* replicate, obtain a measurement of shoot density by counting and recording the number of seagrass shoots within a 25 x 25 cm quadrat (or other fixed area of appropriate size for your site) (**specify dimensions** on your datasheet). If visibility is poor, shoot density can be obtained by touch. Record shoot counts on the Seagrass Density datasheet.
+5. If shoot densities cannot be assessed visually OR by touch, a biomass core can be used to destructively sample the bed and count shoot densities in the lab (see: (Seagrass Biomass Core protocol)[https://marinegeo.github.io/modules/seagrass-biomass]).
+6. Repeat steps 1-5 for all replicates along the first transect.
 7. Repeat steps 1-6 for the remaining two transects.
 
 \vspace{\baselineskip}
@@ -160,7 +162,7 @@ G | 4 | Total or near total cover | 75-100%
 
 ## Data Submission
 
-1. Scan the completed field data sheets and save both paper and electronic versions locally.
-2. Enter data into provided data entry template.
-3. Use our online submission portal to upload the Excel Spreadsheet (coming Fall 2019). 
-4. Contact us if you have any questions: marinegeo@si.edu.
+1. Scan the completed ﬁeld data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data_submission](https://marinegeo.github.io/data_submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
