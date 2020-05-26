@@ -20,14 +20,14 @@ generateProtocols <- function(protocol = NULL){
     protocol_name <- protocol_names[which(grepl(protocol, protocol_names))]
     
     rmarkdown::render(input = path,
-                      output_file = paste0("marinegeo-", protocol_name), 
+                      output_file = paste0("MarineGEO-", protocol_name), 
                       output_dir = "protocols-final")
   }else{
     # else generate all protocols
     for (i in 1:length(protocol_paths)) {
       # execute the script and generate the protocols within their appropriate subdirectories
       rmarkdown::render(input = protocol_paths[i],
-                        output_file = paste0("marinegeo-", protocol_names[i]), 
+                        output_file = paste0("MarineGEO-", protocol_names[i]), 
                         output_dir = "protocols-final")
     }
     }
@@ -62,18 +62,18 @@ saveProtocols <- function(){
   # manually create lookup table to specify output dir for each protocol
   # unfortunately they do not align alphabetically
   lookup <- data.frame(dropbox_path = sort(destination$path_display),
-                       git_protocol = c("protocol-fish-seines.pdf",
-                                        "protocol-fish-trawls.pdf",
-                                        "protocol-visual-census.pdf",
-                                        "protocol-herbivory.pdf",
-                                        "protocol-predation.pdf",
-                                        "protocol-seagrass-biomass.pdf",
-                                        "protocol-seagrass-density.pdf",
-                                        "protocol-seagrass-epifauna.pdf",
-                                        "protocol-seagrass-macroalgae.pdf",
-                                        "protocol-seagrass-shoots.pdf",
-                                        "protocol-sediment-organic-matter.pdf",
-                                        "protocol-water-quality.pdf"))
+                       git_protocol = c("MarineGEO-protocol-fish-seines.pdf",
+                                        "MarineGEO-protocol-fish-trawls.pdf",
+                                        "MarineGEO-protocol-visual-census.pdf",
+                                        "MarineGEO-protocol-herbivory.pdf",
+                                        "MarineGEO-protocol-predation.pdf",
+                                        "MarineGEO-protocol-seagrass-biomass.pdf",
+                                        "MarineGEO-protocol-seagrass-density.pdf",
+                                        "MarineGEO-protocol-seagrass-epifauna.pdf",
+                                        "MarineGEO-protocol-seagrass-macroalgae.pdf",
+                                        "MarineGEO-protocol-seagrass-shoots.pdf",
+                                        "MarineGEO-protocol-sediment-organic-matter.pdf",
+                                        "MarineGEO-protocol-water-quality.pdf"))
 
   # upload protocol pdfs to dropbox
   for (k in 1:nrow(lookup)) {
