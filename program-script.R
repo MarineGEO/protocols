@@ -13,14 +13,13 @@ source("protocol_functions.R")
 # generateProtocols() renders all the subdirectory protocol-generating Rmarkdowns as PDFs
 # defaults to render ALL protocols unless a specific ONE is specified 
 
-# generateProtocols()
-# generateProtocols("epifauna")
-
+generateProtocols()
+# generateProtocols("seines")
 
 ## Save Protocol PDFs to Dropbox ####
 
 # saveProtocols() uploads the generated protocol PDFs to their respective dropbox folders
 
-# saveProtocols()
+saveProtocols()
 
 

@@ -162,7 +162,7 @@ G | 4 | Total or near total cover | 75-100%
 
 ## Data Submission
 
-1. Scan the completed ﬁeld data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
 2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
-3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data_submission](https://marinegeo.github.io/data_submission)
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
 4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
