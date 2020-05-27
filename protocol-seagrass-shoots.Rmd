@@ -144,7 +144,7 @@ Samples are best processed immediately (within 24 hours) upon returning from the
 7.	Lightly scrape the fouling material, including epiphytic algae and sessile invertebrates, from the surface of the blades into one of the pre-weighed tins. *Be careful that no mobile (non-sessile) animals are transferred with the scraped material. This may require picking animals one-by-one out of more complex samples.* For sites with highly abundant epifaunal communities, you can gently submerge the shoot in freshwater for 30-60 seconds to remove any mobile animals (being careful not to dislodge the attached material).
 8.	Next, for each shoot of each species, measure and record:
       a. The sheath length of the entire shot: from the top of the sheath surrounding the leaf bundle to the meristem (the visible constriction at the shoot base) (Fig. 2); and
-      b.  The length, width, and rank of each leaf (Fig. 2).
+      b. The length, width, and rank of each leaf (youngest to oldest, Fig. 2).
 9.	Examine each shoot for any evidence of grazing scars and record the presence/absence on the lab sheet.
 10.	Transfer the scraped blades into a pre-weighed tin labeled with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group), and contents (blades). If the sample contains more than one species of seagrass, weigh each species in a separate tin.
 11.	Place all the tins (fouling material and blades) in a drying oven at 60°C. Dry samples until they register a constant weight (usually 1-3 days, depending on the volume of material).
