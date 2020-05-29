@@ -1,5 +1,5 @@
 ---
-title: "Predation Assay"
+title: "Protocol: Predation Assay"
 output: pdf_document
 header-includes: 
   \usepackage{wrapfig}
@@ -24,14 +24,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 $$\includegraphics{predation_landing_page}$$
 
+\underline{How to cite this work:} Protocol: Predation Assay (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
-\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+\vspace{\baselineskip}
 
-\vspace*{\fill}
-\begin{center}
-\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
-marinegeo@si.edu
-\end{center}
+$$\includegraphics[width=100mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage

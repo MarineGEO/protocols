@@ -1,5 +1,5 @@
 ---
-title: "Seagrass Epifauna"
+title: "Protocol: Seagrass Epifauna"
 output: pdf_document
 header-includes:
   \usepackage{wrapfig}
@@ -26,14 +26,11 @@ library(lubridate)
 
 $$\includegraphics{seagrass_mesh_bags_landing_page}$$
 
+\underline{How to cite this work:} Protocol: Seagrass Epifauna (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
-\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+\vspace{\baselineskip}
 
-\vspace*{\fill}
-\begin{center}
-\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
-marinegeo@si.edu
-\end{center}
+$$\includegraphics[width=100mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
@@ -43,7 +40,7 @@ marinegeo@si.edu
 
 ## Introduction
 
-This protocol provides standardized data on seagrass mobile-epifauna including taxonomic composition, diversity, abundance/biomass, and/or secondary production. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-epifauna.
+This protocol provides standardized data on seagrass mobile-epifauna including taxonomic composition, diversity, abundance/biomass, and/or secondary production. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-epifauna.
 
 Samples collected in this protocol are post-processed to quantify aboveground seagrass biomass and estimate the biomass/secondary production of mobile epifauna. For post-processing, we recommend using a series of stacked sieves of sequentially smaller mesh sizes to sort animals into size classes (Fig. 2) as in Edgar, G.J. (1990) *Journal of Experimental Marine Biology and Ecology* 137:195-214. The abundance of each species in the size class can be combined with [empirical equations](https://gist.github.com/jslefche/c480eeb2ad67ca7c9a46) relating abundance to biomass and production of different taxonomic groups, providing non-destructive estimates of epifaunal biomass and production.
 
@@ -132,7 +129,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 
 \underline{Preparation:}
 1.	Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes 1 bag sample taken every 8 m along a 50-m transect (*n* = 6 per transect), replicated along 3 separate transects for a total *n* = 18.
-2.	Write 18 internal labels on waterproof paper with the sampling location, transect, and replicate number (Fig. 1), and place inside 18 mesh bags (500 um mesh size).
+2.	Write 18 internal labels on waterproof paper with the sampling location, transect, and replicate number (Fig. 1), and place inside 18 mesh bags (300-500 um mesh size).
 3.	Fill a container with ice immediately before departing for the field.
 \vspace{\baselineskip}
 

@@ -1,5 +1,5 @@
 ---
-title: "Seagrass Core Biomass"
+title: "Protocol: Seagrass Core Biomass"
 output: pdf_document
 header-includes:
   \usepackage{wrapfig}
@@ -25,13 +25,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 $$\includegraphics{landing_page_seagrass_cores}$$
 
-\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+\underline{How to cite this work:} Protocol: Seagrass Core Biomass (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
-\vspace*{\fill}
-\begin{center}
-\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
-marinegeo@si.edu
-\end{center}
+\vspace{\baselineskip}
+
+$$\includegraphics[width=100mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
@@ -41,7 +39,7 @@ marinegeo@si.edu
 
 ## Introduction
 
-This protocol provides data on above- and belowground seagrass biomass, composition, and shoot density from a standard core. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-biomass.
+This protocol provides data on above- and belowground seagrass biomass, composition, and shoot density from a standard core. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-biomass.
 
 \noindent\rule{\textwidth}{0.4pt}
 

@@ -1,5 +1,5 @@
 ---
-title: "Diver Visual Survey"
+title: "Protocol: Diver Visual Survey"
 output: pdf_document
 header-includes:
   \usepackage{wrapfig}
@@ -33,13 +33,11 @@ library(readxl)
 $$\includegraphics{visual_census_landing_page}$$
 
 
-\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+\underline{How to cite this work:} Protocol: Diver Visual Survey. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
-\vspace*{\fill}
-\begin{center}
-\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
-marinegeo@si.edu
-\end{center}
+\vspace{\baselineskip}
+
+$$\includegraphics[width=100mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
@@ -53,7 +51,7 @@ Visual census provides a rapid, non-destructive way to quantify these variables 
 
 These methods are identical to, and adopted from, those employed by the [Reef Life Survey](https://reeflifesurvey.com/) (RLS) network, and diver visual survey data collected as part of MarineGEO activities will be integrated into both MarineGEO and RLS global databases. We provide an abbreviated summary of their detailed protocol below, but those working in high diversity systems, with schooling fishes, in kelp forests, or facing other challenges may wish to consult the [RLS Manual](https://marinegeo.github.io/assets/modules/visual-census/RLS Methods Manual.pdf) directly for further details.
 
-Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/visual-census.
+Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: https://marinegeo.github.io/modules/visual-census.
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -127,13 +125,13 @@ Fully review this and any additional protocols necessary for the sampling excurs
       b.	Record depth in meters;
       c.	Record the compass bearing of the transect from anchor or GPS point so transect may be laid in the same place during future surveys.
 3.	Conduct fish surveys (**Method 1**):
-      a.	Visualize a “block” 5-m wide and high 5-m, bordering the transect line (Fig. 1). The two divers in a pair will each swim and record from a 5-x-5 m block along different sides of the transect line;
+      a.	Visualize a “block” 5-m wide and high 5-m, bordering the transect line (Fig. 1a). The two divers in a pair will each swim and record from a 5-x-5 m block along different sides of the transect line;
       b.	Swim through the center of this block about 1-m from the seabed, moving to search mouths of caves, crevasses, and overhangs where present;
       c.	Record the taxon, number, and approximate size of all fish species (and other vertebrates such as turtles) seen within the block. Size-classes of total fish length (from snout to tip of tail, or longest distance, including for stingrays) used are 2.5, 5.0, 7.5, 10.0, 12.5, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 50.0, 62.5 cm, and above. Lengths of fish larger than 62.5 cm should be estimated to the nearest 12.5 cm and individually recorded;
       d.	Make a record of any unidentifiable fish: take a photograph, draw a picture, and/or write a descriptive note (more information is better). *Do not ignore unidentifiable species.*
       e.	Do not re-record fish that overtake you.
 4.	Conduct separate mobile macroinvertebrate and cryptic fish surveys (**Method 2**):
-      a.	Using the same transect line censused with Method 1, visualize a block 1-m wide and 2-m high with the transect line on one edge. (Fig. 2);
+      a.	Using the same transect line censused with Method 1, visualize a block 1-m wide and 2-m high with the transect line on one edge. (Fig. 1b);
       b.	Swim the block;
       c.	Record the taxon, number, and size of all cryptic fishes seen in this block (those families not recorded in Method 1);
       d.	Record the taxon and number of all large, mobile macroinvertebrates seen in the block (Appendix 1);

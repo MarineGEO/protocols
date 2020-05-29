@@ -1,5 +1,5 @@
 ---
-title: "Seagrass Macroalgae"
+title: "Protocol: Seagrass Macroalgae"
 header-includes:
   \usepackage{graphicx}
   \usepackage{fancyhdr}
@@ -21,14 +21,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 $$\includegraphics{macroalgae_landing_page}$$
 
+\underline{How to cite this work:} Protocol: Seagrass Macroalgae (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
-\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+\vspace{\baselineskip}
 
-\vspace*{\fill}
-\begin{center}
-\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
-marinegeo@si.edu
-\end{center}
+$$\includegraphics[width=100mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
@@ -38,7 +35,7 @@ marinegeo@si.edu
 
 ## Introduction
 
-This protocol provides estimates of macroalgal biomass per unit area. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-macroalgae.
+This protocol provides estimates of macroalgal biomass per unit area. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-macroalgae.
 
 \noindent\rule{\textwidth}{0.4pt}
 

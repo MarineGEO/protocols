@@ -1,5 +1,5 @@
 ---
-title: "Sediment Organic Matter"
+title: "Protocol: Sediment Organic Matter"
 header-includes:
   \usepackage{graphicx}
   \usepackage{fancyhdr}
@@ -22,13 +22,11 @@ knitr::opts_chunk$set(echo = TRUE)
 $$\includegraphics{seagrass_sediment_om_landing_page}$$
 
 
-\underline{How to cite this work:} Seagrass Habitats: MarineGEO Protocols. (2019) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. DOI:
+\underline{How to cite this work:} Protocol: Sediment Organic Matter. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
-\vspace*{\fill}
-\begin{center}
-\includegraphics[height=1.5cm, width=4.8cm]{smithsonian}\\
-marinegeo@si.edu
-\end{center}
+\vspace{\baselineskip}
+
+$$\includegraphics[width=100mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
@@ -38,7 +36,7 @@ marinegeo@si.edu
 
 ## Introduction
 
-This protocol provides standardized data on sediment bulk density and organic matter content, which is obtained through loss-on-ignition using a combustion furnace. Additional copies of this protocol, field datasheets, data entry templates, instructional videos, literature, and more can be found at: https://marinegeo.github.io/modules/sediment-organic-matter.
+This protocol provides standardized data on sediment bulk density and organic matter content, which is obtained through loss-on-ignition using a combustion furnace. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: https://marinegeo.github.io/modules/sediment-organic-matter.
 
 \noindent\rule{\textwidth}{0.4pt}
 

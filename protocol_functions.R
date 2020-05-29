@@ -35,7 +35,9 @@ generateProtocols <- function(protocol = NULL){
   # remove temporary log files
   do.call(file.remove, list(list.files(pattern = "*.log", 
                                        full.names = TRUE)))
-  
+  # remove any PDFs in the main directory
+  do.call(file.remove, list(list.files(pattern = "*.pdf", 
+                                       full.names = TRUE)))
 }
 
 # generateProtocols("epifauna")
