@@ -25,7 +25,7 @@ $$\includegraphics{macroalgae_landing_page}$$
 
 \vspace{\baselineskip}
 
-$$\includegraphics[width=100mm]{title_logo}$$
+$$\includegraphics[width=80mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage

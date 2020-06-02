@@ -22,13 +22,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \noindent\rule{\textwidth}{0.4pt}
 
-$$\includegraphics{seagrass_seine_landing_page}$$
+$$\includegraphics[width=100mm]{title_pic_trawl}$$
 
 \underline{How to cite this work:} Protocol: Fish Trawls. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
 \vspace{\baselineskip}
 
-$$\includegraphics[width=100mm]{title_logo}$$
+$$\includegraphics[width=80mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage

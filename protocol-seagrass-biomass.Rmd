@@ -29,7 +29,7 @@ $$\includegraphics{landing_page_seagrass_cores}$$
 
 \vspace{\baselineskip}
 
-$$\includegraphics[width=100mm]{title_logo}$$
+$$\includegraphics[width=80mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
