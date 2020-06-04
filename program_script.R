@@ -14,7 +14,7 @@ source("protocol_functions.R")
 # defaults to render ALL protocols unless a specific ONE is specified 
 
 generateProtocols()
-# generateProtocols("shoots")
+# generateProtocols("monitoring")
 
 ## Save Protocol PDFs to Dropbox ####
 
