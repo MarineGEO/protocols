@@ -1,0 +1,171 @@
+---
+title: "Protocol: Seagrass Cover and Density"
+output: pdf_document
+header-includes:
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{ {../graphics/} }
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Seagrass Cover and Density}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+  \usepackage[linewidth=1pt]{mdframed}
+  \usepackage{enumitem}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{seagrass_quadrats_landing_page}$$
+
+\underline{How to cite this work:} Protocol: Seagrass Cover and Density (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Introduction
+
+This protocol provides standardized data on seagrass percent cover, species composition, and shoot density using a common non-destructive method: the quadrat. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found here: https://marinegeo.github.io/modules/seagrass-density.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+This assay quantifies seagrass community structure, measured as:
+
+*	Percent cover of each seagrass and macroalgae species (0.25 m^-2^)
+*	Macroinvertebrate abundance (number 0.25 m^-2^) and approximate size (cm)
+*	Shoot density (number 0.0625 m^-2^)
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 2 people  
+
+Estimated Total Time Per Location (*n* = 3 transects):
+
+|    Preparation: 1 person x 1 day
+|    Fieldwork: 2 people x 1 day
+|    Post processing: None
+|    Data processing: 1 person x 1 day
+
+*Estimated times will vary by site and conditions
+
+Replication: Twelve (12) quadrats taken along three (3) transects (total *n* = 36 per location)
+
+Materials:
+
+\underline{Survey Design:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 1 50-m metric transect tape
+  \item Hand-held GPS unit
+  \item 2 PVC marker poles (diameter and length as needed)
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item  Quadrats to measure cover and density.  (Recommended: 50 x 50 cm quadrat for cover and 25 x 25 cm quadrat for density, OR any size that collects best representative samples of cover and density at your site
+  \item Pencil
+  \item Seagrass Cover datasheet printed on waterproof paper
+  \item Seagrass Density datasheet printed on waterproof paper
+  \item Clipboard
+  \item \emph{RECOMMENDED:} Waterproof camera
+\end{itemize}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \begin{center}
+    \includegraphics[width=0.45\textwidth]{quadrat_example}
+  \end{center}
+  \vspace*{-12mm}
+  \caption{An example 1m x 1m PVC quadrat divided into four equal quadrats using string.}
+\end{wrapfigure}
+
+\underline{Preparation:}
+
+1. Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes *n* = 12 quadrats for percent cover taken every 4m and *n* = 6 shoot density counts taken every 8m along a 50-m transect, replicated along 3 separate transects.
+2. Print field data sheets on waterproof paper. You will need at least 3 sheets but having more available is useful, especially when >1 seagrass species is present.
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+1. At each predetermined point along the transect where the sample is to be collected, lay down a quadrat immediately adjacent to the transect line (either side is fine, just remain consistent). If visibility is too poor to perform a visual survey of percent cover, skip to step 5.
+2. Estimate and record cover of the following:
+      a. Each seagrass species;
+      b. Other sessile organisms (e.g., macroalgae, sponges, etc.). Be as specific as you can in identifying these organisms but do not guess if you are unsure (e.g., record ‘red sponge’ not ‘Acarnus erithacus?’);
+      c. Bare substratum. Note the type (e.g., sand, mud, mixed).
+
+\vspace{\baselineskip}
+
+\begin{mdframed}
+Acceptable methods for estimating cover include:
+\vspace{\baselineskip}
+\begin{enumerate}[label=(\alph*)]
+  \item Assign percentage bins (represented by letters) according to the modified Braun-Blanquet method\textsuperscript{2} described in Table 1.
+  \item Estimate cover to the nearest 5% bin.
+  \item Point count: using a quadrat fitted with a grid, record cover type under each grid intersection. Record the total number of points counted on your datasheet.
+\end{enumerate}
+\vspace{\baselineskip}
+Note that for methods a and b, total cover can exceed 100\% if, for example, macroalgae exists on top of seagrass.
+Be sure to record the \textbf{dimensions of your quadrat} and the \textbf{method used} (Braun-Blanquet, \% bins, or point count) on your datasheet.
+\end{mdframed}
+
+\clearpage
+
+|    **Table 1.** Values of the modified Braun-Blanquet scale representing discrete percent cover bins.  Each letter of the modified bins corresponds to a number representing a bin from the Braun-Blanquet scale.  Please use letter bins in data entry spreadsheets to facilitate the MarineGEO data curation process (and not to be confused with numeric % cover).
+
+Modified Braun-Blanquet Bin | Braun-Blanquet Bin |	Interpretation | Cover
+------------- | ------------- | ------------- | -------------
+A | 0	| Absent | 0%
+B | 0.1	| A single shoot (1-2% cover) | < 5%
+C | 0.5	| A few shoots (3-5% cover) | < 5%
+D | 1 | Some cover | 5-25%
+E | 2 | Moderate cover | 25-50%
+F | 3 | Majority cover | 50-75%
+G | 4 | Total or near total cover | 75-100%
+
+3. Record the presence and approximate size of any large mobile benthic macroinvertebrates (>10 cm) that fall within the quadrat and are immediately visible in the quadrat (e.g., gastropods, urchins, sea cucumbers).
+4. In every *other* replicate, obtain a measurement of shoot density by counting and recording the number of seagrass shoots within a 25 x 25 cm quadrat (or other fixed area of appropriate size for your site) (**specify dimensions** on your datasheet). If visibility is poor, shoot density can be obtained by touch. Record shoot counts on the Seagrass Density datasheet.
+5. If shoot densities cannot be assessed visually OR by touch, a biomass core can be used to destructively sample the bed and count shoot densities in the lab (see: [Seagrass Biomass Core protocol](https://marinegeo.github.io/modules/seagrass-biomass)).
+6. Repeat steps 1-5 for all replicates along the first transect.
+7. Repeat steps 1-6 for the remaining two transects.
+
+\vspace{\baselineskip}
+^2^Fourqurean, J. W., Willsie, A., Rose, C. D., & Rutten, L. M. (2001). Spatial and temporal pattern in seagrass community composition and productivity in south Florida. Marine Biology, 138(2), 341-354.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)

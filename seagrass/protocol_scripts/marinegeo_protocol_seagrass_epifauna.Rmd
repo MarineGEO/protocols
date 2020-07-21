@@ -1,0 +1,199 @@
+---
+title: "Protocol: Seagrass Epifauna"
+output: pdf_document
+header-includes:
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{ {../graphics/} }
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Seagrass Epifauna}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(lubridate)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{seagrass_mesh_bags_landing_page}$$
+
+\underline{How to cite this work:} Protocol: Seagrass Epifauna (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Introduction
+
+This protocol provides standardized data on seagrass mobile-epifauna including taxonomic composition, diversity, abundance/biomass, and/or secondary production. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: https://marinegeo.github.io/modules/seagrass-epifauna.
+
+Samples collected in this protocol are post-processed to quantify aboveground seagrass biomass and estimate the biomass/secondary production of mobile epifauna. For post-processing, we recommend using a series of stacked sieves of sequentially smaller mesh sizes to sort animals into size classes (Fig. 2) as in Edgar, G.J. (1990) *Journal of Experimental Marine Biology and Ecology* 137:195-214. The abundance of each species in the size class can be combined with [empirical equations](https://gist.github.com/jslefche/c480eeb2ad67ca7c9a46) relating abundance to biomass and production of different taxonomic groups, providing non-destructive estimates of epifaunal biomass and production.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+This assay quantifies characteristics of seagrass mobile epifaunal communities, measured as:
+
+*	Epifaunal abundance and taxonomic composition (individuals)
+*	Epifaunal biomass (mg dry or estimated ash-free dry mass)
+*	Associated macrophyte biomass (mg)
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 2 people
+
+Estimated Total Time Per Location (*n* = 3 transects):
+
+|    Preparation: 1 person x 1 day
+|    Field work: 2 people x 1 day
+|    Post processing: 1 person x 1 month
+|    Data processing: 1 person x 1 day
+
+*Estimated times will vary by site and conditions
+
+Replication: Six (6) epifaunal samples taken using mesh bags along three (3) transects (total *n* = 18 per location).
+
+Materials:
+
+\underline{Survey Design:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 1 50-m metric transect tape
+  \item Hand-held GPS unit
+  \item 2 PVC marker poles (diameter and length as needed)
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 18 draw-string mesh bags (300-500 micron mesh size, approximate dimensions: 75x20 cm (32x7”), with 20 cm opening) \href{https://www.thecarycompany.com/pemu-mesh-liquid-filter-bags}{(example)}
+  \item Waterproof paper for internal labels
+  \item 1 cooler with ice (optional)
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 20+ pre-weighted foil tins \href{https://www.thomassci.com/Laboratory-Supplies/Weighing-Dishes/_/501837F4-C637-4C72-80A1-2675943DCB0B?q=Weigh%20Boat}{(example)}
+  \item Sorting tray
+  \item 20+ scintillation vials (20-mL) with lids
+  \item 70% ethanol (0.5-1.0 L)
+  \item Petri dishes
+  \item Forceps (fine-tip)
+  \item Pen/pencil
+  \item Drying oven
+  \item Nested sieve set with the following sizes: 8.0, 5.6, 4.0, 2.8, 2.0, 1.4, 1.0, 0.71 and 0.5 mm (5/16-in, \#3.5, \#5, \#7, \#10, \#14, \#18, \#25, \#35 mesh sizes respectively) \href{https://www.thomassci.com/Laboratory-Supplies/Sieves/_/3-Diameter-ASTM-Brass-Stainless-Round-Test-Sieves?q=Sieves}{(example)}
+\end{itemize}
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\begin{wrapfigure}{r}{0.35\textwidth}
+  \begin{center}
+    \includegraphics[width=0.35\textwidth]{label_example}
+  \end{center}
+  \setlength{\belowcaptionskip}{-20pt}
+  \caption{Example label with site (Carrie Bow), method (biomass), transect (1), and replicate (40 m).}
+\end{wrapfigure}
+
+\underline{Preparation:}
+1.	Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes 1 bag sample taken every 8 m along a 50-m transect (*n* = 6 per transect), replicated along 3 separate transects for a total *n* = 18.
+2.	Write 18 internal labels on waterproof paper with the sampling location, transect, and replicate number (Fig. 1), and place inside 18 mesh bags (300-500 um mesh size).
+3.	Fill a container with ice immediately before departing for the field.
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+1.	At each  point along the transect where the sample is to be collected, randomly select a patch ~1 m to any side of the transect. Be sure NOT to sample within the quadrat used for quantifying percent cover, as this may affect surveys in subsequent years.
+2.	Position the mesh bag over the canopy and gently lower it over the seagrass, being careful to avoid disturbing or dislodging any organisms or macroalgae. It may be necessary to move the bag from side-to-side and gently guide the seagrass blades through the opening. For intertidal sites, blades can be gently lifted and inserted into the bag opening.
+3.	Once the opening of the bag is just above the surface of the sediment, close the bag by pulling the drawstring and cut the exposed shoots at the sediment surface to release them into the bag. Avoid bagging sediment along with the sample, which could result in accidental collection of sediment-associated organisms.
+4.	Invert the closed bag and bring it up to the surface, flushing the contents fully into the bottom of the bag. For intertidal sites, invert the bag and shake to move the contents fully into the bag. Then close the drawstring and tie a knot at the top of the bag to prevent the bag from accidentally opening.
+5.	Place the bag with contents on ice in container.
+6.	Repeat steps 1-5 at the next location along the first transect until all 6 replicates are taken.
+7.	Repeat steps 1-6 for the remaining two transects for a total of 18 samples.
+8.	Transport container with samples back to the lab for processing.
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+\vspace{\baselineskip}
+
+**Step 1: Macrophyte dry mass**
+
+1.	Print lab data sheets.
+2.	Weigh foil tins and record the weight of the tin directly on the foil using a pen. Tins can be either pre-made, or constructed by folding an aluminum foil square over on itself and sealing the sides.
+3.	Open a mesh bag and record the metadata from the internal label on the lab data sheet.
+4.	Gently rinse the contents of the bag into a shallow sorting tray with water. Be sure to check the seams and folds of the bag for organisms clinging to the mesh.
+5.	Sort all seagrasses and macroalgae by species.
+6.	For each seagrass and macroalgal species, select a pre-weighed tin and label with the sample metadata (replicate number, date, location) and species name (to lowest taxonomic group). For each seagrass, gently scrape epibiota (periphyton, sessile organisms) into a separate tin, and then place the seagrass blades into another tin. For each non-seagrass macrophyte species (e.g., unrooted macroalga), place entire individuals into labeled tins. *Be careful that no animals are transferred with the macrophytes.* This may require picking animals one-by-one out of more complex substrates. Gently shaking the blades in in the shallow tray may also help.
+7.	For each taxon sorted above: record the sample data, species name, and the empty tin weight on the lab data sheet.
+8.	Once no plant or algal material remains in the sorting tray, pass the contents through a 500-um or smaller mesh sieve. Gently rinse any loose material through the sieve, and then transfer the remaining contents to an internally and externally labeled 20-mL vial filled with 70% ethanol. Multiple vials may be required for larger samples or organisms. Set the vial aside for epifaunal processing at a later date.
+9.	Repeat steps 3-8 for each sample.
+10.	Place all tins containing macrophytes into a drying oven. Dry at 60°C to constant weight (usually 1-3 days, depending on the volume of material).
+11.	Once dried, remove all tins from the oven and weigh to nearest mg. Record this weight (including tin weight) on lab data sheet.
+\vspace{\baselineskip}
+
+\begin{wrapfigure}{r}{0.3\textwidth}
+  \begin{center}
+    \includegraphics[width=0.3\textwidth]{size_class_sieves}
+  \end{center}
+  \setlength{\belowcaptionskip}{-20pt}
+  \caption{Example of sieve tower used to obtain size-fractionated epifaunal abundances.}
+\end{wrapfigure}
+
+**Step 2: Sieve Processing**
+
+This step can be done at your leisure as organisms are now preserved in 70% ethanol.
+\vspace{\baselineskip}
+
+12.	Print lab data sheets.
+13.	Stack the sieves from the smallest mesh size on the bottom to the largest mesh on top (Fig. 2).
+14.	Select a 20-mL vial with epifauna, open the top, and gently invert it over the top sieve, allowing the contents to pass onto the sieve tower.
+15.	Use a tube or squirt bottle filled with tap or distilled water to gently rinse the contents of the vial into the sieve tower until the vial is empty.
+16.	Gently rinse the animals through the sieve tower. Take care not to use too much pressure to avoid damage fragile specimens. The goal is for animals to pass through larger sieves until they reach and are retained by the sieve mesh appropriate to their body size. This may be aided by removing the top sieve, rinsing, and repeating until the last sieve.
+17.	Transfer the contents of each sieve into a separate labeled into a 10-cm Petri dish or similar  for sorting.
+18.	Identify each taxon in each sieve size class in each sample to species and record the species name on the lab datasheet. If you cannot reliably identify a taxon to species, identify it to the lowest taxonomic group that you feel confident. Then, give it a provisional name (e.g., Nereid polychaete A). Photograph unidentified species and label image file names with the sample information and the provisional species name you assigned on the data sheet. These images can be used to later clarify the species’ identity. *Be sure to maintain the naming scheme for all future samples* (especially if samples are processed by different people).
+      a) Only count metazoans: exclude protozoans (e.g. foraminera)
+      b) Only count mobile macrofauna: exclude sessile animals (e.g. bryozoans, sponges, hydroids) and meiofauana (e.g. copepods, ostracods, and larvae).
+      c) Only count animals that were alive at the time of collection:  discard empty shells and exoskeletons.
+      d) Only count heads:  this prevents counting the same individual twice. Discard disembodied limbs, posterior ends of polychaetes, crustacean bodies with missing heads, etc. If a species is not identifiable by its head parts, only count bodies instead.
+19.	Count and record the number of individuals for each species on the provided lab sheet.
+20.	Return all specimens to the labeled 20-mL vial, fill with 70% ethanol, and seal for long-term storage.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
