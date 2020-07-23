@@ -1,0 +1,122 @@
+---
+title: "Protocol: Oyster Reef Composition"
+output: pdf_document
+header-includes:
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{ {../graphics/} }
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Oyster Reef Composition}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+  \usepackage[linewidth=1pt]{mdframed}
+  \usepackage{enumitem}
+urlcolor: blue
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{oyster_reef_composition_landing_page}$$
+
+\underline{How to cite this work:} Protocol: Oyster Reef Composition. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Introduction
+
+This protocol provides non-destructive standardized data collection on the composition of an oyster reef including both living (oysters, algae, other bivalves, etc.) and non-living substrate dead shell, rock, sediment, etc.).  Oysters are classified as live, box (dead with both bivalved shells still attached together), and cultch (single shell).
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+*	Percent cover of living and non-living substrate 
+
+## Requirements 
+
+Personnel: 2 – 4 people
+
+Estimated Total Time Per Location (*n* = 3)
+
+|    Preparation: 1 person x 1 day
+|    Fieldwork: 2 - 4 people x 1 day per location
+|    Post processing: None
+|    Data processing: 1 person x 1 day 
+
+Replication: 5 replicate quadrates per transect, 3 replicate transects per reef, 3 reefs per region 
+
+Materials:
+
+\underline{Fieldwork:}
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 81-point PVC quadrat (1x1m)
+  \item 30 m transect tape (3)
+  \item Camera
+  \item Oyster reef composition data sheets
+\end{itemize}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+\underline{Preparation:}
+
+1.  Review the MarineGEO \underline{Oyster Reef Habitat Survey Design} for selection of permanent sites.
+2.  Become familiar with the methodology prior to going out into the field to conduct sampling.
+3.  Print datasheets on waterproof paper.
+4.  This protocol assumes that n = 5 replicate quadrats for percent cover are taken per each transect.  Three (n = 3) transects are done per each site.
+5.  Sampling is typically done at a low tide when the oyster reef is exposed.
+
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+1.  Depending on the reef size, lay out at least 3 30 m transects across a single reef.  The first should go along the reef crest (generally where the highest density of oysters are), and the subsequent 2 should go on the left and the right of the initial transect and at least 1.5 m from it.
+2.  Ideally 3 transects should be used be reef, however, if a single reef is small and there is more than one reef per individual site, several reefs can be used.  If this is the case, it is important to note which transects belong to each reef.
+3.  Along each transect, n = 5 replicate quadrats are taken.  Along the first transect, drop the quadrat at a pre-determined random meter length to the right of the transect tape with the meter value touching the lower left corner of the transect.  Tally what occurs under each intersecting point (totaling 81 points). Categories include:
+
+\renewcommand{\labelitemi}{$\bullet$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \setlength{\itemindent}{2em}
+  \item Live oyster
+  \item Box oyster (dead with both shells still attached)
+  \item Cultch (dead with only single shell remaining)
+  \item Sediment
+  \item Algae
+  \item Rock
+  \item Any other groups using lowest taxonomic classification as possible
+\end{itemize}
+
+4.  Once finished scoring the quadrat, double count the recorded values to make sure 81 points were recorded.
+5.  On the datasheet, the transect and at what meter marker the quadrat was taken should be recorded.
+6.  Repeat for each quadrat along each transect.
+7.  It can be useful to take a photo of the quadrat prior to scoring for historical records.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
