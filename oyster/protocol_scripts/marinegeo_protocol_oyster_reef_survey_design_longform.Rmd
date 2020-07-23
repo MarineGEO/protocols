@@ -10,7 +10,7 @@ header-includes:
   \usepackage{fancyhdr}
     \pagestyle{fancy}
     \renewcommand{\headrulewidth}{0pt}
-    \fancyhead[RO,RE]{MarineGEO Oyster Reef Protocols}
+    \fancyhead[RO,RE]{Oyster Reef Habitat Survey Design}
     \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
     \fancyfoot[CO,CE]{\thepage}
   \usepackage[linewidth=1pt]{mdframed}
