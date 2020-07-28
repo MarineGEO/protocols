@@ -41,7 +41,7 @@ $$\includegraphics[width=80mm]{title_logo}$$
 
 ## Introduction
 
-This protocol provides methods on standardized data collection to measure rugosity on an oyster reef.  Rugosity is defined as the three-dimensional arrangement of structural features and can be used as a proxy for habitat complexity which can be directly related to other measured parameters such as oyster percent cover, oyster size frequency, and the abundance of associated species.  Rugosity (**Rq**) is measured by a chain method in which a chain of known length is hung over the substrate in a straight line.  A Rugosity index is calculated as **Rq = 1-d/l** where **d** = distance covered by chain on substrate and **l** = length of chain fully extended.  A value approaching 1 indicates a nearly flat surface and decreases as the substrate becomes more structurally complex.
+This protocol provides methods on standardized data collection to measure rugosity on an oyster reef.  Rugosity is defined as the three-dimensional arrangement of structural features and can be used as a proxy for habitat complexity which can be directly related to other measured parameters such as oyster percent cover, oyster size frequency, and the abundance of associated species.  Rugosity (**Rq**) is measured by a chain method in which a chain of known length is hung over the substrate in a straight line.  A rugosity index is calculated as **Rq = 1-d/l** where **d** = distance covered by chain on substrate and **l** = length of chain fully extended.  A value approaching 1 indicates a nearly flat surface and decreases as the substrate becomes more structurally complex.
 
 \noindent\rule{\textwidth}{0.4pt}
 

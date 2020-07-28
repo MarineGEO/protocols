@@ -40,7 +40,7 @@ $$\includegraphics[width=80mm]{title_logo}$$
 
 ## Background
 
-Oysters are filter-feeding bivalves found in nearshore brackish or marine waters that coalesce with each other as they grow, forming structurally complex intertidal or subtidal reefs.  Oysters are ecosystem engineers and reefs provide critical ecosystem services including enhanced water quality via their strong filter-feeding capabilities and storm protection and erosion control for submerged aquatic vegetation and as well as for waterfront communities.  Oyster reefs also provide important biogenic habitat for a diverse suite of marine life including vital nursery grounds for many commercially valuable species in addition to many other species.
+Oysters are filter-feeding bivalves found in nearshore brackish or marine waters that coalesce with each other as they grow, forming structurally complex intertidal or subtidal reefs.  Oysters are ecosystem engineers and reefs provide critical ecosystem services including enhanced water quality via their strong filter-feeding capabilities and protection to submerged aquatic vegetation and waterfront communities.  Oyster reefs also provide important biogenic habitat for a diverse suite of marine life including vital nursery grounds for many commercially valuable species in addition to many other species.
 
 Oyster reefs are a critical component of the health of nearshore ecosystems, however, ongoing and increasing threats including overharvesting and disease threaten oyster populations and the benefits they provide.  Ongoing restoration is a continued conservation priority and this protocol was therefore developed to provide a means of monitoring both natural reef as well as restored reef to assess the long-term health of this important species as well as its critical function as refugia for associated fauna.
 
@@ -50,7 +50,7 @@ Oyster reefs are a critical component of the health of nearshore ecosystems, how
 
 MarineGEO protocols, listed below, provide a standardized set of measurements for characterizing the health of oyster reefs and their associated communities.  The methodology was generally adopted from the Oyster Habitat Restoration Monitoring and Assessment Handbook, created by a working group including agencies from NOAA, the Natural Conservancy, as well as others and using “Universal Metrics” of study for best practices.
 
-Oyster reef monitoring has two main components: 1) collection of a series of measurements to monitor on the size, structure, and health of a reef and 2) collection of associated fauna to monitor changes in biodiversity over space and time.
+Oyster reef monitoring has two main components: 1) collection of a series of measurements to monitor the size, structure, and health of a reef and 2) collection of associated fauna to monitor changes in biodiversity over space and time.
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -60,7 +60,7 @@ Oyster reef monitoring has two main components: 1) collection of a series of mea
 
 In this document, we provide MarineGEO’s standard survey design for sampling oyster reef habitat including key measurements on reef attributes (reef area and height), reef composition, oyster density and size, rugosity, and associated biodiversity.  Additionally, we provide best practices for site selection, layout, workflow, and data submission.
 
-The overall design and replication adhere as closely as possible to other oyster reef monitoring guidelines and in particular, much of this protocol was developed using the Oyster Habitat Restoration Monitoring and Assessment Handbook (2014), complied by NOAA, The Nature Conservancy, and others.  Although this handbook is designed for restoration monitoring, it serves quit well to naturally occurring reefs.  Our goal is to provide a standardized sampling design that can be used though out different regions and be used in restored or natural reefs while still being comparative in both space and time.    
+The overall design and replication adhere as closely as possible to other oyster reef monitoring guidelines and in particular, much of this protocol was developed using the Oyster Habitat Restoration Monitoring and Assessment Handbook (2014), complied by NOAA, The Nature Conservancy, and others.  Although this handbook is designed for restoration monitoring, it adopts well to naturally occurring reefs.  Our goal is to provide a standardized sampling design that can be used in different regions and for restored or natural reefs, while still being comparative in both space and time.
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -74,7 +74,6 @@ Core protocols below are required for MarineGEO partners:
 *  Oyster density and size frequency 
 *  Oyster reef associated fauna
 *  Oyster reef rugosity
-*  Seasonal recruitment 
 
 **Requirements vary depending on individual protocols**
 
@@ -99,7 +98,7 @@ Core protocols below are required for MarineGEO partners:
 
 ## *For Restored Oyster Reefs
 
-Restored oyster reefs make up a large majority of habitat generally because of the large decline of nature populations.  The ultimate goal of restoration is to enhance the populations of oysters and the ecosystem services they provide.  It is therefore important to not only build a restorative habitat but to follow that habitat through time to monitor its success or failure as well as lessons learned.  If a restored reef is to be monitored with the following protocols, it is imperative to know the as much of the history of that reef as possible.  Though there is no associated data sheet, please provide [marinegeo@si.edu](mailto:marinegeo@si.edu) with a thorough synopsis of restoration efforts including but not limited to:
+Restored oyster reefs make up a large majority of habitat because of the large decline of nature populations and the ultimate goal of restoration is to enhance the population and the ecosystem services they provide.  It is therefore important to not only build a restorative habitat but to follow that habitat through time to monitor its success or failure as well as lessons learned.  If a restored reef is to be monitored with the following protocols, it is imperative to know as much of the history of that reef as possible.  Though there is no associated data sheet, please provide [marinegeo@si.edu](mailto:marinegeo@si.edu) with a thorough synopsis of restoration efforts including but not limited to:
 
 *	If previous natural reef was present at the location
 *	When did the restoration occur and by whom
@@ -113,7 +112,7 @@ Restored oyster reefs make up a large majority of habitat generally because of t
 \underline{Fieldwork:}
 
 1.  Approximately 1.5 – 2 months prior to sampling, deploy preconstructed bioboxes (n = 3) at each of the reefs that are planned to be sampled.
-2.  For fieldwork, arrive at the reef during low tide conditions.  Because low tides are short-lived events, it is expected that only 1 reef be sampled in 1 day.
+2.  For fieldwork, arrive at the reef during low tide conditions.  Because low tides are short-lived events, it is expected that only 1 reef be sampled per day.
 3.  Measure environmental conditions.
 4.  Measure the reef area using the Oyster Reef Area and Height protocol.
 5.  Measure the reef height using the Oyster Reef Area and Height protocol.
@@ -121,7 +120,7 @@ Restored oyster reefs make up a large majority of habitat generally because of t
 7.  Along each transect conduct the following:
 	a.   Use the Oyster Reef Composition protocol to survey the composition of the reef at 	predetermined random spots (n = 5 per transect) along the transect.
 	b.   At one of those spots, use the Oyster Density and Size Frequency protocol to excavate 
-	a known area of oysters and count the density and measure the size of oysters as well as 	other invertebrates encountered.
+	a known area of oysters to count the density and measure the size of oysters as well         	as other invertebrates encountered.
 8.  Collect and process each bio-box according to the Oyster Reef Associated Fauna protocol.
 9.  Return all samples to the lab for post-processing.
 
@@ -155,7 +154,7 @@ The height of a reef is the average height of the reef at its crest as compared 
 
 **Overview**
 
-The composition of oyster reefs can be complex in both space and time and can change depending on recruitment, survival, and environmental conditions.  The abundance of live and dead oysters on a reef, taken in a non-destructive way using transects, is an easy way to characterize the entirety of a reef.  The percent cover of reef substrate including oyster status (live, box, or cultch), presence of sediment, and non-oyster species is a critical way to identify the health of a reef and provides a quick standardized measurement to compare within and between regions.
+The composition of oyster reefs can be variable in both space and time and can change depending on recruitment, survival, and environmental conditions.  The abundance of live and dead oysters on a reef, taken in a non-destructive way using transects, is an easy way to characterize the entirety of a reef.  The percent cover of reef substrate including oyster status (live, box, or cultch), presence of sediment, and non-oyster species is a critical way to identify the health of a reef and provides a quick standardized measurement to compare within and between regions.
 
 **Measured Parameters**
 
@@ -165,7 +164,7 @@ The composition of oyster reefs can be complex in both space and time and can ch
 
 **Overview**
 
-The density of live oysters on a reef is generally difficult to measure when doing non-destructive sampling due to the structural complexity and depth of a reef.  However, the number and size of live oysters is an important metric that provides information on population structure of a reef including oyster density, size, and frequency as well as recruitment and survivorship.  This protocol uses a minor destructive technique to accurately count the number of live oysters in a particular area as well as classify the size frequency of those live oysters on the reef.
+The density of live oysters on a reef is generally difficult to measure when doing non-destructive sampling because of the structural complexity and depth of a reef.  However, the number and size of live oysters is an important metric that provides information on population structure of a reef including oyster density, size, and frequency as well as recruitment and survivorship.  This protocol uses a minor destructive technique to accurately count the number of live oysters in a particular area as well as classify the size frequency of those live oysters on the reef.
 
 **Measured Parameters**
 
@@ -176,7 +175,7 @@ The density of live oysters on a reef is generally difficult to measure when doi
 
 **Overview**
 
-Oyster reefs provide essential habitat and refugia to a diverse suite of species including many commercially important species as well as others that form important links to higher trophic levels.  Oysters as a habitat is a typically overlooked function of reefs and the interactions of oysters and associated species on a broader scale in generally not known.  Methods provided here quantify the abundance and diversity of associated small invertebrates using “bio-boxes”, a standardized tray, filled with shell, deployed within the reef for an extended amount of time to allow for associated faunal colonization.  Collected trays are processed and fauna are captured and enumerated in the lab.  The presence of these species plays a vital role in the trophic ecology of oyster reefs and is essential to understanding the connectively of oyster reefs and the surrounding environment.
+Oyster reefs provide essential habitat and refugia to a diverse suite of species including many commercially important ones as well as others that form important links to higher trophic levels.  Oysters as a habitat are a typically overlooked function of reefs and the interactions of oysters and associated species on a broader scale in generally not known.  Methods provided here quantify the abundance and diversity of associated small invertebrates using “bio-boxes”, a standardized tray, filled with shell, deployed within the reef for an extended amount of time to allow for associated faunal colonization.  Collected trays are processed and fauna are identified and enumerated in the lab.  The presence of these species plays a vital role in the trophic ecology of oyster reefs and is essential to understanding the connectively of oyster reefs and the surrounding environment.
 
 **Measured Parameters**
 
@@ -190,13 +189,3 @@ Rugosity is defined here as a measure of habitat or substrate complexity.  The c
 
 **Measured Parameters**
 *	Ratio: fixed distance / length of chain to reach that fixed distance 
-
-## 6) Seasonal Recruitment
-
-**Overview**
-
-Determining the timing and abundance of recruitment and how this changes over space and time can give valuable insight into how oysters are affected by changing environmental conditions.  The correlation of the environment with the recruitment of competent larvae is an important measurement that can help inform on the persistence and sustainability of a reef over time.    
-
-**Measure Parameters**
-
-*	Individuals cm^-2^

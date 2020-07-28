@@ -84,7 +84,7 @@ Materials:
       \item 5 mm vexar mesh or smaller
       \item Cable ties
     \end{itemize}
-  \item Tweezers
+  \item Forceps
   \item Collecting jars
   \item 70% Ethanol
   \item Large tray
@@ -107,9 +107,9 @@ Materials:
 
 \underline{Fieldwork:}
 
-1.  Prior to sampling, deploy 3 bio-boxes per reef approximately 1.5 – 2 months during a low tide.  Oysters should be excavated, and bio-boxes placed into the substrate so that the top of the box is level with the substrate.  Fill the bio-box with oysters such that it resembles the density of the reef.  In high wave areas, bio-boxes can be secured with rebar or plastic dowels though in general, the weight of the oysters inside the box is sufficient to hole them in place.
-2.  After the allotted time for colonization, return to the reef can collect the bio-boxes.  This is generally done when other sampling is being conducted.  To do this, lift the bio-box and immediately place it in a large enough tray to fit the the bio-box.
-3.  Carefully pick up material and collect all associated fauna either using fingers or tweezers and place into a labeled sampling container.  Spend a good amount of time with oyster clusters as crabs can easily hide and be difficult to locate.  Larger crabs and fish can be noted as found and released alive.
+1.  Deploy 3 bio-boxes per reef approximately 1.5 – 2 months before field sampling during a low tide.  Oysters should be excavated, and bio-boxes placed into the substrate so that the top of the box is level with the substrate.  Fill the bio-box with oysters such that it resembles the density of the reef.  In high wave areas, bio-boxes can be secured with rebar or plastic dowels though in general, the weight of the oysters inside the box is sufficient to hold them in place.
+2.  After the allotted time for colonization, return to the reef can collect the bio-boxes.  This is typically done when other sampling is being conducted.  To do this, lift the bio-box and immediately place it in a large enough tray to fit the bio-box.
+3.  Carefully pick up material and collect all associated fauna either using fingers or forceps and place into a labeled sampling container.  Spend a good amount of time with oyster clusters as crabs can easily hide and be difficult to locate.  Larger crabs and fish can be noted as found and released alive.
 4.  Once all shells have been picked through, the rest of the sediment and smaller shell hash can be picked through in the tray or sieved.  If sieving the material, a 1 mm sieve is recommended.
 5.  Sampling containers should have labels, filled with 70% ethanol in the field, and brought back to the lab to be processed at a later date.
 

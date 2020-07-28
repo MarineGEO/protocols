@@ -91,7 +91,7 @@ Materials:
 \underline{Fieldwork:}
 
 1.  Depending on the reef size, lay out at least 3 30 m transects across a single reef.  The first should go along the reef crest (generally where the highest density of oysters are), and the subsequent 2 should go on the left and the right of the initial transect and at least 1.5 m from it.
-2.  Ideally 3 transects should be used be reef, however, if a single reef is small and there is more than one reef per individual site, several reefs can be used.  If this is the case, it is important to note which transects belong to each reef.
+2.  Ideally 3 transects should be used per reef, however, if a single reef is small and there is more than one reef per individual site, several reefs can be used.  If this is the case, it is important to note which transects belong to each reef.
 3.  Along each transect, n = 5 replicate quadrats are taken.  Along the first transect, drop the quadrat at a pre-determined random meter length to the right of the transect tape with the meter value touching the lower left corner of the transect.  Tally what occurs under each intersecting point (totaling 81 points). Categories include:
 
 \renewcommand{\labelitemi}{$\bullet$}
