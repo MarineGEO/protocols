@@ -1,0 +1,249 @@
+---
+title: "Protocol: MarineGEO Network Research Project"
+output: pdf_document
+header-includes: 
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{{../graphics/}}
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{MarineGEO Network Research Project}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{title_pic}$$
+
+\underline{How to cite this work:} Protocol: MarineGEO Network Research Project. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt} 
+
+## Introduction
+
+This is the protocol for the MarineGEO network research project.
+
+Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found at: website link to the network project information.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+This assay quantifies:
+
+Measured as:
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 2 people minimum, 3-4 preferable
+
+Estimated Total Time Per Location (*n* = number of replicates per location):  
+
+|    Preparation: 1 person x 1 day
+|    Field work: 2 people x 1 day
+|    Post processing: 1-2 people x 2 days
+|    Data processing: 1 person x 1 day
+
+*Estimated times will vary by site and conditions
+
+Replication: Break down of the experimental replication per location. (i.e. cores, sediment traps, tea bags, etc)
+
+Materials:
+
+Make sure that you have all the materials required: some materials need to be provided or procured by the partners as they cannot be sent through post.
+
+\underline{Survey Design:}
+
+Materials included in the KIT:
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 8 frames (20cm x 20cm) filled with Fertilizer with red buoyant chain, label and tea bags
+  \item 8 frames (20cm x 20cm) not filled with yellow buoyant chain, label and tea bags
+  \item 2 x 3 sediment trap
+  \item Small shovel
+\end{itemize}
+\vspace{\baselineskip}
+
+Materials required from the partner:
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 40 pieces of metal bars (40 cm long) 
+  \item 2 pieces of metal bars (50 cm long)
+  \item Hammer
+  \item Ziptie (> 40)
+  \item 4 Hobo logger (HOBO Pendant temp/light)
+  \item 1 or 2 Transect tape(s)
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+Materials included in the KIT:
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 6 Rhizon samplers
+  \item 6 retainers
+  \item 6 x 10ml syringes
+  \item 6 x 15ml falcon tubes
+  \item 8 mini-cores
+  \item Lids of the sediment traps
+\end{itemize}
+\vspace{\baselineskip}
+
+Materials required from the partner:
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item Tape
+  \item Cooler filled with ice
+  \item Pruning shears
+  \item Zip ties and large Ziplock bags (1-Gallon)
+  \item 1-2 large box(es) or totes to transport the frames
+  \item Sterile gloves
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+
+Materials included in the KIT:
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 16 x 50ml pre-filled falcon tubes with RNAlater
+  \item 4 empty 50ml falcon tubes
+  \item 4 x 50ml falcon tubes
+\end{itemize}
+\vspace{\baselineskip}
+
+Materials required from the partner:
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 8 sterilized (autoclaved), sealable storage containers with lids that hold at least 50mL of material (prepare extra just in case)
+  \item 8 sterilized (autoclaved) spatulas (prepare extra just in case)
+  \item 500ml Beaker
+\end{itemize}
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+Fully review this and any additional protocols necessary for the sampling excursion and watch the videos provided. We encourage our partner to take pictures of the experiment and share them with us. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\underline{Preparation:}
+\vspace{\baselineskip}
+*Choosing a site:* For the partners that are planning to use SCUBA, we recommend working in a shallow area such that the water level at low tide never goes below 1m in depth. By doing so, participants can have 1-2 divers deploying/retrieving the frames while 1-2 persons prepare, handle, and pass the materials above water. A good option is to have all the materials close by on a float or in a small boat or a kayak for example. If you are not planning on using SCUBA, we recommend deploying the frames in an area such that the water level at low tide never goes below 0.5m in depth so the work can be completed while snorkeling.
+
+*Hobo logger:*
+
+1.	Program the Hobo logger to record the temperature every hour. Do not use the light recording function for loggers that record irradiance because it uses too much battery power.
+2.	Attach the Hobo logger to the frames named: siteX-C1, siteX-C8, siteX-F1, siteX-F8
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+\vspace{\baselineskip}
+**Sediment Trap and Tea Bag Deployment:**
+
+1.	Use the shovel to dig a 10cm deep, 20x20cm wide, square hole.
+2.	Place the frame in the hole with the tea bags facing upward.
+3.	Secure the frame with two 40cm metal bars and zip ties.
+4.	Cover the frame with 10cm of displaced sediment, DO NOT bury the buoyant chain. If the frame has a Hobo logger attached, it should be buried along with the frame. *Note: If visibility is poor, you can place and secure all the frames before burying them.* Each frame should be spaced at least 0.5m apart, and a minimum of 5m should be left between the area with control frames and the area with fertilizer frames. Use the transect tape to place the frame at the required distance. *The frames should be positioned as referred in the illustration below.*
+5.	In each area deploy a sediment trap close to the first frame (siteX-C1 and siteX-F1) by using one of the 50cm metal bars. If too much sediment has been disturbed by the deployment of the frame, wait a few minutes before deploying the sediment trap.
+\vspace{\baselineskip}
+
+**Tea Bag Retrieval and Porewater/Sediment Sampling:**
+
+We recommend carrying out the retrievals during the morning low tide if possible. After the retrieval, the mini-core samples and the tea bags needs to be processed. Those steps can take a few hours.
+
+1.	Close the sediment traps with their lids
+2.	Put your gloves on in the control area.
+3.	Sample the porewater from the sediment in the middle of frame siteX-C1 to C3:
+    a.	Remove the protection cap that is screwed on the female luer lock
+    b.	Screw the syringe directly onto the luer
+    c.	Underwater, insert the Rhizon sampler vertically into the sediment (in the middle of the frame)
+    d.	Pull out the piston of the syringe and place the retainer along the piston (the vacuum in the syringe is the driving force for extraction of pore water).
+4.	On the boat or the beach, carefully transfer the seawater to the 15ml falcon tubes
+5.	Sample the sediment from the middle of frames siteX-C1 to C6:
+    a.	Remove the lids of the mini-core just before sampling
+    b.	Put the core in the sediment and pull the piston out slowly while pushing the mini-core deeper. Be careful to avoid sampling seawater as much as possible. 
+    c.	Remove the mini-core and close it immediately
+6.	On the boat or the beach, secure the piston with tape and place the syringe on ice in the cooler. Position the syringe vertically so that the lid is at the bottom and the piston upward. This should help you to process the sample more easily.
+7.	Repeat steps 2-5 for the frames in the Fertilizer area. The frames sampled for the porewater should be siteX-F1 to F3, and for the sediment siteX-F1 to F6.
+8.	Remove the frames one by one. For each frame make sure that the label and tea bags are present. If the label of the frame is missing, place the frame in the Ziplock bag and label it. You should be able to determine the label of the frame by its position in the area. If a tea bag is detached from the frame, attach it with a zip tie or place the frame together with the tea bags in a large Ziplock bag. It is important to know which tea bags go with each frame in case the tea bags’ labels are missing. Use the pruning shears to detach the frame from the metal bars.
+9.	Remove the sediment traps
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+\vspace{\baselineskip}
+
+**Tea Bag Decomposition:**
+
+1.	Remove the tea bags of the frame. Make sure that the tea bags have their label, if not add a new one. *Refer to the  illustration to determine the label of the tea bag.*
+2.	Place the tea bags for 30min in RO/DI water 
+3.	Carefully clean each tea bag for 20s in a bath. Change the water after washing 5-10 bags.
+4.	Dry the tea bags for 48h at 70°C. If you can’t process the samples after 48h, place them in a desiccator.
+5.	Remove the tea from the bag. Weigh the oven-dried tea (0.001g). If you are working in a humid area, the best way to weigh the tea is to pour it  in a small Ziplock bag and remove the air before closing it (do not forget to tare the Ziplock bag first).
+6.	Upload the data in the sheet
+\vspace{\baselineskip}
+
+**Sediment Trap Samples:**
+
+1.	Pre-weigh 6 empty glass containers. Write down the weight on the container and label them with the name of the glass containers. Record the weight on the excel sheet provided
+2.	Pour the seawater + sediment into the pre-weighed containers
+3.	Allow the sediment to settle out to the bottom of the glass container. *This step can take several hours to a day.*
+4.	Remove as much water as possible without disturbing the sediment
+5.	Oven dry the sediment at 60ºC until it is completely dry. *This step can vary in time depending of the amount of water left in the jar.*
+6.	Remove any small invertebrates (e.g. mussels, tube worms etc.)
+7.	Weigh each container.
+8.	Fill out the excel sheet provided.
+\vspace{\baselineskip}
+
+**Sediment Sampling for Metagenomics:**
+
+1.	Wipe down surfaces with 10% bleach and 70% Etoh
+2.	Turn on a UV light for 15 minuntes
+3.	Without shaking the sample, remove the tape from the mini-core syringe
+4.	Carefully and slowly, remove the piston as to not agitate the sediment within
+5.	Pour the water into the Beaker
+6.	Replace the piston and pour the sediment into the sterilized container
+7.	Mix the sediment with the spatula
+8.	Pour 30ml of sediment into Falcon tube \#1 and the rest into Falcon tube \#2. For each sample you should have received 2 x 50ml pre-filled with RNAlater falcon tubes to aliquot the sediment
+9.	Repeat steps 3-8 for the samples siteX-C1 to C4 and siteX-F1 to F4. 
+10.	For the samples siteX-C5/C6 and siteX-F5/F6, remove the water and pour the sediments into Falcon tube \#1
+11.	Secure all Falcon tubes with parafilm
+12.	Place the samples siteX-C1 to C4 and siteX-F1 to F4 at -4ºC overnight before storing them at -20ºC
+13.	Place the samples siteX-C5/C6 and siteX-F5/F6 at -20ºC
+14.	Send all the sediment and porewater samples on dry ice to the Network Team
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
