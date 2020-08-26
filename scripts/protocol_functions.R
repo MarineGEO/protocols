@@ -9,7 +9,8 @@ generateProtocols <- function(protocol, survey_type = NULL){
   switch(protocol,
          "seagrass" = {directory = "./seagrass/protocol_scripts"},
          "oyster" = {directory = "./oyster/protocol_scripts"},
-         "shared" = {directory = "./shared/protocol_scripts"}
+         "shared" = {directory = "./shared/protocol_scripts"},
+         "network-project" = {directory = "./network-project/protocol_scripts"}
   )
   
   # compile paths to protocol-generating markdowns
@@ -50,13 +51,13 @@ generateProtocols <- function(protocol, survey_type = NULL){
 }
 
 #generateProtocols(protocol = "seagrass", survey_type = "shoots")
-generateProtocols(protocol = "oyster", survey_type = "reef_area")
-generateProtocols(protocol = "oyster", survey_type = "reef_composition")
-generateProtocols(protocol = "oyster", survey_type = "reef_density")
-generateProtocols(protocol = "oyster", survey_type = "associated_fauna")
-generateProtocols(protocol = "oyster", survey_type = "rugosity")
-generateProtocols(protocol = "oyster", survey_type = "shortform")
-generateProtocols(protocol = "oyster", survey_type = "longform")
+# generateProtocols(protocol = "oyster", survey_type = "reef_area")
+# generateProtocols(protocol = "oyster", survey_type = "reef_composition")
+# generateProtocols(protocol = "oyster", survey_type = "reef_density")
+# generateProtocols(protocol = "oyster", survey_type = "associated_fauna")
+# generateProtocols(protocol = "oyster", survey_type = "rugosity")
+# generateProtocols(protocol = "oyster", survey_type = "shortform")
+# generateProtocols(protocol = "oyster", survey_type = "longform")
 
 
 # saveProtocols() uploads the generated protocol PDFs to their respective dropbox folders
