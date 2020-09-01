@@ -6,7 +6,7 @@ header-includes:
   \usepackage{float}
     \floatplacement{figure}{H}
   \usepackage{graphicx}
-    \graphicspath{{../graphics/}}
+    \graphicspath{{../protocol_scripts/graphics/}}
   \usepackage{fancyhdr}
     \pagestyle{fancy}
     \renewcommand{\headrulewidth}{0pt}
@@ -28,7 +28,7 @@ $$\includegraphics{title_pic}$$
 
 \vspace{\baselineskip}
 
-$$\includegraphics[width=80mm]{title_logo}$$
+![](graphics/title_logo.jpg){width=50%} ![](graphics/hong-kong-logo.jpg){width=20%}
 
 \thispagestyle{empty}
 \clearpage
@@ -54,13 +54,13 @@ Measured as:
 
 ## Requirements
 
-Personnel: 2 people
+Personnel: 2 people minimum, 3-4 preferable
 
 Estimated Total Time Per Location (*n* = number of replicates per location):  
 
 |    Preparation: 1 person x 1 day
 |    Field work: 2 people x 1 day
-|    Post processing: 1 person x 1-2 days
+|    Post processing: 1-2 people x 2 days
 |    Data processing: 1 person x 1 day
 
 *Estimated times will vary by site and conditions
@@ -69,7 +69,7 @@ Replication: Break down of the experimental replication per location.
 
 Materials:
 
-Make sure that you have all the materials required: some materials need to be provided or procured by the partners as they cannot be sent through post.
+Make sure that you have all the materials required: some materials need to be provided or procured by the partners as they cannot be sent through post. If any materials are missing from the kit, please contact Isis Guibert (iguibert@hku.hk).
 
 \underline{Survey Design:}
 
@@ -129,7 +129,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 \vspace{\baselineskip}
 **Sediment Trap Deployment:**
 
-1.	Secure the sediment trap with the 50cm metal bar(s). If sediment is disturbed, wait a few minutes before deploying the sediment trap.
+1.	Secure the sediment trap with the 50cm metal bar(s). *If sediment is disturbed, wait a few minutes before deploying the sediment trap.*
 2.  If there is a treatment, place the second sediment trap at a minimum of 5m distance from the control area. Use the transect tape to place the traps at the required distance. 
 	
 \vspace{\baselineskip}

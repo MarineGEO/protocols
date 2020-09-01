@@ -17,7 +17,7 @@ source("scripts/protocol_functions.R")
 # generateProtocols(protocol = "seagrass", survey_type = NULL)
 # generateProtocols(protocol = "shared", survey_type = NULL)
 # generateProtocols(protocol = "oyster", survey_type = NULL)
-generateProtocols(protocol = "network-project", survey_type = NULL)
+generateProtocols(protocol = "network-project", survey_type = "network_project")
 
 ## Save Protocol PDFs to Dropbox ####
 

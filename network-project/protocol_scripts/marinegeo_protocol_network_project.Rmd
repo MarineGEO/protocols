@@ -6,7 +6,7 @@ header-includes:
   \usepackage{float}
     \floatplacement{figure}{H}
   \usepackage{graphicx}
-    \graphicspath{{../graphics/}}
+    \graphicspath{{../protocol_scripts/graphics/}}
   \usepackage{fancyhdr}
     \pagestyle{fancy}
     \renewcommand{\headrulewidth}{0pt}
@@ -28,7 +28,7 @@ $$\includegraphics{title_pic}$$
 
 \vspace{\baselineskip}
 
-$$\includegraphics[width=80mm]{title_logo}$$
+![](graphics/title_logo.jpg){width=50%} ![](graphics/hong-kong-logo.jpg){width=20%}
 
 \thispagestyle{empty}
 \clearpage
@@ -69,7 +69,7 @@ Replication: Break down of the experimental replication per location. (i.e. core
 
 Materials:
 
-Make sure that you have all the materials required: some materials need to be provided or procured by the partners as they cannot be sent through post.
+Make sure that you have all the materials required: some materials need to be provided or procured by the partners as they cannot be sent through post. If any materials are missing from the kit, please contact Isis Guibert (iguibert@hku.hk).
 
 \underline{Survey Design:}
 
@@ -171,8 +171,8 @@ Fully review this and any additional protocols necessary for the sampling excurs
 1.	Use the shovel to dig a 10cm deep, 20x20cm wide, square hole.
 2.	Place the frame in the hole with the tea bags facing upward.
 3.	Secure the frame with two 40cm metal bars and zip ties.
-4.	Cover the frame with 10cm of displaced sediment, DO NOT bury the buoyant chain. If the frame has a Hobo logger attached, it should be buried along with the frame. *Note: If visibility is poor, you can place and secure all the frames before burying them.* Each frame should be spaced at least 0.5m apart, and a minimum of 5m should be left between the area with control frames and the area with fertilizer frames. Use the transect tape to place the frame at the required distance. *The frames should be positioned as referred in the illustration below.*
-5.	In each area deploy a sediment trap close to the first frame (siteX-C1 and siteX-F1) by using one of the 50cm metal bars. If too much sediment has been disturbed by the deployment of the frame, wait a few minutes before deploying the sediment trap.
+4.	Cover the frame with 10cm of displaced sediment, DO NOT bury the buoyant chain. If the frame has a Hobo logger attached, it should be buried along with the frame. *Note: If visibility is poor, you can place and secure all the frames before burying them. Each frame should be spaced at least 0.5m apart, and a minimum of 5m should be left between the area with control frames and the area with fertilizer frames. Use the transect tape to place the frame at the required distance. The frames should be positioned as referred in the illustration below.*
+5.	In each area deploy a sediment trap close to the first frame (siteX-C1 and siteX-F1) by using one of the 50cm metal bars. *If too much sediment has been disturbed by the deployment of the frame, wait a few minutes before deploying the sediment trap.*
 \vspace{\baselineskip}
 
 **Tea Bag Retrieval and Porewater/Sediment Sampling:**
@@ -189,11 +189,11 @@ We recommend carrying out the retrievals during the morning low tide if possible
 4.	On the boat or the beach, carefully transfer the seawater to the 15ml falcon tubes
 5.	Sample the sediment from the middle of frames siteX-C1 to C6:
     a.	Remove the lids of the mini-core just before sampling
-    b.	Put the core in the sediment and pull the piston out slowly while pushing the mini-core deeper. Be careful to avoid sampling seawater as much as possible. 
+    b.	Put the core in the sediment and pull the piston out slowly while pushing the mini-core deeper. *Be careful to avoid sampling seawater as much as possible.*
     c.	Remove the mini-core and close it immediately
-6.	On the boat or the beach, secure the piston with tape and place the syringe on ice in the cooler. Position the syringe vertically so that the lid is at the bottom and the piston upward. This should help you to process the sample more easily.
+6.	On the boat or the beach, secure the piston with tape and place the syringe on ice in the cooler. Position the syringe vertically so that the lid is at the bottom and the piston upward. *This should help you to process the sample more easily.*
 7.	Repeat steps 2-5 for the frames in the Fertilizer area. The frames sampled for the porewater should be siteX-F1 to F3, and for the sediment siteX-F1 to F6.
-8.	Remove the frames one by one. For each frame make sure that the label and tea bags are present. If the label of the frame is missing, place the frame in the Ziplock bag and label it. You should be able to determine the label of the frame by its position in the area. If a tea bag is detached from the frame, attach it with a zip tie or place the frame together with the tea bags in a large Ziplock bag. It is important to know which tea bags go with each frame in case the tea bags’ labels are missing. Use the pruning shears to detach the frame from the metal bars.
+8.	Remove the frames one by one. For each frame make sure that the label and tea bags are present. *If the label of the frame is missing, place the frame in the Ziplock bag and label it. You should be able to determine the label of the frame by its position in the area. If a tea bag is detached from the frame, attach it with a zip tie or place the frame together with the tea bags in a large Ziplock bag. It is important to know which tea bags go with each frame in case the tea bags’ labels are missing. Use the pruning shears to detach the frame from the metal bars.*
 9.	Remove the sediment traps
 \vspace{\baselineskip}
 
@@ -205,8 +205,8 @@ We recommend carrying out the retrievals during the morning low tide if possible
 1.	Remove the tea bags of the frame. Make sure that the tea bags have their label, if not add a new one. *Refer to the  illustration to determine the label of the tea bag.*
 2.	Place the tea bags for 30min in RO/DI water 
 3.	Carefully clean each tea bag for 20s in a bath. Change the water after washing 5-10 bags.
-4.	Dry the tea bags for 48h at 70°C. If you can’t process the samples after 48h, place them in a desiccator.
-5.	Remove the tea from the bag. Weigh the oven-dried tea (0.001g). If you are working in a humid area, the best way to weigh the tea is to pour it  in a small Ziplock bag and remove the air before closing it (do not forget to tare the Ziplock bag first).
+4.	Dry the tea bags for 48h at 70°C. *If you can’t process the samples after 48h, place them in a desiccator.*
+5.	Remove the tea from the bag. Weigh the oven-dried tea (0.001g). *If you are working in a humid area, the best way to weigh the tea is to pour it in a small Ziplock bag and remove the air before closing it (do not forget to tare the Ziplock bag first).*
 6.	Upload the data in the sheet
 \vspace{\baselineskip}
 
@@ -231,7 +231,7 @@ We recommend carrying out the retrievals during the morning low tide if possible
 5.	Pour the water into the Beaker
 6.	Replace the piston and pour the sediment into the sterilized container
 7.	Mix the sediment with the spatula
-8.	Pour 30ml of sediment into Falcon tube \#1 and the rest into Falcon tube \#2. For each sample you should have received 2 x 50ml pre-filled with RNAlater falcon tubes to aliquot the sediment
+8.	Pour 30ml of sediment into Falcon tube \#1 and the rest into Falcon tube \#2. *For each sample you should have received 2 x 50ml pre-filled with RNAlater falcon tubes to aliquot the sediment*
 9.	Repeat steps 3-8 for the samples siteX-C1 to C4 and siteX-F1 to F4. 
 10.	For the samples siteX-C5/C6 and siteX-F5/F6, remove the water and pour the sediments into Falcon tube \#1
 11.	Secure all Falcon tubes with parafilm
