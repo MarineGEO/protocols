@@ -21,14 +21,16 @@ This repository contains the tools and workflows for developing and maintaining 
 	- Seagrass epifauna
 	- Seagrass macroalgae
 	- Seagrass shoots
-- General (Shared surveys)
+- Biodiversity
 	- Beach seines
-	- Environmental monitoring
 	- Fish trawls
+	- Visual census 
+- Environment
+	- Environmental monitoring
+	- Sediment organic matter
+- Food Webs
 	- Herbivory assay
 	- Predation assay
-	- Sediment organic matter
-	- Visual census 
 
 ### How to Develop a MarineGEO Protocol
 

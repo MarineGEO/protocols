@@ -9,7 +9,9 @@ generateProtocols <- function(protocol, survey_type = NULL){
   switch(protocol,
          "seagrass" = {directory = "./seagrass/protocol_scripts"},
          "oyster" = {directory = "./oyster/protocol_scripts"},
-         "shared" = {directory = "./shared/protocol_scripts"},
+         "biodiversity" = {directory = "./biodiversity/protocol_scripts"},
+         "environment" = {directory = "./environment/protocol_scripts"},
+         "food-webs" = {directory = "./food-webs/protocol_scripts"},
          "network-project" = {directory = "./network-project/protocol_scripts"}
   )
   
@@ -50,7 +52,7 @@ generateProtocols <- function(protocol, survey_type = NULL){
                                        full.names = TRUE)))
 }
 
-#generateProtocols(protocol = "seagrass", survey_type = "shoots")
+# generateProtocols(protocol = "seagrass", survey_type = "shoots")
 # generateProtocols(protocol = "oyster", survey_type = "reef_area")
 # generateProtocols(protocol = "oyster", survey_type = "reef_composition")
 # generateProtocols(protocol = "oyster", survey_type = "reef_density")
@@ -60,48 +62,5 @@ generateProtocols <- function(protocol, survey_type = NULL){
 # generateProtocols(protocol = "oyster", survey_type = "longform")
 
 
-# saveProtocols() uploads the generated protocol PDFs to their respective dropbox folders
-saveProtocols <- function(){
-  
-  # designate destination of protocol within Dropbox
-  destination <- rdrop2::drop_dir(path = "/MarineGEO/Research/Modules", recursive = TRUE) %>%
-    filter(name == "Protocol") %>%
-    select(name, path_display) %>%
-    # ignore unnecessary protocol folders
-    filter(!grepl("coral|Coral|collections", path_display)) %>%
-    # eliminate first forward slash (otherwise files won't upload)
-    mutate(path_display = sub(".", "", path_display))
-  
-  # # compile protocol filenames
-  # git_protocols <- list.files("final_protocols")
-  # # select protocols to ignore
-  # ignore <- c("format-testing.pdf", "protocol-template.pdf")
-  # git_protocols <- git_protocols[git_protocols != ignore]
-  
-  # manually create lookup table to specify output dir for each protocol
-  # unfortunately they do not align alphabetically
-  lookup <- data.frame(dropbox_path = sort(destination$path_display),
-                       git_protocol = c("marinegeo_protocol_beach_seines.pdf",
-                                        "marinegeo_protocol_fish_trawls.pdf",
-                                        "marinegeo_protocol_visual_census.pdf",
-                                        "marinegeo_protocol_herbivory.pdf",
-                                        "marinegeo_protocol_predation.pdf",
-                                        "marinegeo_protocol_seagrass_biomass.pdf",
-                                        "marinegeo_protocol_seagrass_density.pdf",
-                                        "marinegeo_protocol_seagrass_epifauna.pdf",
-                                        "marinegeo_protocol_seagrass_macroalgae.pdf",
-                                        "marinegeo_protocol_seagrass_shoots.pdf",
-                                        "marinegeo_protocol_sediment_organic_matter.pdf",
-                                        "marinegeo_protocol_environmental_monitoring.pdf"))
-
-  # upload protocol pdfs to dropbox
-  for (k in 1:nrow(lookup)) {
-    
-    rdrop2::drop_upload(file = here::here("final_protocols", lookup$git_protocol[k]), 
-                path = lookup$dropbox_path[k])
-  }
-}
-
-# saveProtocols()
 
 
