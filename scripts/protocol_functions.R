@@ -12,6 +12,7 @@ generateProtocols <- function(protocol, survey_type = NULL){
          "biodiversity" = {directory = "./biodiversity/protocol_scripts"},
          "environment" = {directory = "./environment/protocol_scripts"},
          "food-webs" = {directory = "./food-webs/protocol_scripts"},
+         "fouling" = {directory = "./fouling/protocol_scripts"},
          "network-project" = {directory = "./network-project/protocol_scripts"}
   )
   

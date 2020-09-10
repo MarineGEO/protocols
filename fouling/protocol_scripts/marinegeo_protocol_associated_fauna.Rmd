@@ -1,0 +1,101 @@
+---
+title: "Protocol: MarineGEO Protocol"
+output: pdf_document
+header-includes: 
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{{../graphics/}}
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Seagrass Protocol}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{title_pic}$$
+
+\underline{How to cite this work:} Protocol: MarineGEO Protocol. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt} 
+
+## Introduction
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+\underline{Survey Design:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item first item
+  \item second item
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item first item
+  \item second item
+\end{itemize}
+\vspace{\baselineskip}
+
+\underline{Post-Processing:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item first item
+  \item second item
+\end{itemize}
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\underline{Preparation:}
+
+\vspace{\baselineskip}
+\underline{Fieldwork:}
+
+\vspace{\baselineskip}
+\underline{Post-Processing:}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
