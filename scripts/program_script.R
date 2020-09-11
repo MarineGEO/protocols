@@ -17,13 +17,9 @@ source("scripts/protocol_functions.R")
 # generateProtocols(protocol = "seagrass", survey_type = NULL)
 # generateProtocols(protocol = "shared", survey_type = NULL)
 # generateProtocols(protocol = "oyster", survey_type = NULL)
-generateProtocols(protocol = "network-project", survey_type = "network_project")
-
-## Save Protocol PDFs to Dropbox ####
-
-# saveProtocols() uploads the generated protocol PDFs to their respective dropbox folders
-
-# DO NOT RUN: FUNCTION BEING UPDATED
-# saveProtocols()
+# generateProtocols(protocol = "network-project", survey_type = "network_project")
+# generateProtocols(protocol = "fouling", survey_type = "community")
+# generateProtocols(protocol = "fouling", survey_type = "photography")
+generateProtocols(protocol = "fouling", survey_type = NULL)
 
 

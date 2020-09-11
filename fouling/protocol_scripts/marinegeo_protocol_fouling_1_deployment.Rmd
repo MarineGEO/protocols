@@ -1,0 +1,160 @@
+---
+title: "Protocol: Fouling Panel Deployment and Monthly Photography"
+output: pdf_document
+header-includes: 
+  \usepackage{wrapfig}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{{../protocol_scripts/graphics/}}
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Fouling Panel Deployment and Monthly Photography}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{title_pic}$$
+
+\underline{How to cite this work:} Protocol: Fouling Panel Deployment and Monthly Photography. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\noindent\rule{\textwidth}{0.4pt} 
+
+## Introduction
+
+This protocol provides methods on deployment and standardized data collection for the development and composition of fouling communities. Development here is defined as colonization and growth of species over monthly intervals during the most productive season in a given region (June – August for northern temperate and tropical sites and December – February for southern temperate sites).  Sites are selected based on habitat type and where other MarineGEO activities occur.  It is recommended that 3 different sites be used for each habitat of interest.  Habitats include but are not limited to docks or marinas, seagrass beds, soft-sediment, mangroves, oyster reefs, and coral reefs.  It is recommended that at a minimum, docks or marinas be used as these are important for monitoring introduced species and have analogous hard surfaces similar to fouling panels.
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Measured Parameters
+
+- Community development and composition
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 1-2 people  
+
+Estimated Total Time Per Location (*n* = 3 sites per habitat):  
+
+|    Preparation: 1 person x 1 day
+|    Field work: 1-2 people x 1 day per location
+|    Post processing: 1-2 people x 5 days
+|    Data processing: 1 person x 5 days
+
+*Estimated times will vary by site and conditions
+
+Replication: At least three (3) sites per habitat, the number of habitats is decided by the partner site.
+
+\begin{wrapfigure}{r}{0.3\textwidth}
+  \begin{center}
+    \includegraphics[width=0.3\textwidth]{fouling_tile}
+  \end{center}
+  \caption{Photo of a 13 x 13 cm fouling panel.}
+\end{wrapfigure}
+
+\underline{Fieldwork:}
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item GPS
+  \item Multiparameter sonde or similar to measure temperature and salinity
+  \item Data sheets
+  \item Fouling panels (n = 6 per site)
+  \item PVC plastic sheets, 13 x 13 cm, roughened with sandpaper on experimental side, thickness can vary from 0.5 – 1 cm
+  \item Labels for panels
+  \item Colored cable ties to identify individual panels at each site
+  \item Camera
+  \item Cable ties (zip ties) – large 8 -13” ties
+  \item Rope
+  \item Bricks
+  \item PVC frames
+\end{itemize}
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+\vspace{\baselineskip}
+
+\underline{Preparation:}
+
+1. Review the MarineGEO Fouling Community Survey Design for selection of permanent sites.
+2. Become familiar with GPS equipment and test the device to make sure it works.
+3. Prior to deployment, weigh several clean panels to obtain an average weight of a clean panel. This weight will be used when panels are retrieved to obtain community biomass.
+\vspace{\baselineskip}
+
+\underline{Fieldwork:}
+\vspace{\baselineskip}
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \begin{center}
+    \includegraphics[width=0.45\textwidth]{deployment}
+  \end{center}
+  \caption{Photos of benthic deployment on a PVC (left) and a dock deployment using a brick (right).}
+\end{wrapfigure}
+
+**Deployment in Artificial Habitats** (e.g. docks and marina)
+
+1. Attach each panel to a brick (or half brick) with a cable tie going through the panel connected tightly to the brick (Figure 1). The experimental surface of the panel should be horizontal, facing the seafloor.  Attach a rope to the brick with enough line to tie down to the dock.  Panels should hang at least 1 m below mean low water.  It is recommended that panels be further from shore and closer to flow if possible.  Panels should also be at least 0.5 m from the seafloor.  *Panels can also be hung using a float or buoy if necessary.
+2. Each panel must be labeled.  It is recommended that a colored cable tie be used for this rather than engraving the panel or attaching a label (see Figure 2).  Generally, a single colored cable tie will last for 90 days.  Six colors would be required for 6 replicate panels per site.  However, it is up to the practitioner on how panels are labeled.
+3. Panels should be at least 1 m for each other. 
+\vspace{\baselineskip}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{tagging}
+  \end{center}
+  \caption{Field photos of each colored tag and associated panel.}
+\end{wrapfigure}
+
+**Deployment in Benthic Habitats:**
+
+1. Attach a panel to the T-shaped PCV frame (Figure 1).
+2. Each panel must be labeled.  It is recommended that a colored cable tie be used for this 
+rather than engraving the panel or marking the PVC frame.
+3. Push the PVC frame into the sediment until it is secure.  Panels should remain at least 0.5 m above the seafloor.  Panels also need to be deep enough that they will NOT be exposed during a low tide.  In some cases, the sediment is too coarse for this (e.g. reef habitat) and panels can be deployed immediately adjacent to the habitat of interest. *As an example for an oyster reef, the nearest location that is closest to the reef and has soft-enough sediment for deployment of frames and where panels remain subtidal during low tide.  In shallow areas, floats or buoys could provide a better means of deployment.*
+4. PVC frames should be deployed at least 1 m for each other.  It is generally easier to find them if they are in a line parallel to the shore.
+\vspace{\baselineskip}
+
+**Monthly Photographs**
+
+Perform the following steps at 30, 60, and 90 days after the initial deployment.  
+
+1. Record environmental measurements **(see environmental measurement protocol)**
+2. Remove the panel from the water.  Shake any sediment off the panel. In clear water, it is acceptable to photograph panels in the water. **Panels do not need to be removed from PVC frame or bricks.**
+3. First photograph the colored cable tie and then photograph the panel making sure the panel fills the entire camera frame.
+4.  Take several photos of the panel to ensure at least one is in focus.
+5.  If warranted, take photos of individual species to assist in identifications.
+6. Return panel to the water.
+7. When back at the lab, pick the best photo of each panel and relabel with the site_age_cabletiecolor. Organize photos by site and age.
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
