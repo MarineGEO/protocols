@@ -83,15 +83,14 @@ Replication: At least three (3) sites per habitat, the number of habitats is dec
   \item GPS
   \item Multiparameter sonde or similar to measure temperature and salinity
   \item Field sheets
-  \item Fouling panels (*n* = 6 per site)
-  \item PVC plastic sheets, 13 x 13 cm, roughened with sandpaper on experimental side, thickness can vary from 0.5 – 1 cm
+  \item PVC fouling panels (n = 6), 13 x 13 cm, roughened with sandpaper on experimental side, thickness can vary from 0.5 – 1 cm
   \item Labels for panels
   \item Colored cable ties to identify individual panels at each site
   \item Camera
   \item Cable ties (zip ties) – large 8 -13” ties
   \item Rope
   \item Bricks
-  \item PVC frames
+  \item PVC frames for benthic deployments
 \end{itemize}
 \vspace{\baselineskip}
 
@@ -126,70 +125,65 @@ Fully review this and any additional protocols necessary for the sampling excurs
 3. Prior to deployment, weigh several clean panels to obtain an average weight of a clean panel. This weight will be used when panels are retrieved to obtain community biomass.
 \vspace{\baselineskip}
 
-\begin{wrapfigure}{r}{0.45\textwidth}
-  \begin{center}
-    \includegraphics[width=0.45\textwidth]{deployment}
-  \end{center}
-  \caption{Photos of benthic deployment on a PVC (left) and a dock deployment using a brick (right).}
-\end{wrapfigure}
+![Photos of benthic deployment on a PVC (left) and a dock deployment using a brick (right).](deployment)
 
 \underline{Fieldwork:}
 \vspace{\baselineskip}
 
 **Deployment in Artificial Habitats** (e.g. docks and marina)
 
-1. Attach each panel to a brick (or half brick) with a cable tie going through the panel connected tightly to the brick (Figure 2). The experimental surface of the panel should be horizontal, facing the seafloor.  Attach a rope to the brick with enough line to tie down to the dock.  Panels should hang at least 1 m below mean low water.  It is recommended that panels be further from shore and closer to flow if possible.  Panels should also be at least 0.5 m from the seafloor.  *Panels can also be hung using a float or buoy if necessary.
-2. Each panel must be labeled.  It is recommended that a colored cable tie be used for this rather than engraving the panel or attaching a label (see Figure X).  Generally, a single colored cable tie will last for 90 days.  Six colors would be required for 6 replicate panels per site.  However, it is up to the practitioner on how panels are labeled.
+1. Attach each panel to a brick (or half brick) with a cable tie going through the panel connected tightly to the brick (Figure 2). The experimental surface of the panel should be horizontal, facing the seafloor.  Attach a rope to the brick with enough line to tie down to the dock.  Panels should hang at least 1 m below mean low water.  It is recommended that panels be further from shore and closer to flow if possible.  Panels should also be at least 0.5 m from the seafloor.  *Panels can also be hung using a float or buoy if necessary.*
+2. Each panel must be labeled.  It is recommended that a colored cable tie be used for this rather than engraving the panel or attaching a label (see Figure 3).  Generally, a single colored cable tie will last for 90 days.  Six colors would be required for 6 replicate panels per site.  However, it is up to the practitioner on how panels are labeled.
 3. Panels should be at least 1 m for each other. 
-4. At 30, 60, and 90 days after the initial deployment, take photographs of the panels (see fouling panel photography protocol) and record environmental measurements (see environmental monitoring protocol).
 \vspace{\baselineskip}
 
 **Deployment in Benthic Habitats:**
 
-1. Attach a panel to the T-shaped PCV frame (Figure 2).
-2. Each panel must be labeled.  It is recommended that a colored cable tie be used for this 
-rather than engraving the panel or marking the PVC frame.
+1. Attach a panel to the T-shaped PCV frame (Figure 2). Frames can be assembled using ¾" - 1" PVC pipe and glued with PVC glue to a matching tee socket. Holes large enough to fit cable ties need to be drilled into the PVC prior to deployment.
+2. Each panel must be labeled.  It is recommended that a colored cable tie be used for this rather than engraving the panel or marking the PVC frame, but this is up to the site.
 3. Push the PVC frame into the sediment until it is secure.  Panels should remain at least 0.5 m above the seafloor.  Panels also need to be deep enough that they will NOT be exposed during a low tide.  In some cases, the sediment is too coarse for this (e.g. reef habitat) and panels can be deployed immediately adjacent to the habitat of interest. *As an example for an oyster reef, the nearest location that is closest to the reef and has soft-enough sediment for deployment of frames and where panels remain subtidal during low tide.  In shallow areas, floats or buoys could provide a better means of deployment.*
 4. PVC frames should be deployed at least 1 m for each other.  It is generally easier to find them if they are in a line parallel to the shore.
-5. At 30, 60, and 90 days after the initial deployment, take photographs of the panels **(see fouling panel photography protocol)** and record environmental measurements **(see environmental monitoring protocol)**.
 \vspace{\baselineskip}
 
-**Retrieval:**
+**Photography and Environmental Monitoring**
+\vspace{\baselineskip}
 
-This is typically done after a 90-day period for sub-tropical and temperate regions.
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{tagging}
+  \end{center}
+  \caption{Field photos of each colored tag and associated panel.}
+\end{wrapfigure}
+
+Perform the following steps at 30, 60, and 90 days after the initial deployment.  
+
+1. Record environmental measurements. **See environmental measurement protocol for details.**
+2. Remove the panel from the water.  Shake any sediment off the panel. In clear water, it is acceptable to photograph panels in the water. **Panels do not need to be removed from PVC frame or bricks.**
+3. First photograph the colored cable tie and then photograph the panel making sure the panel fills the entire camera frame.
+4. Take several photos of the panel to ensure at least one is in focus.
+5. If warranted, take photos of individual species to assist in identifications.
+6. Return panel to the water.
+7. When back at the lab, pick the best photo of each panel and relabel with the site_age_cabletiecolor. Organize photos by site and age.
+8. See the **Fouling Community Photo Analysis protocol** for photo processing.
+\vspace{\baselineskip}
+
+**Retrieval After 90 Days:**
+
 \vspace{\baselineskip}
 
 1. After taking 90-day photos, detach panels from either the PVC frame or bricks.
-2. Place the panel in labeled bags or containers with enough fresh seawater to keep moist.  Each bag should be labeled on the outside and a paper label should be on the inside.  The backs of the panels should be cleaned of fouling species with a paint scrapper either in the lab or in the field as these are not quantified.  In some cases, it may be necessary to do this in the field to reduce lab work or even to get the panel into the bag.
+2. Place the panel in labeled bags or containers with enough fresh seawater to keep moist.  Each bag should be labeled on the outside and a paper label should be on the inside.  The backs of the panels should be cleaned of fouling species with a paint scrapper either in the lab or in the field as these are not quantified.  In some cases, it may be necessary to do this in the field to reduce lab work. However, if your site will be collecting mobile fauna (see below), it is suggested to not scrape the back of each panel until back at the lab.
 3. The easiest method of transport is to place all panels in a cooler with ice for travel back to the lab. In some cases, if travel time is short, panels in bags with fresh seawater can simply be placed in buckets and returned to the lab.
+4. Depending on the number of panels and time available at the site, panels can either be processed live or frozen.  If freezing, place the plastic bag with seawater directly in a freezer.
 
 \vspace{\baselineskip}
 \underline{Post-Processing:}
 
-1. Depending on the number of panels and time available at the site, panels can either be processed live or frozen.  If freezing, simply place the zip lock bag with seawater directly in a freezer.    
-
-\vspace{\baselineskip}
-
-\begin{mdframed}
-\textbf {Optional: Associated Mobile Fauna}
-\vspace{\baselineskip}
-
-Despite a lengthy history of research done on fouling communities, there exists very little data on the associated mobile fauna (non-tube building) found within these communities.  Here we provide an optional auxiliary protocol to sampling this group of species in a standardized way. 
-\vspace{\baselineskip}
-
-\begin{enumerate}[label=(\alph*)]
-  \item Once ready to process, place the panel in a 500 µm sieve and pour seawater that was in the bag through the sieve.  Wash the panel with fresh water to remove all mobile fauna into the sieve. Discard any non-living material (e.g. shell, rocks, etc.) and wash the sieved fraction into a labeled vial with 70% ethanol,
-  \item Pour contents of vial into a dish and sort, identify, and count all mobile fauna.  All species should be identified to the possible taxonomic level.  However, if this is not possible, please use the provided list of taxonomic categories below. \textbf{Be sure to ignore any tube-building fauna (e.g. corophiid amphipods, sabellid and or serpulid polychaetes).}
-  \item For counting purposes, only record species that are complete or at least have the anterior region present (“head-counts”).  For mangled or incomplete species without the anterior region, do not count and discard.  For gastropods, make sure the animal is present either by looking for the foot or crushing the shell.  
-  \item Once enumerated, samples should be retained for potential further studies.
-\end{enumerate}
-\end{mdframed}
-\vspace{\baselineskip}
-
-2. After rinsing, let the panel hang vertically for 1 minute to allow water to drip off.  Place the entire panel on a scale to obtain a wet weight (g).  Note that this weight contains the panel itself, which can be subtracted during data entry from weights obtained prior to deployment.
+1. Pour the contents of a single plastic bag and panel gently into a 500 µm sieve and rinse with fresh water. After a thorough rinsing, any material on the back side of the panel needs to be scrapped off, but do not scrape into the sieve.  Once the back material is scrapped off and discarded, quickly re-rinse panel in the sieve.  Let the panel hang vertically for 1 minute to allow water to drip off.  Place the entire panel on a scale to obtain a wet weight (g).  A piece of wax paper can be placed on top of the scale to prevent any excess water from dripping on the scale. Note that this weight contains the panel itself, which can be subtracted during data entry from weights obtained prior to deployment.
+2. For optional small mobile fauna, wash the contents of the sieve into a vial with 70% ethanol.  Place a label of the panel inside the vial as well as write the label on the outside of the vial (see Associated Mobile Fauna protocol for further details).
 3. Once the panel is washed and weighed, place the panel in a dish with fresh seawater and examine it under a dissecting microscope.  If panels were previously frozen, they can go into tap water.  Identify all sessile species found and place any mobile fauna into associated vial. **Be careful with tube-dwelling fauna (corophiid amphipods, sabellid or serpulid worms, etc.) as these are considered to be part of the sessile community and get quantified as percent cover from the photographs.** If species are difficult to ID, at least give each a unique identifier.  The overall goal is to acquire a species list and a count for total species richness and therefore, there is no need to count the number of individuals on the same panel.
-4. At this point, the community can be destructively sampled to find hidden or cryptic species. 
-5. Take photos of unknown species.  Photographs can be shared with the network for help in identifications.  Also, a photo library is generally beneficial to have for incoming techs or students to assist in identifications.  Within the first sampling year, the majority of fauna will be captured, and this makes the next season’s sampling go faster.  
+4. At this point, the community can be destructively sampled to find hidden or cryptic species.
+5. Take photos of unknown species.  Photographs can be shared with the network for help in identifications.  Also, a photo library is generally beneficial to have for incoming techs or students to assist in identifications.  Within the first sampling year, the majority of fauna will be captured, and this makes the next season’s sampling go faster.
 
 
 \noindent\rule{\textwidth}{0.4pt}

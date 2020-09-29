@@ -79,11 +79,11 @@ Replication: At least three (3) sites per habitat, the number of habitats is dec
 Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
 \vspace{\baselineskip}
 
-1. Depending on the number of panels and time available at the site, panels can either be processed live or frozen.  If freezing, simply place the zip lock bag with seawater directly in a freezer.    
-2. Once ready to process, place the panel in a 500 µm sieve and pour seawater that was in the bag through the sieve.  Wash the panel with fresh water to remove all mobile fauna into the sieve. Discard any non-living material (e.g. shell, rocks, etc.) and wash the sieved fraction into a labeled vial with 70% ethanol. Each vial should contain all mobile fauna per single community (i.e. panel).  
+1. Depending on the number of panels and time available at the site, panels can either be processed live or frozen.  If freezing, place the plastic bag with seawater directly in a freezer.
+2. Once ready to process, place the panel in a 500 µm sieve and pour seawater that was in the bag through the sieve.  Wash the panel with fresh water to remove all mobile fauna into the sieve. Discard any non-living material (e.g. shell, rocks, etc.) and wash the sieved fraction into a labeled vial with 70% ethanol. Each vial should contain all mobile fauna per single community (i.e. panel).
 3. Pour contents of vial into a dish and sort, identify, and count all mobile fauna.  All species should be identified to the possible taxonomic level.  However, if this is not possible, please use the provided list of taxonomic categories below. *Be sure to ignore any tube-building fauna (e.g. corophiid amphipods, sabellid and or serpulid polychaetes).*
-4. For counting purposes, only record species that are complete or at least have the anterior region present (“head-counts”).  For mangled or incomplete species without the anterior region, do not count and discard.  For gastropods, make sure the animal is present either by looking for the foot or crushing the shell.  
-5.  Once enumerated, samples should be retained for potential further studies.  
+4. For counting purposes, only record species that are complete or at least have the anterior region present (“head-counts”).  For mangled or incomplete species without the anterior region, do not count and discard.  For gastropods, make sure the animal is present either by looking for the foot or crushing the shell.
+5.  Once enumerated, samples should be retained for potential further studies.
 \vspace{\baselineskip}
 
 \noindent\rule{\textwidth}{0.4pt}

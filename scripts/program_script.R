@@ -4,7 +4,7 @@
 # Program script to execute functions for protocol generation and management
 
 library(tidyverse)
-library(rdrop2)
+# library(rdrop2)
 
 source("scripts/protocol_functions.R")
 
@@ -18,8 +18,9 @@ source("scripts/protocol_functions.R")
 # generateProtocols(protocol = "shared", survey_type = NULL)
 # generateProtocols(protocol = "oyster", survey_type = NULL)
 # generateProtocols(protocol = "network-project", survey_type = "network_project")
-# generateProtocols(protocol = "fouling", survey_type = "community")
-# generateProtocols(protocol = "fouling", survey_type = "photography")
-generateProtocols(protocol = "fouling", survey_type = NULL)
+generateProtocols(protocol = "fouling", survey_type = "community")
+generateProtocols(protocol = "fouling", survey_type = "photo")
+generateProtocols(protocol = "fouling", survey_type = "mobile")
+generateProtocols(protocol = "fouling", survey_type = "design")
 
 
