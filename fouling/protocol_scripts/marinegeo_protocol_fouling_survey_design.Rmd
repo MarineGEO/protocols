@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \noindent\rule{\textwidth}{0.4pt}
 
-$$\includegraphics{title_pic}$$
+$$\includegraphics{community 6}$$
 
 \underline{How to cite this work:} Protocol: Fouling Community Survey Design and Overview. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
@@ -42,30 +42,30 @@ Fouling communities are a diverse group of marine species that inhabit hard surf
 
 Fouling communities are commonly associated with artificial structures including docks and seawalls. By virtue of close proximity to areas of high human activities, these habitats form a hub for non-native species and in general, many of the species encountered are introduced. Given the abundance of artificial structures and hardened shorelines found throughout the world, these areas are particularly important to monitor for new introductions and range expansions.
 
-The study of fouling communities can be extended to a variety of different habitats where hard substrate can be deployed.  The ease of standardization and deployment of fouling panels allow for unique comparisons between space and time and can serve as a baseline for a variety of manipulative studies.  Fouling species are generally fast-growing, short-lived and tightly tied to the environment. Overtime, continued deployments in different habitats can provide useful insights into how communities change with different environmental forcing factors (e.g. temperature, rainfall, pollution, etc.).  
+The study of fouling communities can be extended to a variety of different habitats where hard substrate can be deployed in the form of settlement or fouling panels. The ease of standardization and deployment of fouling panels allow for unique spatio-temporal comparisons and can serve as a baseline for a variety of manipulative studies. Fouling species are generally fast-growing, short-lived and tightly tied to the environment. Continued deployments can provide useful insights into how communities change overtime with changing environmental forcing factors (e.g. temperature, rainfall, pollution, etc.).
 
-In this document, we provide MarineGEO's standard design for fouling community monitoring. Core protocols below are recommended for MarineGEO partners:
+In this document, we provide MarineGEO's standard design for fouling community monitoring. Protocols listed below are recommended for MarineGEO partners:
 
 - Water quality
-- Percent cover of fouling species during monthly intervals 
+- Percent cover of fouling species during monthly intervals (30, 60, and 90 days)
 -	Detailed list of all sessile fauna 
--	Identification and enumeration of associated mobile fauna
 -	Biomass of the entire community
+-	Identification and enumeration of associated mobile fauna (optional)
 
 \noindent\rule{\textwidth}{0.4pt}
 
 ## Methods
 
-MarineGEO protocols offer a standardized set of measurements for characterizing the biodiversity of fouling communities within a locality, which provide useful, comparative data on community development over the course of a field season. Data are gathered from standardized settling plates, which allow fouling species to recruit naturally. It is recommended that, within the partner site, panel deployments be prioritized for artificial substrate (e.g. local docks or marinas), and additional deployments are suggested for each of the habitats currently being monitored through other protocols (e.g. seagrass beds, mangroves, reefs, etc.). Fouling community monitoring has 4 components: 1) photographs taken of panels to assess community composition via percent cover, 2) a detailed list of sessile fauna on panels after 90 days, 3) identification and enumeration of small mobile associated fauna (optional), and 4) biomass of the entire community.
+MarineGEO protocols offer a standardized set of measurements for characterizing the biodiversity of fouling communities within a locality, which provides useful and comparative data on community development over the course of a field season. Data are gathered from standardized settling plates, which allow fouling species to recruit naturally. It is recommended that within the partner site, panel deployments be prioritized for artificial substrate (e.g. local docks or marinas), and additional deployments are suggested for each of the habitats currently being monitored through other protocols (e.g. seagrass beds, mangroves, reefs, etc.). Fouling community monitoring has 4 components: 1) photographs taken of panels to assess community composition via percent cover, 2) a detailed list of sessile fauna and their origin (i.e. native or non-native) on panels after 90 days, 3) biomass of the entire community, and 4) identification and enumeration of small mobile associated fauna (optional).
 
 \noindent\rule{\textwidth}{0.4pt}
 
-## Core Modules
+## Brief Summary of Core Modules
 
 **Fouling panel deployment and monthly photography.**
 
 *Overview*  
-Fouling panels are deployed individually (*n* = 6) per site.  Each site is classified by its habitat type and there should be 3 sites per habitat (*n* = 18 panels per habitat).  MarineGEO suggests that different habitats be used to capture as much biodiversity as possible (not all species are found at a single habitat) and as a means to compare community metrics (richness, diversity, composition, introduced species, and development) over space and time. The majority of data from this protocol comes in the form of photographs of the communities over time. It is vital that photographs be both clear and labeled properly to be useful for post-processing. In many cases, the identification of these species can be difficult, however, on a larger scale many comparisons done between sites, habitats, and regions can be completed on functional or taxonomic groups. Please see the following sections for how to process photos using point counts to quantify community development and composition.  All labeled photographs should be supplied to MarineGEO for storage and backup. 
+Fouling panels are deployed individually (*n* = 6) per site.  Each site is classified by its habitat type (e.g. dock, seagrass, mangrove, etc.) and there should be 3 sites per habitat (*n* = 18 panels per habitat).  MarineGEO suggests that different habitats be used to capture as much biodiversity as possible (not all species are found at a single habitat) and as a means to compare community metrics (richness, diversity, composition, introduced species, and development) over space and time. However, if resources are limited, it is recommended that artificial habitats (e.g. docks) be first choice. The majority of data from this protocol comes in the form of photographs of the communities over time. It is vital that photographs be both clear and labeled properly to be useful for post-processing. In many cases, the identification of these species can be diffcult and comparisons can be done between sites, habitats, and regions on functional or taxonomic groups, which can greatly reduce the workflow at each partner site. Please see the following sections for how to process photos using point counts to quantify community development and composition. All labeled photographs should be supplied to MarineGEO for storage and backup. 
 
 *Measured Parameters*
 
@@ -75,9 +75,9 @@ Fouling panels are deployed individually (*n* = 6) per site.  Each site is class
 **Fouling panel retrieval and post-processing**
 
 *Overview*  
-Within sub-tropical and temperate regions, 90 days is an adequate length of time to capture community development during the most productive time of the year and is reflective of a typical sampling season. In tropical locations, recruitment and growth is reduced though this is dependent on the site.  To capture community development, photographs are taken of the communities at 30, 60, and 90 days (see methods in protocol for Community Development and Composition).  This section is for retrieval and post-processing at 90 days.  After 90 days, panels are retrieved and brought back to the lab. In the lab, panels are first weighed to obtain a biomass of the community, useful for estimating secondary production.  Panels are next rinsed in a 500 µm sieve and all mobile fauna are collected and preserved for later identification (optional).
+Within sub-tropical and temperate regions, 90 days is an adequate length of time to capture community development during the most productive time of the year and is reflective of a typical sampling season. In tropical locations, recruitment and growth are generally reduced, however to remain consistent, we request tropical sites to not exceed 90 days. To quantify community development, photographs are taken of communities at 30, 60, and 90 days (see methods in protocol for Community Development and Composition). This section is for retrieval and post-processing at 90 days. After 90 days, panels are retrieved and brought back to the lab. In the lab, panels are first weighed to obtain a biomass of the community, useful for estimating secondary production. Panels are next rinsed in a 500 µm sieve and all mobile fauna are collected and preserved for later identification (optional).
 
-A key question within this protocol centers around the richness and diversity of the communities between habitats and between regions. To get an accurate count of the species present within these communities, panels must be examined under a dissecting microscope and destructively sampled.  Photographs are useful for obtaining percent cover but generally miss many cryptic species and any diversity indices obtained from photographs are generally misleading.
+A key question within this protocol centers around the richness and diversity of communities between habitats and regions. To get an accurate count of the species present within these communities, panels must be examined under a dissecting microscope and destructively sampled. Photographs are useful for obtaining percent cover but generally miss many cryptic species and any diversity indices obtained from photographs can be misleading.
 
 *Measured Parameters*
 
@@ -106,7 +106,7 @@ Although fouling communities have been used as a model system for decades, very 
 
 \noindent\rule{\textwidth}{0.4pt}
 
-## Workflow
+## Summary Workflow
 
 \underline{Preparation:}
 
@@ -123,11 +123,11 @@ Although fouling communities have been used as a model system for decades, very 
 
 \underline{Fieldwork:}
 
-1. Acquire all necessary supplies needed to deploy 6 replicate fouling panels at each site (a list of materials needed can be found within the protocol document.
-2. Take initial detailed notes on the site that is being used including the type of habitat and any pertinent features, depth of water and depth of fouling panels, what deployment material is being used, and other information that could be useful.
-3. Measure environmental parameters (temperature, salinity, etc.) and note GPS location.
-4. Deploy fouling panels with the experimental surface facing the seafloor. These will either be hung individually using rope or attached individually to PVC depending on the site.  Each panel should be labeled such that each individual community can be followed through time.  See protocol for details.
-5. Photograph panel every 30 days for 3 months.  If this is too time consuming for a partner site, it is recommended that at least the 90-day photos be taken as that would be the most useful time point for comparisons.
+1. Acquire all necessary supplies needed to deploy 6 replicate fouling panels at each site (a list of materials needed can be found within the protocol documents.
+2. Take initial detailed notes on the site that is being used including the type of habitat and any pertinent features, extent or size of habitat, depth of water and depth of fouling panels, what deployment material is being used, and other information that could be useful.
+3. Measure environmental parameters (see Environmental Sampling Protocol) ) and note GPS location.
+4. Deploy fouling panels with the experimental surface facing the seafloor. These will either be hung individually using rope or attached individually to PVC depending on the site. Each panel should be labeled so that each individual community can be followed through time. See protocol for details.
+5. Photograph panels every 30 days for 3 months. If this is too time consuming, it is recommended that at least the 90-day photos be taken, as that would be the most useful time point for comparisons.
 6. After 90 days, remove panels and bring them to the lab for post-processing. At the lab, panels are washed in either fresh or seawater, and all small mobile fauna are sieved and preserved in 70% ethanol.
 7. Take wet weight of panels for biomass.
 8. Examine communities under a microscope and identify all species found. Vouchers and barcodes can be obtained at this time.
@@ -138,7 +138,7 @@ Although fouling communities have been used as a model system for decades, very 
 
 ## Data Submission
 
-1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+1. Scan any completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
 2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the "notes" columns to provide additional information or context if a relevant column doesn't already exist, rather than renaming or creating columns.
 3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
 4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)

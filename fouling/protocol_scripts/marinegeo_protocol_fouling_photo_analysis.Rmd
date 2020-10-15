@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \noindent\rule{\textwidth}{0.4pt}
 
-$$\includegraphics{2012_san_diego_22}$$
+$$\includegraphics{community 4}$$
 
 \underline{How to cite this work:} Protocol: Fouling Community Photo Analysis. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 

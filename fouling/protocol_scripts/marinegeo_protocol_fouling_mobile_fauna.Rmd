@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \noindent\rule{\textwidth}{0.4pt}
 
-$$\includegraphics{title_pic}$$
+$$\includegraphics{crab}$$
 
 \underline{How to cite this work:} Protocol: Associated Mobile Fauna. (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
 
@@ -79,11 +79,10 @@ Replication: At least three (3) sites per habitat, the number of habitats is dec
 Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
 \vspace{\baselineskip}
 
-1. Depending on the number of panels and time available at the site, panels can either be processed live or frozen.  If freezing, place the plastic bag with seawater directly in a freezer.
-2. Once ready to process, place the panel in a 500 µm sieve and pour seawater that was in the bag through the sieve.  Wash the panel with fresh water to remove all mobile fauna into the sieve. Discard any non-living material (e.g. shell, rocks, etc.) and wash the sieved fraction into a labeled vial with 70% ethanol. Each vial should contain all mobile fauna per single community (i.e. panel).
-3. Pour contents of vial into a dish and sort, identify, and count all mobile fauna.  All species should be identified to the possible taxonomic level.  However, if this is not possible, please use the provided list of taxonomic categories below. *Be sure to ignore any tube-building fauna (e.g. corophiid amphipods, sabellid and or serpulid polychaetes).*
-4. For counting purposes, only record species that are complete or at least have the anterior region present (“head-counts”).  For mangled or incomplete species without the anterior region, do not count and discard.  For gastropods, make sure the animal is present either by looking for the foot or crushing the shell.
-5.  Once enumerated, samples should be retained for potential further studies.
+1.	Please see previous protocols for methodology on how to sample mobile fauna from communities.  The following steps occur after samples have been collected.
+2.	Pour contents of a single vial into a dish and sort all complete species or at least those with the anterior portion intact. Remove and discard all non-living material.  Identify and count all mobile fauna. All species should be identified to the possible taxonomic level. However, if this is not possible, place species into lowest taxonomic categories (amphipods, polychaetes, crabs, shrimp, etc.).  We recommend that each new species at least be given an unique identifier. This is important to estimate richness and diversity of the mobile community. Photos can also be taken of unknown species and shared with the network. *Be sure to ignore any tube-building fauna (e.g. corophiid amphipods, sabellid and or serpulid polychaetes).*
+3. For counting purposes, only record species that are complete or at least have the anterior region present (“head-counts”).  For mangled or incomplete species without the anterior region, do not count and discard.  For gastropods, make sure the animal is present either by looking for the foot or crushing the shell.
+4.  Once enumerated, samples should be retained for potential further studies.
 \vspace{\baselineskip}
 
 \noindent\rule{\textwidth}{0.4pt}
