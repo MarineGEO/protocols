@@ -81,32 +81,18 @@ Fully review this and any additional protocols necessary for the photo analysis.
 
 \underline{Photo Processing:}
 
-\begin{figure}[htp]
-\caption{Estimating Percent Cover}
-\label{fig:image2}
 
-\begin{subfigure}{0.5\textwidth}
-\includegraphics[width=0.9\linewidth, height=5cm]{stratified_random_overlay}
-\caption{Stratified Random Overlay}
-\label{fig:subim1}
-\end{subfigure}
-\begin{subfigure}{0.5\textwidth}
-\includegraphics[width=0.9\linewidth, height=5cm]{uniform_grid_overlay}
-\caption{Uniform Grid Overlay}
-\label{fig:subim2}
-\end{subfigure}
-
-\end{figure}
-
-1. Make sure photographs are labeled with names to indicate site_age_color.
+1. Make sure photographs are labeled with names to indicate site_age_cabletiecolor.
     a. Site: acronym for the site 
     b. Age: either 30, 60, or 90 days 
-    c. Color: color of cable tie used to identify each panel 
+    c. Cabletiecolor: color of cable tie used to identify each panel 
 2. Photos should be cropped, and color corrected (if necessary) for light prior to analysis.
 3. Place the photo in the program of choice.
 4. Overlay a 100-point grid on the panel.  There are several methods on the distribution or arrangement of points.  It is recommended that either a stratified random assortment (random but still covers all of panel) of points be placed on the panel or in a uniform grid (see below).
-5. Under each point, identify the species to the lowest possible taxonomic group.  A list of standardized taxonomic categories using the CATAMI scheme can also be used and found at https://catami.github.io/. If a point falls on sediment or open space, count that point as either sediment or open space.  If a point falls upon a species growing on top of another (e.g. barnacles on top of oyster), count the species that is on the upper most layer.  However, the user is encouraged to use their best judgement on what species should be counted that best reflects what is most dominant.
-6.  Point counts from CPCe can be exported into an Excel workbook.  This is necessary to obtain point-count data, however it is necessary to further enter this data into the supplied data templates to be uploaded to MarineGEO.   
+5. Under each point, identify the species to the lowest possible taxonomic group.  A list of standardized taxonomic categories using the CATAMI scheme can also be used and found at https://catami.github.io/. If a point falls on sediment or open space, count that point as either sediment or open space.  If a point falls upon a species growing on top of another (e.g. barnacles on top of oyster), count the species that is on the upper most layer.  However, the user is encouraged to use their best judgement on what species should be counted that best reflects what is most dominant. Points can exceed 100.
+6.  Point counts from CPCe can be exported into an Excel workbook.  This is necessary to obtain point-count data, however, these data need to be to further entered into the supplied data templates to be uploaded to MarineGEO.   
+
+![Estimating percent cover using a stratified random overlay (left) or a uniform grid overlay (right).](photo_analysis)
 
 \noindent\rule{\textwidth}{0.4pt}
 

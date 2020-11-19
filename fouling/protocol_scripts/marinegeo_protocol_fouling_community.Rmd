@@ -127,7 +127,6 @@ Fully review this and any additional protocols necessary for the sampling excurs
 ![Photos of benthic deployment on a PVC (left) and a dock deployment using a brick (right).](deployment)
 
 \underline{Fieldwork:}
-\vspace{\baselineskip}
 
 **Deployment in Artificial Habitats** (e.g. docks and marina)
 
@@ -144,15 +143,9 @@ Fully review this and any additional protocols necessary for the sampling excurs
 4. PVC frames should be deployed at least 1 m for each other.  It is generally easier to find them if they are in a line parallel to the shore.
 \vspace{\baselineskip}
 
-**Photography and Environmental Monitoring**
-\vspace{\baselineskip}
+![Field photos of each colored tag and associated panel.](tagging)
 
-\begin{wrapfigure}{r}{0.4\textwidth}
-  \begin{center}
-    \includegraphics[width=0.4\textwidth]{tagging}
-  \end{center}
-  \caption{Field photos of each colored tag and associated panel.}
-\end{wrapfigure}
+**Photography and Environmental Monitoring**
 
 Perform the following steps at 30, 60, and 90 days after the initial deployment.  
 
@@ -168,8 +161,6 @@ Perform the following steps at 30, 60, and 90 days after the initial deployment.
 
 **Retrieval After 90 Days:**
 
-\vspace{\baselineskip}
-
 1. After taking 90-day photos in the field, detach panels from either the PVC frame or bricks.
 2. Place the panel in labeled bags or containers with enough fresh seawater to keep moist.  Each bag should be labeled on the outside and a paper label should be on the inside.  The backs of the panels should be cleaned of fouling species with a paint scrapper either in the lab or in the field as these are not quantified.  In some cases, it may be necessary to do this in the field to reduce lab work. However, if your site will be collecting mobile fauna (see below), it is suggested to not scrape the back of each panel until back at the lab.
 3. The easiest method of transport is to place all panels in a cooler with ice for travel back to the lab. In some cases, if travel time is short, panels in bags with fresh seawater can simply be placed in buckets and returned to the lab.
@@ -182,7 +173,7 @@ Perform the following steps at 30, 60, and 90 days after the initial deployment.
 2. For optional small mobile fauna, wash the contents of the sieve into a vial with 70% ethanol.  Place a label of the panel inside the vial as well as write the label on the outside of the vial (see Associated Mobile Fauna protocol for further details).
 3. Once the panel is washed and weighed, place the panel in a dish with fresh seawater and examine it under a dissecting microscope.  If panels were previously frozen, they can go into tap water.  Identify all sessile species found and place any mobile fauna into associated vial. **Be careful with tube-dwelling fauna (corophiid amphipods, sabellid or serpulid worms, etc.) as these are considered to be part of the sessile community and get quantified as percent cover from the photographs.** If species are difficult to ID, at least give each a unique identifier.  The overall goal is to acquire a species list and a count for total species richness and therefore, there is no need to count the number of individuals on the same panel.
 4. At this point, the community can be destructively sampled to find hidden or cryptic species.
-5. Take photos of unknown species.  Photographs can be shared with the network for help in identifications.  Also, a photo library is generally beneficial to have for incoming techs or students to assist in identifications.  Within the first sampling year, the majority of fauna will be captured, and this makes the next season’s sampling go faster.
+5. Take photos of unknown species.  Photographs can be shared with the network for help in identifications.  Also, a photo library is beneficial to have for incoming techs or students to assist in identifications.  Within the first sampling year, the majority of fauna will be captured, and this makes the next season's sampling go faster.
 
 
 \noindent\rule{\textwidth}{0.4pt}
