@@ -1,0 +1,13 @@
+﻿field_name,definition,field_type,format_text,unit
+site_code,Enter your 6 character site code. Codes can be found in the standards section of the MarineGEO protocol website: https://marinegeo.github.io/standards/,text,XXX-YYY,
+location_name,"The name of the specific location where the sample was collected; e.g., Curlew Cay",text,,
+transect,"The transect at the location the sample came from: 1, 2, or 3",numeric,,
+data_collection_year,The year the sample was collected in the field,numeric,YYYY,
+data_collection_month,The month the sample was collected in the field,numeric,MM,
+data_collection_day,The day the sample was collected in the field,numeric,DD,
+data_collector,Name(s) of data collector(s),text,,
+data_entry_person,Full name of data entry person,text,,
+sample_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,
+quadrat,The distance along the transect that the sample was collected (from 1-50 m),numeric,,meters
+scientific_name,"Scientific name using standard scientific nomenclature. If the species cannot be identified to species, report genus or higher.",text,,
+identification_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,
