@@ -11,3 +11,7 @@ sample_metadata_notes,"Any additional notes regarding observations, context, or 
 quadrat,The distance along the transect that the sample was collected (from 1-50 m),numeric,,meters
 scientific_name,"Scientific name using standard scientific nomenclature. If the species cannot be identified to species, report genus or higher.",text,,
 identification_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,
+transect_begin_decimal_latitude,"Latitude of the transect beginning, in decimal degrees (to five decimal places)",numeric,xx.xxxxx,
+transect_begin_decimal_longitude,"Longitude of the transect beginning, in decimal degrees (to five decimal places)",numeric,xxx.xxxxx,
+transect_end_decimal_latitude,"Latitude of the transect ending, in decimal degrees (to five decimal places)",numeric,xx.xxxxx,
+transect_end_decimal_longitude,"Latitude of the transect ending, in decimal degrees (to five decimal places)",numeric,xxx.xxxxx,
