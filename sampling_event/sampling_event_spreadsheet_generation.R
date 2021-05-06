@@ -20,12 +20,18 @@ for(protocol in unique(sampling_event_schema$protocol_name)){
     filter(protocol_name == protocol) %>%
     select(-protocol_name, -field_sheet_notes) 
   
+  full_dictionary <- glossary_raw %>%
+    filter(!field_name %in% metadata_definitions$field_name) %>%
+    bind_rows(metadata_definitions) %>%
+    select(-sheet_name) %>%
+    distinct()
+  
   organize_glossary <- glossary_raw %>%
     group_by(field_name) %>%
     summarize(table_name_summary = paste(sheet_name, collapse = ", ")) %>%
     arrange(field_name) 
   
-  final_glossary <- merge(organize_glossary, metadata_definitions, by="field_name", all.x=T, all.y=F) %>%
+  final_glossary <- merge(organize_glossary, full_dictionary, by="field_name", all.x=T, all.y=F) %>%
     select(field_name, definition, field_type, format_text, unit, table_name_summary)
   
   writeData(wb, sheet = 1, x = toupper(protocol), xy = c(2,1))
@@ -80,7 +86,7 @@ for(protocol in unique(sampling_event_schema$protocol_name)){
     
   }
   
-  filename = paste0("./sampling_event/final_spreadsheets/", protocol, "_marinegeo_protocol.xlsx")
+  filename = paste0("./sampling_event/final_spreadsheets/", gsub(" ", "_", protocol), "_marinegeo_protocol.xlsx")
   
   saveWorkbook(wb, file = filename, overwrite = T)
   
