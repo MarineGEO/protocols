@@ -8,12 +8,12 @@ doi <- paste0("DOI: ", "10.25573/serc.14510649.v1")
 source("./scripts/spreadsheet_generation_functions.R")
 
 # First arg: name of schema object
-# Second arg: name of protocol in filepath of repostitory
+# Second arg: name of protocol in filepath of repository
 # MAKE SURE "final_spreadsheets" DIRECTORY EXISTS
 
 generateSpreadsheets(fouling_schema, "fouling")
 
-#metadata_definitions <- read_csv("./resources/marinegeo_metadata_glossary.csv")
+# metadata_definitions <- read_csv("./resources/marinegeo_metadata_glossary.csv")
 # 
 # for(protocol in unique(fouling_schema$protocol_name)){
 # 
