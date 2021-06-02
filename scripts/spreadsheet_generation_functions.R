@@ -71,7 +71,7 @@ generateSpreadsheets <- function(schema, protocol_filename){
         fontColour = "black",
         textDecoration = "bold",
         #numFmt = "GENERAL",
-        border = NULL,
+        border = "bottom",
         borderColour = getOption("openxlsx.borderColour", "black"),
         borderStyle = getOption("openxlsx.borderStyle", "thin"),
         #bgFill = "indexed: 64",
@@ -86,7 +86,7 @@ generateSpreadsheets <- function(schema, protocol_filename){
       )
       
       writeData(wb, sheet = table, x = df, withFilter = F,
-                headerStyle = col_style)#getStyles(test_style)[[1]])
+                headerStyle = col_style)
       
       setColWidths(wb, sheet = table, cols = 1:num_col, widths = "auto")
       

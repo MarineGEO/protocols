@@ -4,11 +4,19 @@ This repository contains the tools and workflows for developing and maintaining 
 
 **Current Projects:**
 
-- Network Research Project 
+- Coral Reefs 10.25573/serc.14714175
+	- Coral Demographics
+	- Rugosity
+- Fouling Community 10.25573/serc.14510649
+	- Fouling Community Surveys
+	- Photo Analysis
+	- Mobile Fauna
+- Sampling Event and Environmental Monitoring 10.25573/serc.14555511
+- SED-BIOME (2020-2021 Network Research Project) 
     - Tea bag decomposition
     - Sediment trap
     - Sediment sampling for metagenomics
-- Oyster Surveys 
+- Oyster Surveys 10.25573/serc.14714328
 	- Reef area and height
 	- Reef associated fauna
 	- Reef composition
@@ -26,7 +34,6 @@ This repository contains the tools and workflows for developing and maintaining 
 	- Fish trawls
 	- Visual census 
 - Environment
-	- Environmental monitoring
 	- Sediment organic matter
 - Food Webs
 	- Herbivory assay
