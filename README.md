@@ -4,19 +4,19 @@ This repository contains the tools and workflows for developing and maintaining 
 
 **Current Projects:**
 
-- Coral Reefs 10.25573/serc.14714175
+- Coral Reefs https://doi.org/10.25573/serc.14714175
 	- Coral Demographics
 	- Rugosity
-- Fouling Community 10.25573/serc.14510649
+- Fouling Community https://doi.org/10.25573/serc.14510649
 	- Fouling Community Surveys
 	- Photo Analysis
 	- Mobile Fauna
-- Sampling Event and Environmental Monitoring 10.25573/serc.14555511
+- Sampling Event and Environmental Monitoring https://doi.org/10.25573/serc.14555511
 - SED-BIOME (2020-2021 Network Research Project) 
     - Tea bag decomposition
     - Sediment trap
     - Sediment sampling for metagenomics
-- Oyster Surveys 10.25573/serc.14714328
+- Oyster Surveys https://doi.org/10.25573/serc.14714328
 	- Reef area and height
 	- Reef associated fauna
 	- Reef composition
@@ -29,14 +29,14 @@ This repository contains the tools and workflows for developing and maintaining 
 	- Seagrass epifauna
 	- Seagrass macroalgae
 	- Seagrass shoots
-- Visual Census 10.25573/serc.14717796 
+- Diver Visual Survey https://doi.org/10.25573/serc.14717796 
 - Fish Trawls
 - Beach Seines 
 - Environment
 	- Sediment organic matter
-- Predation Assay 10.25573/serc.14717802
-- Ulva Assay 10.25573/serc.14717808
-- Benthic Photoquadrats 10.25573/serc.14717823
+- Predation Assay https://doi.org/10.25573/serc.14717802
+- Ulva Assay https://doi.org/10.25573/serc.14717808
+- Benthic Photoquadrats https://doi.org/10.25573/serc.14717823
 
 ### How to Develop a MarineGEO Protocol
 
