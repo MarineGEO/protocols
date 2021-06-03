@@ -19,6 +19,6 @@ depth_min_m,The transect's minimum depth in meters.,numeric,,meters
 depth_max_m,The transect's maximum depth in meters,numeric,,meters
 photo_filename,"The filename of the image associated with the sample with the file extension included (e.g., ""usa-mda_site1_t1_q1-unknown-seagrass.jpg"")",text,,
 sample_processing_person,The full name of the person processing the sample (no initials; ONLY one name per sample),text,,
-sample_retrieval_year,The year the sample was retrieved from the field,text,,
-sample_retrieval_month,The month the sample was retrieved from the field,text,,
-sample_retrieval_day,The day the sample was retrieved from the field,text,,
+sample_retrieval_year,The year the sample was retrieved from the field,numeric,YYYY,
+sample_retrieval_month,The month the sample was retrieved from the field,numeric,MM,
+sample_retrieval_day,The day the sample was retrieved from the field,numeric,DD,
