@@ -37,6 +37,7 @@ This repository contains the tools and workflows for developing and maintaining 
 - Predation Assay https://doi.org/10.25573/serc.14717802
 - Ulva Assay https://doi.org/10.25573/serc.14717808
 - Benthic Photoquadrats https://doi.org/10.25573/serc.14717823
+- Salt Marsh
 
 ### How to Develop a MarineGEO Protocol
 
