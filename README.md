@@ -23,7 +23,7 @@ This repository contains the tools and workflows for developing and maintaining 
 	- Reef density and size frequency
 	- Reef rugosity
 	- Reef survey design
-- Seagrass Habitats
+- Seagrass Habitats https://doi.org/10.25573/serc.14925114
 	- Seagrass biomass
 	- Seagrass density
 	- Seagrass epifauna
@@ -31,13 +31,13 @@ This repository contains the tools and workflows for developing and maintaining 
 	- Seagrass shoots
 - Diver Visual Survey https://doi.org/10.25573/serc.14717796 
 - Fish Trawls
-- Beach Seines 
+- Beach Seines https://doi.org/10.25573/serc.14925105
 - Environment
-	- Sediment organic matter
+	- Sediment organic matter https://doi.org/10.25573/serc.14925111
 - Predation Assay https://doi.org/10.25573/serc.14717802
 - Ulva Assay https://doi.org/10.25573/serc.14717808
 - Benthic Photoquadrats https://doi.org/10.25573/serc.14717823
-- Salt Marsh
+- Salt Marsh https://doi.org/10.25573/serc.14896194
 
 ### How to Develop a MarineGEO Protocol
 
