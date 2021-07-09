@@ -22,7 +22,7 @@ Diver Visual Survey,fish survey data,method,"1, 2, or 0.
 1 = Fish surveys; 
 2 = Mobile macroinvertebrate and cryptic fish surveys; 
 0 = Large, rare, or non-resident species seen outside the block boundary or the time of the survey ",numeric,X,number,
-Diver Visual Survey,fish survey data,taxon_id,A unique string (typically 3 digits) used to identify a single taxon. See the 'TaxaList' sheet for a list of TaxaCodes,text,,,
+Diver Visual Survey,fish survey data,taxon_id,The unique identifier for a single taxon. This column should include ALL unique taxon_id entries from the fish survey data sheet,text,,,
 Diver Visual Survey,fish survey data,invert_count,"Count of inverts for that invert taxa, in the block",numeric,XXX,count,
 Diver Visual Survey,fish survey data,2.5,The count of fish <2.5 cm,numeric,XXX,count,
 Diver Visual Survey,fish survey data,5,Count of fish 2.5-5 cm,numeric,XXX,count,
@@ -53,6 +53,6 @@ Diver Visual Survey,fish survey data,300,Count of fish 250-300cm,numeric,XXX,cou
 Diver Visual Survey,fish survey data,350,Count of fish 300-350 cm,numeric,XXX,count,
 Diver Visual Survey,fish survey data,400,Count of fish >350 cm,numeric,XXX,count,
 Diver Visual Survey,fish survey data,fish_survey_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-Diver Visual Survey,taxa list,taxon_id,The unique identifier for a single taxon. This column should include ALL uniquie taxon_id entries from the fish survey data sheet,text,,,
+Diver Visual Survey,taxa list,taxon_id,The unique identifier for a single taxon. This column should include ALL unique taxon_id entries from the fish survey data sheet,text,,,
 Diver Visual Survey,taxa list,scientific_name,,,,,
 Diver Visual Survey,taxa list,identification_notes,,,,,
