@@ -8,6 +8,8 @@ fouling community,sample metadata,panel_deployment_day,The day the panel was dep
 fouling community,sample metadata,sample_retrieval_year,,,,,
 fouling community,sample metadata,sample_retrieval_month,,,,,
 fouling community,sample metadata,sample_retrieval_day,,,,,
+fouling community,sample metadata,deployment_latitude,"Panel deployment latitude in decimal degrees, to five decimal places",numeric,xx.xxxxx,,
+fouling community,sample metadata,deployment_longitude,"Panel deployment longitude in decimal degrees, to five decimal places",numeric,xxx.xxxxx,,
 fouling community,sample metadata,data_collector,,,,,
 fouling community,sample metadata,sample_metadata_notes,,,,,
 fouling community,biomass data,site_code,,,,,
