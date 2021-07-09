@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.20)  9 JUL 2021 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.20)  9 JUL 2021 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**marinegeo_protocol_seagrass_density_figshare_example.tex
-(./marinegeo_protocol_seagrass_density_figshare_example.tex
+**marinegeo_protocol_seagrass_biomass.tex
+(./marinegeo_protocol_seagrass_biomass.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-07-17> (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
@@ -394,73 +394,6 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks24
 )
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
-y
-Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip54
-\LTright=\skip55
-\LTpre=\skip56
-\LTpost=\skip57
-\LTchunksize=\count270
-\LTcapwidth=\dimen157
-\LT@head=\box47
-\LT@firsthead=\box48
-\LT@foot=\box49
-\LT@lastfoot=\box50
-\LT@cols=\count271
-\LT@rows=\count272
-\c@LT@tables=\count273
-\c@LT@chunks=\count274
-\LT@p@ftn=\toks25
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
-sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen158
-\lightrulewidth=\dimen159
-\cmidrulewidth=\dimen160
-\belowrulesep=\dimen161
-\belowbottomsep=\dimen162
-\aboverulesep=\dimen163
-\abovetopsep=\dimen164
-\cmidrulesep=\dimen165
-\cmidrulekern=\dimen166
-\defaultaddspace=\dimen167
-\@cmidla=\count275
-\@cmidlb=\count276
-\@aboverulesep=\dimen168
-\@belowrulesep=\dimen169
-\@thisruleclass=\count277
-\@lastruleclass=\count278
-\@thisrulewidth=\dimen170
-) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen171
-\ar@mcellbox=\box51
-\extrarowheight=\dimen172
-\NC@list=\toks26
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box52
-) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count279
-\calc@Bcount=\count280
-\calc@Adimen=\dimen173
-\calc@Bdimen=\dimen174
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count281
-\calc@Cskip=\skip62
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.
-sty
-Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box53
-\fn@width=\dimen175
-)
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
 sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -477,217 +410,104 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen176
-\Gin@req@width=\dimen177
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
 y
-\wrapoverhang=\dimen178
-\WF@size=\dimen179
-\c@WF@wrappedlines=\count282
-\WF@box=\box54
-\WF@everypar=\toks27
+\wrapoverhang=\dimen159
+\WF@size=\dimen160
+\c@WF@wrappedlines=\count270
+\WF@box=\box47
+\WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.st
+y
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.s
+ty
+Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen161
+\captionmargin@=\dimen162
+\captionwidth=\dimen163
+\caption@tempdima=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
 ) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count283
-\float@exts=\toks28
-\float@box=\box55
-\@float@everytoks=\toks29
-\@floatcapt=\box56
+\c@float@type=\count273
+\float@exts=\toks26
+\float@box=\box48
+\@float@everytoks=\toks27
+\@floatcapt=\box49
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
 sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip63
-\f@nch@O@elh=\skip64
-\f@nch@O@erh=\skip65
-\f@nch@O@olh=\skip66
-\f@nch@O@orh=\skip67
-\f@nch@O@elf=\skip68
-\f@nch@O@erf=\skip69
-\f@nch@O@olf=\skip70
-\f@nch@O@orf=\skip71
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 76.
+less on input line 66.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 76.
+less on input line 66.
 
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdframed/mdframed.
-sty
-Package: mdframed 2013/07/01 1.9b: mdframed
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
-xparse.sty
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-07-17 L3 programming layer (loader) 
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count284
-\l__pdf_internal_box=\box57
-))
-Package: xparse 2020-05-15 L3 Experimental document command parser
+\l__kernel_color_stack_int=\count274
+\l__pdf_internal_box=\box50
+) (./marinegeo_protocol_seagrass_biomass.aux)
+\openout1 = `marinegeo_protocol_seagrass_biomass.aux'.
 
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
-xparse-generic.tex
-\l__xparse_current_arg_int=\count285
-\g__xparse_grabber_int=\count286
-\l__xparse_m_args_int=\count287
-\l__xparse_v_nesting_int=\count288
-))
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/zref/zref-abspage.
-sty
-Package: zref-abspage 2020-05-28 v2.31 Module abspage for zref (HO)
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2020-05-28 v2.31 Module base for zref (HO)
-Package zref Info: New property list: main on input line 763.
-Package zref Info: New property: default on input line 764.
-Package zref Info: New property: page on input line 765.
-)
-\c@abspage=\count289
-Package zref Info: New property: abspage on input line 66.
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/needspace/needspac
-e.sty
-Package: needspace 2010/09/12 v1.3d reserve vertical space
-)
-\mdf@templength=\skip72
-\c@mdf@globalstyle@cnt=\count290
-\mdf@skipabove@length=\skip73
-\mdf@skipbelow@length=\skip74
-\mdf@leftmargin@length=\skip75
-\mdf@rightmargin@length=\skip76
-\mdf@innerleftmargin@length=\skip77
-\mdf@innerrightmargin@length=\skip78
-\mdf@innertopmargin@length=\skip79
-\mdf@innerbottommargin@length=\skip80
-\mdf@splittopskip@length=\skip81
-\mdf@splitbottomskip@length=\skip82
-\mdf@outermargin@length=\skip83
-\mdf@innermargin@length=\skip84
-\mdf@linewidth@length=\skip85
-\mdf@innerlinewidth@length=\skip86
-\mdf@middlelinewidth@length=\skip87
-\mdf@outerlinewidth@length=\skip88
-\mdf@roundcorner@length=\skip89
-\mdf@footenotedistance@length=\skip90
-\mdf@userdefinedwidth@length=\skip91
-\mdf@needspace@length=\skip92
-\mdf@frametitleaboveskip@length=\skip93
-\mdf@frametitlebelowskip@length=\skip94
-\mdf@frametitlerulewidth@length=\skip95
-\mdf@frametitleleftmargin@length=\skip96
-\mdf@frametitlerightmargin@length=\skip97
-\mdf@shadowsize@length=\skip98
-\mdf@extratopheight@length=\skip99
-\mdf@subtitleabovelinewidth@length=\skip100
-\mdf@subtitlebelowlinewidth@length=\skip101
-\mdf@subtitleaboveskip@length=\skip102
-\mdf@subtitlebelowskip@length=\skip103
-\mdf@subtitleinneraboveskip@length=\skip104
-\mdf@subtitleinnerbelowskip@length=\skip105
-\mdf@subsubtitleabovelinewidth@length=\skip106
-\mdf@subsubtitlebelowlinewidth@length=\skip107
-\mdf@subsubtitleaboveskip@length=\skip108
-\mdf@subsubtitlebelowskip@length=\skip109
-\mdf@subsubtitleinneraboveskip@length=\skip110
-\mdf@subsubtitleinnerbelowskip@length=\skip111
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdframed/md-frame-
-0.mdf
-File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
-)
-\mdf@frametitlebox=\box58
-\mdf@footnotebox=\box59
-\mdf@splitbox@one=\box60
-\mdf@splitbox@two=\box61
-\mdf@splitbox@save=\box62
-\mdfsplitboxwidth=\skip112
-\mdfsplitboxtotalwidth=\skip113
-\mdfsplitboxheight=\skip114
-\mdfsplitboxdepth=\skip115
-\mdfsplitboxtotalheight=\skip116
-\mdfframetitleboxwidth=\skip117
-\mdfframetitleboxtotalwidth=\skip118
-\mdfframetitleboxheight=\skip119
-\mdfframetitleboxdepth=\skip120
-\mdfframetitleboxtotalheight=\skip121
-\mdffootnoteboxwidth=\skip122
-\mdffootnoteboxtotalwidth=\skip123
-\mdffootnoteboxheight=\skip124
-\mdffootnoteboxdepth=\skip125
-\mdffootnoteboxtotalheight=\skip126
-\mdftotallinewidth=\skip127
-\mdfboundingboxwidth=\skip128
-\mdfboundingboxtotalwidth=\skip129
-\mdfboundingboxheight=\skip130
-\mdfboundingboxdepth=\skip131
-\mdfboundingboxtotalheight=\skip132
-\mdf@freevspace@length=\skip133
-\mdf@horizontalwidthofbox@length=\skip134
-\mdf@verticalmarginwhole@length=\skip135
-\mdf@horizontalspaceofbox=\skip136
-\mdfsubtitleheight=\skip137
-\mdfsubsubtitleheight=\skip138
-\c@mdfcountframes=\count291
-
-****** mdframed patching \endmdf@trivlist
-
-****** -- success******
-
-\mdf@envdepth=\count292
-\c@mdf@env@i=\count293
-\c@mdf@env@ii=\count294
-\c@mdf@zref@counter=\count295
-Package zref Info: New property: mdf@pagevalue on input line 895.
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.
-sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip139
-\enit@outerparindent=\dimen180
-\enit@toks=\toks30
-\enit@inbox=\box63
-\enit@count@id=\count296
-\enitdp@description=\count297
-) (./marinegeo_protocol_seagrass_density_figshare_example.aux)
-\openout1 = `marinegeo_protocol_seagrass_density_figshare_example.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Info: Redefining \microtypecontext on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 75.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 85.
+LaTeX Info: Redefining \showhyphens on input line 75.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -708,8 +528,8 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 85.
+\AtBeginShipoutBox=\box51
+Package hyperref Info: Link coloring ON on input line 75.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -723,15 +543,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count298
+\c@section@level=\count275
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
-(./marinegeo_protocol_seagrass_density_figshare_example.out) (./marinegeo_proto
-col_seagrass_density_figshare_example.out)
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
+(./marinegeo_protocol_seagrass_biomass.out) (./marinegeo_protocol_seagrass_biom
+ass.out)
 \@outlinefile=\write3
-\openout3 = `marinegeo_protocol_seagrass_density_figshare_example.out'.
+\openout3 = `marinegeo_protocol_seagrass_biomass.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -767,33 +587,36 @@ col_seagrass_density_figshare_example.out)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 7.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
 7.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-87.
+77.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-87.
+77.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 87.
+(Font)              <12> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 87.
+(Font)              <8> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 87.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+(Font)              <6> on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -802,7 +625,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -812,43 +635,36 @@ fg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 92.
+(Font)              <10> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 92.
+(Font)              <7> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 92.
-<../graphics/seagrass_quadrats_landing_page.jpg, id=24, 1003.75pt x 752.8125pt>
-
-File: ../graphics/seagrass_quadrats_landing_page.jpg Graphic file (type jpg)
-<use ../graphics/seagrass_quadrats_landing_page.jpg>
-Package pdftex.def Info: ../graphics/seagrass_quadrats_landing_page.jpg  used o
-n input line 92.
+(Font)              <5> on input line 82.
+<../graphics/landing_page_seagrass_cores.png, id=24, 1003.75pt x 752.8125pt>
+File: ../graphics/landing_page_seagrass_cores.png Graphic file (type png)
+<use ../graphics/landing_page_seagrass_cores.png>
+Package pdftex.def Info: ../graphics/landing_page_seagrass_cores.png  used on i
+nput line 82.
 (pdftex.def)             Requested size: 469.75618pt x 352.31712pt.
 <../graphics/title_logo.jpg, id=26, 2673.99pt x 1165.35374pt>
 File: ../graphics/title_logo.jpg Graphic file (type jpg)
 <use ../graphics/title_logo.jpg>
-Package pdftex.def Info: ../graphics/title_logo.jpg  used on input line 101.
+Package pdftex.def Info: ../graphics/title_logo.jpg  used on input line 91.
 (pdftex.def)             Requested size: 227.59216pt x 99.18712pt.
 [1
 
 {c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map} <../graphics/seagrass_quadrats_landing_page.jpg> <../graphics/title_logo
-.jpg>]
+x.map} <../graphics/landing_page_seagrass_cores.png> <../graphics/title_logo.jp
+g>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-32.
+21.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<../graphics/quadrat_example.png, id=36, 243.7908pt x 268.8444pt>
-File: ../graphics/quadrat_example.png Graphic file (type png)
-<use ../graphics/quadrat_example.png>
-Package pdftex.def Info: ../graphics/quadrat_example.png  used on input line 20
-5.
-(pdftex.def)             Requested size: 211.39322pt x 233.11742pt.
 <../graphics/marinegeo.png, id=38, 1691.31876pt x 578.16pt>
 File: ../graphics/marinegeo.png Graphic file (type png)
 <use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 211.
+Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 195.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -859,70 +675,79 @@ This may cause the page layout to be inconsistent, however.
 [1
 
  <../graphics/marinegeo.png>]
-Underfull \hbox (badness 1466) in paragraph at lines 247--252
-[]\T1/lmr/m/n/10 (+20) Other ses-sile or-gan-isms (e.g., macroal-gae,
- []
+<../graphics/label_example.png, id=53, 207.6558pt x 54.9252pt>
+File: ../graphics/label_example.png Graphic file (type png)
+<use ../graphics/label_example.png>
+Package pdftex.def Info: ../graphics/label_example.png  used on input line 204.
 
+(pdftex.def)             Requested size: 140.93474pt x 37.27739pt.
 File: ../graphics/marinegeo.png Graphic file (type png)
 <use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 271.
+Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 276.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 \clearpage
-                 [2pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.271 \clearpage
-                 <../graphics/quadrat_example.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
+l.276 \newpage
+               [2 <../graphics/label_example.png>]
+<../graphics/seagrass_morphology.png, id=74, 494.84875pt x 528.97626pt>
+File: ../graphics/seagrass_morphology.png Graphic file (type png)
+<use ../graphics/seagrass_morphology.png>
+Package pdftex.def Info: ../graphics/seagrass_morphology.png  used on input lin
+e 287.
+(pdftex.def)             Requested size: 225.48122pt x 241.03165pt.
 File: ../graphics/marinegeo.png Graphic file (type png)
 <use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 357.
+Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 356.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.357 \end{document}
-                     [3
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
-(./marinegeo_protocol_seagrass_density_figshare_example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
-Package rerunfilecheck Info: File `marinegeo_protocol_seagrass_density_figshare
-_example.out' has not changed.
-(rerunfilecheck)             Checksum: 5507339672D6FFDE2625079692F27041;551.
+l.356   E
+         nter data into the provided data entry template. Each template is an [
+3 <../graphics/seagrass_morphology.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 369.
+File: ../graphics/marinegeo.png Graphic file (type png)
+<use ../graphics/marinegeo.png>
+Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 369.
+(pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.369 \end{document}
+                     [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
+(./marinegeo_protocol_seagrass_biomass.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
+Package rerunfilecheck Info: File `marinegeo_protocol_seagrass_biomass.out' has
+ not changed.
+(rerunfilecheck)             Checksum: 6CF2BE9AC1A181B5AC702414A55C826C;551.
  ) 
 Here is how much of TeX's memory you used:
- 14544 strings out of 482854
- 227723 string characters out of 5954975
- 549464 words of memory out of 5000000
- 29529 multiletter control sequences out of 15000+600000
- 584232 words of font info for 93 fonts, out of 8000000 for 9000
+ 13877 strings out of 482854
+ 211622 string characters out of 5954975
+ 513496 words of memory out of 5000000
+ 28893 multiletter control sequences out of 15000+600000
+ 578411 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,15n,45p,883b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,15n,45p,834b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}{c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1
 .enc}<c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/l
-mbx10.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
-/lm/lmbx12.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
-ublic/lm/lmr10.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/lm/lmr17.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts
-/type1/public/lm/lmr7.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/lm/lmri10.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on marinegeo_protocol_seagrass_density_figshare_example.pdf (4 p
-ages, 1581774 bytes).
+mbx12.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
+/lm/lmr10.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmr17.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmri10.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on marinegeo_protocol_seagrass_biomass.pdf (5 pages, 2544840 byt
+es).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 12349 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 12354 words of extra memory for PDF output out of 14400 (max. 10000000)
 

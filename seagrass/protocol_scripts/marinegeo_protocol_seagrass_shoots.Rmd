@@ -1,5 +1,5 @@
 ---
-title: "Protocol: Seagrass Shoots"
+title: "MarineGEO Seagrass Shoots Protocol"
 header-includes:
   \usepackage{wrapfig}
   \usepackage{caption}
@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 $$\includegraphics{shoots_landing_page}$$
 
-\underline{How to cite this work:} Protocol: Seagrass Shoots (`r lubridate::year(Sys.Date())`) Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution.
+\underline{How to cite this work:} Seagrass Habitat Monitoring Protocol (2021) Lefcheck, Jonathan, Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. https://doi.org/10.25573/serc.14925114.v1
 
 \vspace{\baselineskip}
 
@@ -33,13 +33,13 @@ $$\includegraphics[width=80mm]{title_logo}$$
 
 \thispagestyle{empty}
 \clearpage
-\pagenumbering{arabic}
+\pagenumbering{gobble}
 
 \noindent\rule{\textwidth}{0.4pt}
 
 ## Introduction
 
-This protocol provides standardized data on characteristics of the seagrass canopy and fouling/sessile (attached) organisms on the seagrass blades from shoot collections. Additional copies of this protocol, field datasheets, data entry templates, literature, and more can be found on the Seagrass section of the MarineGEO protocol website: https://marinegeo.github.io/modules/seagrass-shoots.
+This protocol provides standardized data on characteristics of the seagrass canopy and fouling/sessile (attached) organisms on the seagrass blades from shoot collections. Additional copies of this protocol, field datasheets, and data entry templates can be found at https://doi.org/10.25573/serc.14925114.v1.
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -113,7 +113,7 @@ Materials:
 
 ## Methods
 
-Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo@si.edu before beginning this protocol.
+Fully review this and any additional protocols necessary for the sampling excursion. Address any questions or concerns to marinegeo-protocols@si.edu before beginning this protocol.
 \vspace{\baselineskip}
 
 \begin{wrapfigure}{r}{0.3\textwidth}
@@ -125,7 +125,7 @@ Fully review this and any additional protocols necessary for the sampling excurs
 \end{wrapfigure}
 
 \underline{Preparation:}
-1.	Review the MarineGEO [Seagrass Habitats Survey Design](https://marinegeo.github.io/seagrass) for site selection and setup. This protocol assumes *n* = 6 shoots taken every 8 m along a 50-m transect, replicated along 3 separate transects.
+1.	Review the MarineGEO Seagrass Habitats Survey Design for site selection and setup. This protocol assumes *n* = 6 shoots taken every 8 m along a 50-m transect, replicated along 3 separate transects.
 2.	Label 18 disposable plastic bags with the sampling location, transect, and replicate number using a permanent marker.
 3.	Place 18 internal labels with the same metadata written on waterproof paper inside the corresponding plastic bag (Fig. 1).
 4.	Fill a container with ice immediately before departing for the field.
@@ -172,6 +172,6 @@ Samples are best processed immediately (within 24 hours) upon returning from the
 ## Data Submission
 
 1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
-2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible, such as the protocol version and contact information. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
 3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
-4. Contact us if you have any questions: [marinegeo@si.edu](mailto:marinegeo@si.edu)
+4. Contact us if you have any questions: [marinegeo-protocols@si.edu](mailto:marinegeo-protocols@si.edu)
