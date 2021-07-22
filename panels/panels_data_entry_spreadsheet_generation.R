@@ -4,7 +4,7 @@ library(openxlsx)
 library(tidyverse)
 
 panels_schema <- read_csv("./panels/panels_schema.csv")
-doi <- "V2" #paste0("DOI: ", "10.25573/serc.14510649.v1")
+doi <- "V2.1" #paste0("DOI: ", "10.25573/serc.14510649.v1")
 source("./scripts/spreadsheet_generation_functions.R")
 
 # First arg: name of schema object
