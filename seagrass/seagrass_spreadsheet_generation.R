@@ -5,7 +5,7 @@ library(tidyverse)
 
 seagrass_schema <- read_csv("./seagrass/seagrass_schema.csv")
 
-doi <- paste0("DOI: ", "10.25573/serc.14925114.v1")
+doi <- "10.25573/serc.14925114.v1"
 source("./scripts/spreadsheet_generation_functions.R")
 
 # First arg: name of schema object

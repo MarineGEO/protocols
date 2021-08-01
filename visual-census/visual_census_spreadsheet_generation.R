@@ -5,7 +5,7 @@ library(tidyverse)
 
 visual_census_schema <- read_csv("./visual-census/visual_census_schema.csv")
 
-doi <- paste0("DOI: ", "10.25573/serc.14717796.v1")
+doi <- "10.25573/serc.14717796.v1"
 source("./scripts/spreadsheet_generation_functions.R")
 
 # First arg: name of schema object
@@ -13,3 +13,4 @@ source("./scripts/spreadsheet_generation_functions.R")
 # MAKE SURE "final_spreadsheets" DIRECTORY EXISTS
 
 generateSpreadsheets(visual_census_schema, "visual-census")
+

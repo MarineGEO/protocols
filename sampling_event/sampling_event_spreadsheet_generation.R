@@ -4,7 +4,7 @@ library(openxlsx)
 library(tidyverse)
 
 sampling_event_schema <- read_csv("./sampling_event/sampling_event_schema.csv")
-doi <- paste0("DOI: ", "10.25573/serc.14555511.V1")
+doi <- "10.25573/serc.14555511.v1"
 source("./scripts/spreadsheet_generation_functions.R")
 
 generateSpreadsheets(sampling_event_schema, "sampling_event")

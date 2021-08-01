@@ -5,7 +5,7 @@ library(tidyverse)
 
 benthic_photoquadrats_schema <- read_csv("./benthic-photoquadrats/benthic_photoquadrats_schema.csv")
 
-doi <- paste0("DOI: ", "10.25573/serc.14717823.v1")
+doi <- "10.25573/serc.14717823.v1"
 source("./scripts/spreadsheet_generation_functions.R")
 
 # First arg: name of schema object

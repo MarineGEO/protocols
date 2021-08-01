@@ -38,7 +38,7 @@ generateSpreadsheets <- function(schema, protocol_filename){
       textDecoration = "bold"
     )
     
-    writeData(wb, sheet = 1, x = doi, xy = c(1,2))
+    writeData(wb, sheet = 1, x = paste0("DOI: ", doi), xy = c(1,2))
     
     addStyle(wb, sheet = 1, doi_style, rows = 2, cols = 1, gridExpand = F)
     
@@ -100,4 +100,14 @@ generateSpreadsheets <- function(schema, protocol_filename){
     
   }
   
+  # Save schema to CSV of all schemas for use in data submission portal
+  marinegeo_schemas <- read_csv("./resources/marinegeo_schemas.csv")
+  
+  if(!doi %in% marinegeo_schemas$version){
+    marinegeo_schemas <- schema %>%
+      mutate(version = doi) %>%
+      bind_rows(marinegeo_schemas)
+    
+    write_csv(marinegeo_schemas, "./resources/marinegeo_survey_schemas.csv")
+  }
 }

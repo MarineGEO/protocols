@@ -6,7 +6,7 @@ library(tidyverse)
 
 saltmarsh_schema <- read_csv("./saltmarsh/saltmarsh_schema.csv")
 
-doi <- paste0("DOI: ", "10.25573/serc.14896194.v1")
+doi <- "10.25573/serc.14896194.v1"
 source("./scripts/spreadsheet_generation_functions.R")
 
 # First arg: name of schema object
