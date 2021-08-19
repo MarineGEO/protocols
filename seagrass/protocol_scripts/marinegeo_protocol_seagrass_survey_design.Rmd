@@ -1,0 +1,191 @@
+---
+title: "MarineGEO Seagrass Habitat Monitoring Protocol"
+output: pdf_document
+header-includes:
+  \usepackage{wrapfig}
+  \usepackage{caption}
+  \usepackage{float}
+    \floatplacement{figure}{H}
+  \usepackage{graphicx}
+    \graphicspath{ {../graphics/} }
+  \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhead[RO,RE]{Seagrass Habitat Survey Design}
+    \lhead{\includegraphics[height=1cm, width=3.2cm]{marinegeo}}
+    \fancyfoot[CO,CE]{\thepage}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$\includegraphics{seagrass_survey_design_landing_page}$$
+
+\underline{How to cite this work:} Seagrass Habitat Monitoring Protocol (2021) Lefcheck, Jonathan, Tennenbaum Marine Observatories Network, MarineGEO, Smithsonian Institution. https://doi.org/10.25573/serc.14925114.v1
+
+\vspace{\baselineskip}
+
+$$\includegraphics[width=80mm]{title_logo}$$
+
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{gobble}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Introduction
+
+In this document, we provide MarineGEO’s standard survey design for sampling seagrass habitats, including key measurements of the plants, associated fauna, and other properties of the ecosystem. Additionally, we provide define best practices for site selection, layout, and workflow.  
+
+The overall design and replication adheres as closely as possible to other seagrass monitoring programs, such as SeagrassNET and Seagrass Watch. Our goal is to provide a standardized sampling design and measurements of the key aspects of seagrass habitats that can be compared globally. We thank Fred Short and Bob Orth for thoughtful feedback on the initial draft of these protocols and Valerie Paul and Rachel Collins for leading major revisions.
+
+This protocol provides data on above- and belowground seagrass biomass, composition, and shoot density from a standard core. Additional copies of this protocol, field datasheets, and data entry templates can be found at https://doi.org/10.25573/serc.14925114
+
+Required protocols for MarineGEO Partners:  
+
+* Sampling Event & Environmental Monitoring (temperature, salinity, turbidity) - https://doi.org/10.25573/serc.14555511
+*	Seagrass density (cover, composition, shoot density)
+*	Seagrass macroalgae (biomass)
+*	Seagrass shoots (leaf length, width, epiphytes)
+*	Predation (bait loss; ‘Squidpops’) - https://doi.org/10.25573/serc.14717802
+
+Recommended protocols:
+
+* Beach seines (https://doi.org/10.25573/serc.14925105), Trawl, or Visual Diver Survey (https://doi.org/10.25573/serc.14717796) - fish and mobile invertebrate abundance, length, composition
+* Sediment organic matter (bulk density, organic carbon) - https://doi.org/10.25573/serc.14925111
+*	Seagrass biomass (biomass, shoot density)
+*	Seagrass epifauna (composition, biomass)
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Requirements
+
+Personnel: 2 people  
+
+Estimated Total Time Per Location (*n* = 3 transects):  
+
+|    Preparation: 1 person x 1 day
+|    Field work: 2 people x 1-2 days per location, 2-4 days total
+|    Sample post-processing: Variable - see individual protocols
+|    Data processing: 1 person x 1-2 days
+
+*Estimated times will vary by site and conditions
+
+Materials:
+
+\renewcommand{\labelitemi}{$\square$}
+\setlength{\parskip}{0.1em}
+\begin{itemize}
+  \item 1 50-m metric transect tape
+  \item Hand-held GPS unit
+  \item 2 PVC marker poles (diameter and length as needed)
+  \item Waterproof  camera
+\end{itemize}
+\vspace{\baselineskip}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Methods
+
+\underline{Preparation:}
+
+1.	Identify the required and any recommended modules above that you wish to conduct at your site. Download copies of the protocols, field data sheets, and data entry templates.
+2.	Familiarize yourself with the methods (including data preparation and submission) of each protocol.
+3.	Contact marinegeo-protocols@si.edu to schedule a brief conference to discuss your project and address any questions before proceeding to the next steps.
+4.	Acquire all the necessary permits required to sample at your sites. This includes ethics approval from your Institutional Animal Care and Use Committee (IACUC), if necessary. 
+5.	Review and follow the safety requirements from your institution. MarineGEO is not responsible for any loss or injury incurred during sampling.
+
+\vspace{\baselineskip}
+
+\underline{Site Selection:}
+
+1.	Identify three seagrass beds (locations) to sample. Beds should be:
+      a.	typical of your region;
+      b.	large enough to deploy three 50-m transects;
+      c.	reasonably accessible;
+      d.	generally persistent (so that they can be visited from year-to-year).
+2.	Contact marinegeo-protocols@si.edu to verify your sites with our team and to receive permanent standard MarineGEO site codes before heading to the field.
+3.	Record GPS coordinates at each sampling location. Take photos of the surrounding landscape and some underwater photos of the seagrass habitat for each trip. Also record field notes on the general layout and condition of the habitat, conspicuous features or organisms, etc. 
+4.	Lay out and mark the positions of three 50-m fixed transects with durable infrastructure so that they can be relocated in the future: these transects are intended to be permanent (i.e., sampled repeatedly). Place the transects parallel to shore and representing the shallow (inshore), middle (interior), and deep (offshore) parts of the bed (Fig. 1):
+      a.	If the bed is intertidal or relatively shallow, select transects that are increasingly far from shore and separated by the largest distance that is logistically feasible. 
+      b.	If the bed extends into water too deep to work in, deploy the transects at the maximum distance from shore that is logistically feasible.
+      c.	Ensure that the transects are reasonably independent (separated by a minimum of 5-10 m). If it’s not possible to arrange 3 transects within the bed so that they are not overlapping or they are too close, contact marinegeo-protocols@si.edu for further guidance.
+      d.	If in subsequent years the margins of the bed change such that the transects are no longer in seagrass, conduct as many of the surveys as possible at the former position, then move the transect to a new fixed position so that as much of the transect is in seagrass as possible.
+5.	If you intend to use continuous monitoring sondes or loggers to characterize the abiotic environment, deploy them at least 2-4 weeks in advance (at least one per site).
+
+\pagebreak
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \begin{center}
+    \includegraphics[width=0.45\textwidth]{seagrass_transects_survey_design}
+  \end{center}
+  \caption{Position of three 30-m transects within a bed.}
+\end{wrapfigure}
+
+\underline{Fieldwork: Day 1}
+
+1.	Measure environmental conditions.
+2.	Deploy predation assay (n =25 ‘Squidpops’) positioned roughly every 2 m along a single transect (Fig. 2). Choose one of the three transects that will ensure that the baits are submerged for the entire 24-hourt deployment.
+3.	One hour after deployment, score bait loss from the predation assay.
+4.	RECOMMENDED: Before deploying predation assay, quantify fishes and large mobile invertebrates by conducting either a Beach seine, Trawl, or Diver visual census at or near the transects within or immediately adjacent to the seagrass bed.
+
+\vspace{\baselineskip}
+
+\underline{Fieldwork: Day 2}
+
+1.	Return to the site. 
+2.	RECOMMENDED: Conduct a second replicate of Beach seine, Trawl, or Diver visual census
+3.	Score 24-h bait loss from predation assay. Retrieve stakes and any associated markers.
+4.	Along each transect, conduct the following (Fig. 2):
+      a.	Use Seagrass density protocol to survey percent cover, composition, and shoot density (every 4 m, n = 12 per transect).
+      b.	Use Seagrass macroalgae protocol to collect macroalgae from within the quadrats used for the Seagrass density protocol (every 8 m, n = 6 per transect).
+      c.	Use Seagrass shoots protocol to collect shoots for later measurement of leaf characteristics, fouling load, and disease in the lab (every 8 m, n = 6 per transect).
+      d.	RECOMMENDED: Use Sediment organic matter protocol to sample organic carbon in sediments for later processing in the lab (every 16 m, n = 3 per transect).
+      e.	RECOMMENDED: Use Seagrass biomass protocol to sample above- and belowground biomass of seagrass and shoot density for later processing in the lab (every 16 m, n = 3 per transect).
+      f.	RECOMMENDED: Use Seagrass epifauna protocol to sample epifaunal community structure for later processing in the lab (every 8 m, n = 6 per transect).
+5.	Take destructive samples (biomass cores, shoot collections, epifauna collections) at least 1-m from the permanent quadrats (Fig. 3).
+6.	Return all samples to the lab for processing. 
+
+\vspace{\baselineskip}
+
+\underline{Sample Post-Processing:}
+
+1.	Activities from Day 1 require no post-processing. 
+2.	The samples on Day 2 should be processed within the following time frames:
+      a.	Seagrass macroalgae: within 24-48 h
+      b.	Seagrass shoot collections: within 24-h
+      c.	RECOMMENDED: Sediment organic matter: within 1-3 days
+      d.	RECOMMENDED: Seagrass biomass cores: 
+            i.	Macrophytes:  within 24-h;
+            ii.	Dry mass: within 1-3 days;
+      e.	RECOMMENDED: Seagrass epifauna:
+            i.	Macrophytes: within 24-h;
+            ii.	Dry mass: within 1-3 days;
+            iii.	Epifauna (preserved): at leisure
+
+\pagebreak
+
+\noindent\rule{\textwidth}{0.4pt}
+
+## Data Submission
+
+1. Scan the completed field data sheets and save both paper and electronic versions locally. We do not require you to submit the scanned forms.
+2. Enter data into the provided data entry template. Each template is an Excel spreadsheet. Please provide as much protocol and sample metadata as possible. Use the “notes” columns to provide additional information or context if a relevant column doesn’t already exist, rather than renaming or creating columns.
+3. Use our online submission portal to upload the Excel Spreadsheet: [https://marinegeo.github.io/data-submission](https://marinegeo.github.io/data-submission)
+4. Contact us if you have any questions: [marinegeo-protocols@si.edu](mailto:marinegeo-protocols@si.edu)
+
+\begin{figure}
+\includegraphics{transect_modules_survey_design}
+\centering
+\caption{The placement of different replicate modules (including both core and recommended) along an example transect, and their timing of deployment.}
+\end{figure}
+
+\begin{figure}
+\includegraphics{transect_assays_survey_design}
+\centering
+\caption{Example assays to be conducted along each transect (refer to Fig. 2 for more details). Required modules are indicated with an asterisk (*).}
+\end{figure}
