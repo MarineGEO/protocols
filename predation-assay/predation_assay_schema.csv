@@ -1,4 +1,4 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Predation Assay,sample metadata,deployment_year,The year the predation assay bait was deployed in the field,numeric,YYYY,,
 Predation Assay,sample metadata,deployment_month,The month the predation assay bait was deployed in the field,numeric,MM,,
 Predation Assay,sample metadata,deployment_day,The day the panel predation assay bait deployed in the field,numeric,DD,,
@@ -14,10 +14,10 @@ Predation Assay,sample data,deployment_day,The day the panel predation assay bai
 Predation Assay,sample data,site_code,Enter your 6 character site code. Codes can be found in the standards section of the MarineGEO protocol website: https://marinegeo.github.io/standards/,text,XXX-YYY,,
 Predation Assay,sample data,location_name,"The name of the specific location where the sample was collected; e.g., Curlew Cay",text,,,
 Predation Assay,sample data,transect,The transect at the location the sample came from: 1 or 2,numeric,,,
-Predation Assay,sample data,number_deployed,Numer of squidpops deployed,integer,XX,,
-Predation Assay,sample data,bait_type,Type of bait used. Standard is squid.,text,,,
-Predation Assay,sample data,bait_missing_1_hr,Number of bait missing after 1 hour,integer,XX,,
-Predation Assay,sample data,stakes_remaining_1_hr,Number of stakes remaining after 1 hour,integer,XX,,
-Predation Assay,sample data,bait_missing_24_hr,Number of bait missing after 24 hours,integer,XX,,
-Predation Assay,sample data,stakes_remaining_24_hr,Number of stakes remaining after 24 hours,integer,XX,,
-Predation Assay,sample data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Predation Assay,sample data,number_deployed,Numer of squidpops deployed,integer,XX,,measurement
+Predation Assay,sample data,bait_type,Type of bait used. Standard is squid.,text,,,categorical
+Predation Assay,sample data,bait_missing_1_hr,Number of bait missing after 1 hour,integer,XX,,measurement
+Predation Assay,sample data,stakes_remaining_1_hr,Number of stakes remaining after 1 hour,integer,XX,,measurement
+Predation Assay,sample data,bait_missing_24_hr,Number of bait missing after 24 hours,integer,XX,,measurement
+Predation Assay,sample data,stakes_remaining_24_hr,Number of stakes remaining after 24 hours,integer,XX,,measurement
+Predation Assay,sample data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note

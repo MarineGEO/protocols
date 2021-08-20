@@ -1,12 +1,12 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Coral Reef Habitats,sample metadata,site_code,,,,,
 Coral Reef Habitats,sample metadata,location_name,,,,,
 Coral Reef Habitats,sample metadata,transect,,,,,
 Coral Reef Habitats,sample metadata,sample_collection_year,,,,,
 Coral Reef Habitats,sample metadata,sample_collection_month,,,,,
 Coral Reef Habitats,sample metadata,sample_collection_day,,,,,
-Coral Reef Habitats,sample metadata,data_collector,The individual who conducted the survey for this transect,text,,,
-Coral Reef Habitats,sample metadata,distance_completed_m,The length of the transect surveyed by the data collector,numeric,,meters,
+Coral Reef Habitats,sample metadata,data_collector,The individual who conducted the survey for this transect,text,,,pii
+Coral Reef Habitats,sample metadata,distance_completed_m,The length of the transect surveyed by the data collector,numeric,,meters,measurement
 Coral Reef Habitats,sample metadata,data_entry_person,,,,,
 Coral Reef Habitats,sample metadata,sample_metadata_notes,,,,,
 Coral Reef Habitats,coral demographics data,site_code,,,,,
@@ -17,16 +17,16 @@ Coral Reef Habitats,coral demographics data,sample_collection_month,,,,,
 Coral Reef Habitats,coral demographics data,sample_collection_day,,,,,
 Coral Reef Habitats,coral demographics data,scientific_name,,,,,
 Coral Reef Habitats,coral demographics data,identification_notes,,,,,
-Coral Reef Habitats,coral demographics data,juveniles_1_to_4_cm,The tally of juvenile individuals with a total live tissue measurement of 1 to 4 centimeters,numeric,,,
-Coral Reef Habitats,coral demographics data,isolate_1_to_4_cm,The tally of isolates with a total live tissue measurement of 1 to 4 centimters,numeric,,,
-Coral Reef Habitats,coral demographics data,5_to_10_cm,The tally of individuals with a total live tissue measurement of 5 to 10 centimeters,numeric,,,
-Coral Reef Habitats,coral demographics data,11_to_20_cm,The tally of individuals with a total live tissue measurement of 11 to 20 centimeters,numeric,,,
-Coral Reef Habitats,coral demographics data,21_to_40_cm,The tally of individuals with a total live tissue measurement of 21 to 40 centimeters,numeric,,,
-Coral Reef Habitats,coral demographics data,41_to_80_cm,The tally of individuals with a total live tissue measurement of 41 to 80 centimeters,numeric,,,
-Coral Reef Habitats,coral demographics data,over_80_cm,The tally of individuals with a total live tissue measurement of over 80 centimeters,numeric,,,
-Coral Reef Habitats,coral demographics data,0_recent_total_mortality,The tally of individuals with recent total mortality,numeric,,,
-Coral Reef Habitats,coral demographics data,predation_bites,The number of corals of each species that has evidence of predation,numeric,,,
-Coral Reef Habitats,coral demographics data,coral_demographics_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Coral Reef Habitats,coral demographics data,juveniles_1_to_4_cm,The tally of juvenile individuals with a total live tissue measurement of 1 to 4 centimeters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,isolate_1_to_4_cm,The tally of isolates with a total live tissue measurement of 1 to 4 centimters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,5_to_10_cm,The tally of individuals with a total live tissue measurement of 5 to 10 centimeters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,11_to_20_cm,The tally of individuals with a total live tissue measurement of 11 to 20 centimeters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,21_to_40_cm,The tally of individuals with a total live tissue measurement of 21 to 40 centimeters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,41_to_80_cm,The tally of individuals with a total live tissue measurement of 41 to 80 centimeters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,over_80_cm,The tally of individuals with a total live tissue measurement of over 80 centimeters,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,0_recent_total_mortality,The tally of individuals with recent total mortality,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,predation_bites,The number of corals of each species that has evidence of predation,numeric,,,measurement
+Coral Reef Habitats,coral demographics data,coral_demographics_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Coral Reef Habitats,coral condition data,site_code,,,,,
 Coral Reef Habitats,coral condition data,location_name,,,,,
 Coral Reef Habitats,coral condition data,transect,,,,,
@@ -35,21 +35,21 @@ Coral Reef Habitats,coral condition data,sample_collection_month,,,,,
 Coral Reef Habitats,coral condition data,sample_collection_day,,,,,
 Coral Reef Habitats,coral condition data,scientific_name,,,,,
 Coral Reef Habitats,coral condition data,identification_notes,,,,,
-Coral Reef Habitats,coral condition data,max_diameter,"Maximum diameter across longest axis of the entire colony, including dead skeleton",numeric,,centimeters,
-Coral Reef Habitats,coral condition data,max_height,Maximum height of coral measured perpendicular to substrate,numeric,,centimeters,
-Coral Reef Habitats,coral condition data,percent_mortality,"Estimated percent mortality, including old mortality unrelated to the observed condition",numeric,,,
-Coral Reef Habitats,coral condition data,condition_code,"The condition of the sample, including TL (tissue loss), CLP (color loss – paling), CLB (color loss – bleaching), D (discoloration), GA (growth anomaly)",text,,,
-Coral Reef Habitats,coral condition data,percent_affected,"Estimated percent affected by the condition in percentage bins: A (0-5%), B (6-50%), C (51-95%), D (96-100%). For tissue loss, percent affected refers to recent mortality.",text,,,
-Coral Reef Habitats,coral condition data,distribution,"Distribution of the condition on the individual: F (focal), MF (multifocal), D (diffuse), or W (whole colony)",text,,,
-Coral Reef Habitats,coral condition data,rate_tissue_loss,"For tissue loss only, describe the rate of progression as A (acute, clean skeleton >2cm) or SA (subacute, clean skeleton <2cm)",text,,,
-Coral Reef Habitats,coral condition data,coral_condition_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Coral Reef Habitats,coral condition data,max_diameter,"Maximum diameter across longest axis of the entire colony, including dead skeleton",numeric,,centimeters,measurement
+Coral Reef Habitats,coral condition data,max_height,Maximum height of coral measured perpendicular to substrate,numeric,,centimeters,measurement
+Coral Reef Habitats,coral condition data,percent_mortality,"Estimated percent mortality, including old mortality unrelated to the observed condition",numeric,,,measurement
+Coral Reef Habitats,coral condition data,condition_code,"The condition of the sample, including TL (tissue loss), CLP (color loss – paling), CLB (color loss – bleaching), D (discoloration), GA (growth anomaly)",text,,,categorical
+Coral Reef Habitats,coral condition data,percent_affected,"Estimated percent affected by the condition in percentage bins: A (0-5%), B (6-50%), C (51-95%), D (96-100%). For tissue loss, percent affected refers to recent mortality.",text,,,categorical
+Coral Reef Habitats,coral condition data,distribution,"Distribution of the condition on the individual: F (focal), MF (multifocal), D (diffuse), or W (whole colony)",text,,,categorical
+Coral Reef Habitats,coral condition data,rate_tissue_loss,"For tissue loss only, describe the rate of progression as A (acute, clean skeleton >2cm) or SA (subacute, clean skeleton <2cm)",text,,,categorical
+Coral Reef Habitats,coral condition data,coral_condition_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Coral Reef Habitats,rugosity data,site_code,,,,,
 Coral Reef Habitats,rugosity data,location_name,,,,,
 Coral Reef Habitats,rugosity data,transect,,,,,
 Coral Reef Habitats,rugosity data,sample_collection_year,,,,,
 Coral Reef Habitats,rugosity data,sample_collection_month,,,,,
 Coral Reef Habitats,rugosity data,sample_collection_day,,,,,
-Coral Reef Habitats,rugosity data,chain_length,The total length of the chain before it is laid out on the reef,numeric,,centimeters,
-Coral Reef Habitats,rugosity data,start_position_transect_tape_cm,"The starting mark of the chain on the transect tape, in centimeters (0, 1000, 2000, 3000, 4000)",numeric,,centimeters,
-Coral Reef Habitats,rugosity data,end_position_transect_tape_cm,"The end position on the transect tape of the chain laid out, in centimeters",numeric,,centimeters,
-Coral Reef Habitats,rugosity data,rugosity_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Coral Reef Habitats,rugosity data,chain_length,The total length of the chain before it is laid out on the reef,numeric,,centimeters,measurement
+Coral Reef Habitats,rugosity data,start_position_transect_tape_cm,"The starting mark of the chain on the transect tape, in centimeters (0, 1000, 2000, 3000, 4000)",numeric,,centimeters,measurement
+Coral Reef Habitats,rugosity data,end_position_transect_tape_cm,"The end position on the transect tape of the chain laid out, in centimeters",numeric,,centimeters,measurement
+Coral Reef Habitats,rugosity data,rugosity_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note

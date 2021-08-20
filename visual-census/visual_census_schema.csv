@@ -1,4 +1,4 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Diver Visual Survey,sample metadata,site_code,Enter your 6 character site code. Codes can be found in the standards section of the MarineGEO protocol website: https://marinegeo.github.io/standards/,text,XXX-YYY,,
 Diver Visual Survey,sample metadata,location_name,"The name of the specific location where the sample was collected; e.g., Curlew Cay",text,,,
 Diver Visual Survey,sample metadata,transect,The transect at the location the sample came from: 1 or 2,numeric,,,
@@ -6,10 +6,10 @@ Diver Visual Survey,sample metadata,sample_collection_year,The year the sample w
 Diver Visual Survey,sample metadata,sample_collection_month,The month the sample was collected in the field,numeric,MM,,
 Diver Visual Survey,sample metadata,sample_collection_day,The day the sample was collected in the field,numeric,DD,,
 Diver Visual Survey,sample metadata,sample_collection_time,The time of day the sample was collected in the field in 24 hour format,time,HH:MM,,
-Diver Visual Survey,sample metadata,diver,The diver's name,text,,,
-Diver Visual Survey,sample metadata,buddy,The buddy's name,text,,,
+Diver Visual Survey,sample metadata,diver,The diver's name,text,,,pii
+Diver Visual Survey,sample metadata,buddy,The buddy's name,text,,,pii
 Diver Visual Survey,sample metadata,data_entry_person,Full name of data entry person,text,,,
-Diver Visual Survey,sample metadata,direction,Transect direction (0-360 degrees),numeric,XXX,degrees,
+Diver Visual Survey,sample metadata,direction,Transect direction (0-360 degrees),numeric,XXX,degrees,categorical
 Diver Visual Survey,sample metadata,sample_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
 Diver Visual Survey,fish survey data,site_code,Enter your 6 character site code. Codes can be found in the standards section of the MarineGEO protocol website: https://marinegeo.github.io/standards/,text,XXX-YYY,,
 Diver Visual Survey,fish survey data,location_name,"The name of the specific location where the sample was collected; e.g., Curlew Cay",text,,,
@@ -17,42 +17,42 @@ Diver Visual Survey,fish survey data,transect,The transect at the location the s
 Diver Visual Survey,fish survey data,sample_collection_year,The year the sample was collected in the field,numeric,YYYY,,
 Diver Visual Survey,fish survey data,sample_collection_month,The month the sample was collected in the field,numeric,MM,,
 Diver Visual Survey,fish survey data,sample_collection_day,The day the sample was collected in the field,numeric,DD,,
-Diver Visual Survey,fish survey data,block,The block at the location the sample came from: 1 or 2,numeric,,,
+Diver Visual Survey,fish survey data,block,The block at the location the sample came from: 1 or 2,numeric,,,categorical
 Diver Visual Survey,fish survey data,method,"1, 2, or 0.
 1 = Fish surveys; 
 2 = Mobile macroinvertebrate and cryptic fish surveys; 
-0 = Large, rare, or non-resident species seen outside the block boundary or the time of the survey ",numeric,X,number,
+0 = Large, rare, or non-resident species seen outside the block boundary or the time of the survey ",numeric,X,number,categorical
 Diver Visual Survey,fish survey data,taxon_id,The unique identifier for a single taxon. This column should include ALL unique taxon_id entries from the fish survey data sheet,text,,,
-Diver Visual Survey,fish survey data,invert_count,"Count of inverts for that invert taxa, in the block",numeric,XXX,count,
-Diver Visual Survey,fish survey data,2.5,The count of fish <2.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,5,Count of fish 2.5-5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,7.5,Count of fish 5-7.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,10,Count of fish 7.5-10 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,12.5,Count of fish 10-12.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,15,Count of fish 12.5-15 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,20,Count of fish 15-20 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,25,Count of fish 20-25 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,30,Count of fish 25-30 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,35,Count of fish 30-35 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,40,Count of fish 35-40 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,50,Count of fish 40-50 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,62.5,Count of fish 50-62.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,75,Count of fish 62.5-75 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,87.5,Count of fish 75-87.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,100,Count of fish 87.5-100 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,112.5,Count of fish 100-112.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,125,Count of fish 112.5-125 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,137.5,Count of fish 125-137.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,150,Count of fish 137.5-150 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,162.5,Count of fish 150-162.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,175,Count of fish 162.5-175 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,187.5,Count of fish 175-187.5 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,200,Count of fish 187.5-200 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,250,Count of fish 200-250 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,300,Count of fish 250-300cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,350,Count of fish 300-350 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,400,Count of fish >350 cm,numeric,XXX,count,
-Diver Visual Survey,fish survey data,fish_survey_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Diver Visual Survey,fish survey data,invert_count,"Count of inverts for that invert taxa, in the block",numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,2.5,The count of fish <2.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,5,Count of fish 2.5-5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,7.5,Count of fish 5-7.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,10,Count of fish 7.5-10 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,12.5,Count of fish 10-12.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,15,Count of fish 12.5-15 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,20,Count of fish 15-20 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,25,Count of fish 20-25 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,30,Count of fish 25-30 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,35,Count of fish 30-35 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,40,Count of fish 35-40 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,50,Count of fish 40-50 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,62.5,Count of fish 50-62.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,75,Count of fish 62.5-75 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,87.5,Count of fish 75-87.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,100,Count of fish 87.5-100 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,112.5,Count of fish 100-112.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,125,Count of fish 112.5-125 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,137.5,Count of fish 125-137.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,150,Count of fish 137.5-150 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,162.5,Count of fish 150-162.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,175,Count of fish 162.5-175 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,187.5,Count of fish 175-187.5 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,200,Count of fish 187.5-200 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,250,Count of fish 200-250 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,300,Count of fish 250-300cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,350,Count of fish 300-350 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,400,Count of fish >350 cm,numeric,XXX,count,measurement
+Diver Visual Survey,fish survey data,fish_survey_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Diver Visual Survey,taxa list,taxon_id,The unique identifier for a single taxon. This column should include ALL unique taxon_id entries from the fish survey data sheet,text,,,
 Diver Visual Survey,taxa list,scientific_name,,,,,
 Diver Visual Survey,taxa list,identification_notes,,,,,

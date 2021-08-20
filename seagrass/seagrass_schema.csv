@@ -1,0 +1,191 @@
+protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
+seagrass biomass,sample metadata,sample_collection_year,,,,,
+seagrass biomass,sample metadata,sample_collection_month,,,,,
+seagrass biomass,sample metadata,sample_collection_day,,,,,
+seagrass biomass,sample metadata,site_code,,,,,
+seagrass biomass,sample metadata,location_name,,,,,
+seagrass biomass,sample metadata,transect,,,,,
+seagrass biomass,sample metadata,sample_dimensions,Note the (bottom) area or dimensions of the sample,text,NA,NA,
+seagrass biomass,sample metadata,sample_processing_year,The date the sample was processed in the lab,date,YYYY-MM-DD,NA,
+seagrass biomass,sample metadata,sample_processing_month,,,,,
+seagrass biomass,sample metadata,sample_processing_day,,,,,
+seagrass biomass,sample metadata,corer_dimensions,Dimensions of the corer used (w x h),text,NA,NA,
+seagrass biomass,sample metadata,data_collector,,,,,
+seagrass biomass,sample metadata,data_entry_person,,,,,
+seagrass biomass,sample metadata,sample_metadata_notes,,,,,
+seagrass biomass,sample data,sample_collection_year,,,,,
+seagrass biomass,sample data,sample_collection_month,,,,,
+seagrass biomass,sample data,sample_collection_day,,,,,
+seagrass biomass,sample data,site_code,,,,,
+seagrass biomass,sample data,location_name,,,,,
+seagrass biomass,sample data,transect,,,,,
+seagrass biomass,sample data,quadrat,,,,,
+seagrass biomass,sample data,scientific_name,,,,,
+seagrass biomass,sample data,identification_notes,,,,,
+seagrass biomass,sample data,sample_processing_person,,,,,
+seagrass biomass,sample data,tin_mass_g,The mass in grams of an empty measring tin,decimal,xx.xx,grams,measurement
+seagrass biomass,sample data,tin_sample_dry_mass_g,"The mass in grams of a measring tin containing a seagrass sample, after it has been dried to a consistant dryweight",decimal,xx.xx,grams,measurement
+seagrass biomass,sample data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass density,sample metadata,sample_collection_year,,,,,
+seagrass density,sample metadata,sample_collection_month,,,,,
+seagrass density,sample metadata,sample_collection_day,,,,,
+seagrass density,sample metadata,site_code,,,,,
+seagrass density,sample metadata,location_name,,,,,
+seagrass density,sample metadata,transect,,,,,
+seagrass density,sample metadata,cover_method,"The method used to estimate cover: Braun-Blanquet, percent bins, or point count.",text,NA,NA,categorical
+seagrass density,sample metadata,quadrat_dimensions,Dimensions of the quadrat used during sampling (WxH),text,NA,NA,
+seagrass density,sample metadata,points_in_quadrat,"The total number of points counted in a quadrat to estimate cover. A value is only necessary if using the point count method, please leave this blank if using a different method.",numeric,NA,NA,measurement
+seagrass density,sample metadata,data_collector,,,,,
+seagrass density,sample metadata,data_entry_person,,,,,
+seagrass density,sample metadata,sample_metadata_notes,,,,,
+seagrass density,cover sample data,sample_collection_year,,,,,
+seagrass density,cover sample data,sample_collection_month,,,,,
+seagrass density,cover sample data,sample_collection_day,,,,,
+seagrass density,cover sample data,site_code,,,,,
+seagrass density,cover sample data,location_name,,,,,
+seagrass density,cover sample data,transect,,,,,
+seagrass density,cover sample data,quadrat,,,,,
+seagrass density,cover sample data,scientific_name,,,,,
+seagrass density,cover sample data,identification_notes,,,,,
+seagrass density,cover sample data,cover_code,"Cover code format will depend on the method used: Braun-Blanquet uses a letter scale (A, B, C, D, E) and % bins and point count methods use numeric scale. Refer to the protocol document for more information. If reporting cover for substrate, leave scientific name blank for that row.",NA,NA,NA,categorical
+seagrass density,cover sample data,sediment_type,"Type of bare substratum where sample was collected (ex. Sand, mud, mixed)",text,NA,NA,categorical
+seagrass density,cover sample data,cover_sample_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass density,macro invert sample data,sample_collection_year,,,,,
+seagrass density,macro invert sample data,sample_collection_month,,,,,
+seagrass density,macro invert sample data,sample_collection_day,,,,,
+seagrass density,macro invert sample data,site_code,,,,,
+seagrass density,macro invert sample data,location_name,,,,,
+seagrass density,macro invert sample data,transect,,,,,
+seagrass density,macro invert sample data,quadrat,,,,,
+seagrass density,macro invert sample data,scientific_name,,,,,
+seagrass density,macro invert sample data,identification_notes,,,,,
+seagrass density,macro invert sample data,size_mm,"The size of any mobile inverts to the nearest millimeter. If more than one individual of a given taxon is present in a single quadrat, enter a single row for each individual.",integer,XXX,millimeters,measurement
+seagrass density,macro invert sample data,macro_invert_sample_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass density,shoot count sample data,sample_collection_year,,,,,
+seagrass density,shoot count sample data,sample_collection_month,,,,,
+seagrass density,shoot count sample data,sample_collection_day,,,,,
+seagrass density,shoot count sample data,site_code,,,,,
+seagrass density,shoot count sample data,location_name,,,,,
+seagrass density,shoot count sample data,transect,,,,,
+seagrass density,shoot count sample data,quadrat,,,,,
+seagrass density,shoot count sample data,scientific_name,,,,,
+seagrass density,shoot count sample data,identification_notes,,,,,
+seagrass density,shoot count sample data,shoots_count,"The count of seagrass shoots within the quadrat. 
+
+Remember - Zeros are data! Please enter 0 if no seagrass shoots were present.",integer,XX,NA,measurement
+seagrass density,shoot count sample data,flowers_count,The count of seagrass flowers (if any) present  within the qudrat. Remember - Zeros are data! Please enter 0 if no seagrass flowers were present.,integer,XX,NA,measurement
+seagrass density,shoot count sample data,fruits_count,The count of seagrass fruits (if any) present  within the qudrat. Remember - Zeros are data! Please enter 0 if no seagrass fruits were present.,integer,XX,NA,measurement
+seagrass density,shoot count sample data,shoot_count_sample_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass epifauna,sample metadata,sample_collection_year,,,,,
+seagrass epifauna,sample metadata,sample_collection_month,,,,,
+seagrass epifauna,sample metadata,sample_collection_day,,,,,
+seagrass epifauna,sample metadata,site_code,,,,,
+seagrass epifauna,sample metadata,location_name,,,,,
+seagrass epifauna,sample metadata,transect,,,,,
+seagrass epifauna,sample metadata,sample_processing_year,The date the sample was processed in the lab,date,YYYY-MM-DD,NA,
+seagrass epifauna,sample metadata,sample_processing_month,,,,,
+seagrass epifauna,sample metadata,sample_processing_day,,,,,
+seagrass epifauna,sample metadata,data_collector,,,,,
+seagrass epifauna,sample metadata,data_entry_person,,,,,
+seagrass epifauna,sample metadata,sample_metadata_notes,,,,,
+seagrass epifauna,macrophyte mass data,sample_collection_year,,,,,
+seagrass epifauna,macrophyte mass data,sample_collection_month,,,,,
+seagrass epifauna,macrophyte mass data,sample_collection_day,,,,,
+seagrass epifauna,macrophyte mass data,site_code,,,,,
+seagrass epifauna,macrophyte mass data,location_name,,,,,
+seagrass epifauna,macrophyte mass data,transect,,,,,
+seagrass epifauna,macrophyte mass data,quadrat,,,,,
+seagrass epifauna,macrophyte mass data,scientific_name,,,,,
+seagrass epifauna,macrophyte mass data,identification_notes,,,,,
+seagrass epifauna,macrophyte mass data,sample_processing_person,,,,,
+seagrass epifauna,macrophyte mass data,tin_mass_g,The mass in grams of an empty measring tin,decimal,xx.xx,grams,measurement
+seagrass epifauna,macrophyte mass data,tin_sample_dry_mass_g,"The mass in grams of a measring tin containing a seagrass sample, after it has been dried to a consistant dryweight",decimal,xx.xx,grams,measurement
+seagrass epifauna,macrophyte mass data,macrophyte_mass_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass epifauna,epifauna data,sample_collection_year,,,,,
+seagrass epifauna,epifauna data,sample_collection_month,,,,,
+seagrass epifauna,epifauna data,sample_collection_day,,,,,
+seagrass epifauna,epifauna data,site_code,,,,,
+seagrass epifauna,epifauna data,location_name,,,,,
+seagrass epifauna,epifauna data,transect,,,,,
+seagrass epifauna,epifauna data,quadrat,,,,,
+seagrass epifauna,epifauna data,scientific_name,,,,,
+seagrass epifauna,epifauna data,identification_notes,,,,,
+seagrass epifauna,epifauna data,sample_processing_person,,,,,
+seagrass epifauna,epifauna data,8.0mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,5.6mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,4.0mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,2.8mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,2.0mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,1.4mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,1.0mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,0.71mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,0.5mm,"Count of individuals between Xmm and Ymm, where Y = the current sieve mesh size and X = the next largest sieve mesh size",integer,XXX,count,measurement
+seagrass epifauna,epifauna data,individuals_not_sieved,Count of individuals that were not sieved,integer,XXX,count,measurement
+seagrass epifauna,epifauna data,epifauna_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass macroalgae,sample metadata,sample_collection_year,,,,,
+seagrass macroalgae,sample metadata,sample_collection_month,,,,,
+seagrass macroalgae,sample metadata,sample_collection_day,,,,,
+seagrass macroalgae,sample metadata,site_code,,,,,
+seagrass macroalgae,sample metadata,location_name,,,,,
+seagrass macroalgae,sample metadata,transect,,,,,
+seagrass macroalgae,sample metadata,sample_processing_year,The date the sample was processed in the lab,date,YYYY-MM-DD,NA,
+seagrass macroalgae,sample metadata,sample_processing_month,,,,,
+seagrass macroalgae,sample metadata,sample_processing_day,,,,,
+seagrass macroalgae,sample metadata,data_collector,,,,,
+seagrass macroalgae,sample metadata,data_entry_person,,,,,
+seagrass macroalgae,sample metadata,sample_metadata_notes,,,,,
+seagrass macroalgae,sample data,sample_collection_year,,,,,
+seagrass macroalgae,sample data,sample_collection_month,,,,,
+seagrass macroalgae,sample data,sample_collection_day,,,,,
+seagrass macroalgae,sample data,site_code,,,,,
+seagrass macroalgae,sample data,location_name,,,,,
+seagrass macroalgae,sample data,transect,,,,,
+seagrass macroalgae,sample data,quadrat,,,,,
+seagrass macroalgae,sample data,macroalgae_id,"Provide the most accurate and feasible level of identification for this sample. Options include full scientific name (genus and species), a coarser taxonomic classification, or functional group.",text,NA,NA,
+seagrass macroalgae,sample data,sample_processing_person,,,,,
+seagrass macroalgae,sample data,tin_mass_macroalgae_g,"Mass of the empty tin to hold the macroalgae, in grams",integer,XX.XX,grams,measurement
+seagrass macroalgae,sample data,tin_and_macroalgae_dry_mass_g,"Mass of the empty tin and macroalgae that have been dried to a constant weight, in grams",integer,XX.XX,grams,measurement
+seagrass macroalgae,sample data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass shoots,sample metadata,sample_collection_year,,,,,
+seagrass shoots,sample metadata,sample_collection_month,,,,,
+seagrass shoots,sample metadata,sample_collection_day,,,,,
+seagrass shoots,sample metadata,site_code,,,,,
+seagrass shoots,sample metadata,location_name,,,,,
+seagrass shoots,sample metadata,transect,,,,,
+seagrass shoots,sample metadata,sample_processing_year,The date the sample was processed in the lab,date,YYYY-MM-DD,NA,
+seagrass shoots,sample metadata,sample_processing_month,,,,,
+seagrass shoots,sample metadata,sample_processing_day,,,,,
+seagrass shoots,sample metadata,data_collector,,,,,
+seagrass shoots,sample metadata,data_entry_person,,,,,
+seagrass shoots,sample metadata,sample_metadata_notes,,,,,
+seagrass shoots,blade measurement data,sample_collection_year,,,,,
+seagrass shoots,blade measurement data,sample_collection_month,,,,,
+seagrass shoots,blade measurement data,sample_collection_day,,,,,
+seagrass shoots,blade measurement data,site_code,,,,,
+seagrass shoots,blade measurement data,location_name,,,,,
+seagrass shoots,blade measurement data,transect,,,,,
+seagrass shoots,blade measurement data,quadrat,,,,,
+seagrass shoots,blade measurement data,scientific_name,,,,,
+seagrass shoots,blade measurement data,identification_notes,,,,,
+seagrass shoots,blade measurement data,sample_processing_person,,,,,
+seagrass shoots,blade measurement data,blade_rank,"Rank of the blade from youngest or innermost, to oldest. Use a integer scale starting at 1 for the youngest blade.",numeric,NA,NA,measurement
+seagrass shoots,blade measurement data,blade_length_mm,Blade length in millimeters,integer,XX,millimeters,measurement
+seagrass shoots,blade measurement data,blade_width_mm,Blade width in millimeters,integer,XX,millimeters,measurement
+seagrass shoots,blade measurement data,blade_measurement_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note
+seagrass shoots,sheath and epibiont data,sample_collection_year,,,,,
+seagrass shoots,sheath and epibiont data,sample_collection_month,,,,,
+seagrass shoots,sheath and epibiont data,sample_collection_day,,,,,
+seagrass shoots,sheath and epibiont data,site_code,,,,,
+seagrass shoots,sheath and epibiont data,location_name,,,,,
+seagrass shoots,sheath and epibiont data,transect,,,,,
+seagrass shoots,sheath and epibiont data,quadrat,,,,,
+seagrass shoots,sheath and epibiont data,scientific_name,,,,,
+seagrass shoots,sheath and epibiont data,identification_notes,,,,,
+seagrass shoots,sheath and epibiont data,sample_processing_person,,,,,
+seagrass shoots,sheath and epibiont data,sheath_length_mm,Sheath length in millimeters,integer,XX,millimeters,measurement
+seagrass shoots,sheath and epibiont data,number_grazing_scars,Number of grazing scars on seagrass blades,integer,XX,NA,measurement
+seagrass shoots,sheath and epibiont data,tin_mass_epibiont_g,"Mass of the empty tin to hold the epibionts, in grams",integer,XX.XX,grams,measurement
+seagrass shoots,sheath and epibiont data,tin_and_epibiont_dry_mass_g,"Mass of the empty tin and epibionts that have been dried to a constant weight, in grams",integer,XX.XX,grams,measurement
+seagrass shoots,sheath and epibiont data,tin_mass_blades_g,"Mass of the empty tin to hold the blades, in grams",integer,XX.XX,grams,measurement
+seagrass shoots,sheath and epibiont data,tin_and_blades_dry_mass_g,"Mass of the empty tin and blades that have been dried to a constant weight, in grams",integer,XX.XX,grams,measurement
+seagrass shoots,sheath and epibiont data,sheath_and_epibiont_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,NA,NA,note

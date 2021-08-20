@@ -1,7 +1,7 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 fouling community,sample metadata,site_code,,,,,
 fouling community,sample metadata,location_name,,,,,
-fouling community,sample metadata,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,
+fouling community,sample metadata,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,id
 fouling community,sample metadata,panel_deployment_year,The year the panel was deployed in the field,numeric,YYYY,,
 fouling community,sample metadata,panel_deployment_month,The month the panel was deployed in the field,numeric,MM,,
 fouling community,sample metadata,panel_deployment_day,The day the panel was deployed in the field,numeric,DD,,
@@ -14,18 +14,18 @@ fouling community,sample metadata,data_collector,,,,,
 fouling community,sample metadata,sample_metadata_notes,,,,,
 fouling community,biomass data,site_code,,,,,
 fouling community,biomass data,location_name,,,,,
-fouling community,biomass data,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,
+fouling community,biomass data,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,id
 fouling community,biomass data,sample_retrieval_year,,,,,
 fouling community,biomass data,sample_retrieval_month,,,,,
 fouling community,biomass data,sample_retrieval_day,,,,,
-fouling community,biomass data,panel_weight_predeployment_g,The average of several clean panel's weight taken prior to deployment,numeric,,grams,
-fouling community,biomass data,panel_wet_weight_g,The weight of the panel following retrieval,numeric,,grams,
-fouling community,biomass data,community_biomass_g,The weight of community biomass calculated by subtracting the average weight of the clean panels from the panel's wet weight,numeric,,grams,
+fouling community,biomass data,panel_weight_predeployment_g,The average of several clean panel's weight taken prior to deployment,numeric,,grams,measurement
+fouling community,biomass data,panel_wet_weight_g,The weight of the panel following retrieval,numeric,,grams,measurement
+fouling community,biomass data,community_biomass_g,The weight of community biomass calculated by subtracting the average weight of the clean panels from the panel's wet weight,numeric,,grams,measurement
 fouling community,biomass data,photo_filename,,,,,
-fouling community,biomass data,biomass_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+fouling community,biomass data,biomass_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 fouling community,sessile species data,site_code,,,,,
 fouling community,sessile species data,location_name,,,,,
-fouling community,sessile species data,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,
+fouling community,sessile species data,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,id
 fouling community,sessile species data,sample_retrieval_year,,,,,
 fouling community,sessile species data,sample_retrieval_month,,,,,
 fouling community,sessile species data,sample_retrieval_day,,,,,
@@ -33,28 +33,28 @@ fouling community,sessile species data,scientific_name,,,,,
 fouling community,sessile species data,identification_notes,,,,,
 fouling community,sessile species data,sample_processing_person,,,,,
 fouling community,sessile species data,photo_filename,,,,,
-fouling community,sessile species data,sessile_species_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+fouling community,sessile species data,sessile_species_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 fouling community,mobile fauna data,site_code,,,,,
 fouling community,mobile fauna data,location_name,,,,,
-fouling community,mobile fauna data,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,
+fouling community,mobile fauna data,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,id
 fouling community,mobile fauna data,sample_retrieval_year,,,,,
 fouling community,mobile fauna data,sample_retrieval_month,,,,,
 fouling community,mobile fauna data,sample_retrieval_day,,,,,
 fouling community,mobile fauna data,scientific_name,,,,,
 fouling community,mobile fauna data,identification_notes,,,,,
-fouling community,mobile fauna data,count,The number of individuals found per species on a panel,numeric,,,
+fouling community,mobile fauna data,count,The number of individuals found per species on a panel,numeric,,,measurement
 fouling community,mobile fauna data,sample_processing_person,,,,,
 fouling community,mobile fauna data,photo_filename,,,,,
-fouling community,mobile fauna data,mobile_fauna_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+fouling community,mobile fauna data,mobile_fauna_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 fouling community,percent cover,site_code,,,,,
 fouling community,percent cover,location_name,,,,,
-fouling community,percent cover,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,
+fouling community,percent cover,panel_id,"A unique ID assigned to each panel with the format ""locationname_cabletiecolor""",text,,,id
 fouling community,percent cover,sample_retrieval_year,,,,,
 fouling community,percent cover,sample_retrieval_month,,,,,
 fouling community,percent cover,sample_retrieval_day,,,,,
 fouling community,percent cover,scientific_name,,,,,
 fouling community,percent cover,identification_notes,,,,,
-fouling community,percent cover,point_count,"The number of points counted for a given species, sediment type, or open space. The count can exceed 100. See the ""Fouling Community Photo Analysis"" protocol for more information.",numeric,,,
+fouling community,percent cover,point_count,"The number of points counted for a given species, sediment type, or open space. The count can exceed 100. See the ""Fouling Community Photo Analysis"" protocol for more information.",numeric,,,measurement
 fouling community,percent cover,sample_processing_person,,,,,
 fouling community,percent cover,photo_filename,,,,,
-fouling community,percent cover,percent_cover_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+fouling community,percent cover,percent_cover_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note

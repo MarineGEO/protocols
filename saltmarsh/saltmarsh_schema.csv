@@ -1,4 +1,4 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Marsh Composition and Allometry,sample metadata,site_code,,,,,
 Marsh Composition and Allometry,sample metadata,location_name,,,,,
 Marsh Composition and Allometry,sample metadata,sample_collection_year,,,,,
@@ -16,8 +16,8 @@ Marsh Composition and Allometry,plant cover data,sample_collection_day,,,,,
 Marsh Composition and Allometry,plant cover data,quadrat,,,,,
 Marsh Composition and Allometry,plant cover data,scientific_name,,,,,
 Marsh Composition and Allometry,plant cover data,identification_notes,,,,,
-Marsh Composition and Allometry,plant cover data,cover_code,"The cover code of the species in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",text,,,
-Marsh Composition and Allometry,plant cover data,plant_cover_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,plant cover data,cover_code,"The cover code of the species in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",text,,,categorical
+Marsh Composition and Allometry,plant cover data,plant_cover_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Composition and Allometry,non-living cover data,site_code,,,,,
 Marsh Composition and Allometry,non-living cover data,location_name,,,,,
 Marsh Composition and Allometry,non-living cover data,transect,,,,,
@@ -25,14 +25,14 @@ Marsh Composition and Allometry,non-living cover data,sample_collection_year,,,,
 Marsh Composition and Allometry,non-living cover data,sample_collection_month,,,,,
 Marsh Composition and Allometry,non-living cover data,sample_collection_day,,,,,
 Marsh Composition and Allometry,non-living cover data,quadrat,,,,,
-Marsh Composition and Allometry,non-living cover data,bare_ground,"The cover code for bare ground in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",text,,,
-Marsh Composition and Allometry,non-living cover data,leaf_litter,"The cover code for leaf litter in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,
-Marsh Composition and Allometry,non-living cover data,standing_dead,"The cover code for standing dead in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,
-Marsh Composition and Allometry,non-living cover data,open_water,"The cover code for open water in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,
-Marsh Composition and Allometry,non-living cover data,wrack,"The cover code for wrack in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,
-Marsh Composition and Allometry,non-living cover data,physical_disturbance_Y_N,"Indicate whether a physical disturbance is present in the quadrat, ""Y"" or ""N""",text,Y/N,,
-Marsh Composition and Allometry,non-living cover data,physical_disturbance_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-Marsh Composition and Allometry,non-living cover data,non_living_cover_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,non-living cover data,bare_ground,"The cover code for bare ground in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",text,,,categorical
+Marsh Composition and Allometry,non-living cover data,leaf_litter,"The cover code for leaf litter in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,categorical
+Marsh Composition and Allometry,non-living cover data,standing_dead,"The cover code for standing dead in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,categorical
+Marsh Composition and Allometry,non-living cover data,open_water,"The cover code for open water in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,categorical
+Marsh Composition and Allometry,non-living cover data,wrack,"The cover code for wrack in the quadrat (""0"" = 0%, ""+"" = <1%) (""1"" = 1-5%) (""2"" = 5-25%) (""3"" = 25-50%) (""4"" = 50-75%) (""5"" = 75-100%)",numeric,,,categorical
+Marsh Composition and Allometry,non-living cover data,physical_disturbance_Y_N,"Indicate whether a physical disturbance is present in the quadrat, ""Y"" or ""N""",text,Y/N,,categorical
+Marsh Composition and Allometry,non-living cover data,physical_disturbance_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
+Marsh Composition and Allometry,non-living cover data,non_living_cover_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Composition and Allometry,allometry - stem count,site_code,,,,,
 Marsh Composition and Allometry,allometry - stem count,location_name,,,,,
 Marsh Composition and Allometry,allometry - stem count,transect,,,,,
@@ -40,12 +40,12 @@ Marsh Composition and Allometry,allometry - stem count,sample_collection_year,,,
 Marsh Composition and Allometry,allometry - stem count,sample_collection_month,,,,,
 Marsh Composition and Allometry,allometry - stem count,sample_collection_day,,,,,
 Marsh Composition and Allometry,allometry - stem count,quadrat,,,,,
-Marsh Composition and Allometry,allometry - stem count,quadrat_section,Optional; indicate the quadrat section associated with the sample (1 or 2),numeric,2-Jan,,
+Marsh Composition and Allometry,allometry - stem count,quadrat_section,Optional; indicate the quadrat section associated with the sample (1 or 2),numeric,2-Jan,,categorical
 Marsh Composition and Allometry,allometry - stem count,scientific_name,,,,,
 Marsh Composition and Allometry,allometry - stem count,identification_notes,,,,,
-Marsh Composition and Allometry,allometry - stem count,stem_count,The count of stems for each species in the quadrat,numeric,,,
-Marsh Composition and Allometry,allometry - stem count,high_abundance_method,"Indicate if the method for highly abundant plants is used for this sample with ""Y"". See the protocol for more information. Optional if the method is not used",text,Y/N,,
-Marsh Composition and Allometry,allometry - stem count,allometry_stem_count_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,allometry - stem count,stem_count,The count of stems for each species in the quadrat,numeric,,,measurement
+Marsh Composition and Allometry,allometry - stem count,high_abundance_method,"Indicate if the method for highly abundant plants is used for this sample with ""Y"". See the protocol for more information. Optional if the method is not used",text,Y/N,,categorical
+Marsh Composition and Allometry,allometry - stem count,allometry_stem_count_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Composition and Allometry,allometry - stem measurements,site_code,,,,,
 Marsh Composition and Allometry,allometry - stem measurements,location_name,,,,,
 Marsh Composition and Allometry,allometry - stem measurements,transect,,,,,
@@ -55,11 +55,11 @@ Marsh Composition and Allometry,allometry - stem measurements,sample_collection_
 Marsh Composition and Allometry,allometry - stem measurements,quadrat,,,,,
 Marsh Composition and Allometry,allometry - stem measurements,scientific_name,,,,,
 Marsh Composition and Allometry,allometry - stem measurements,identification_notes,,,,,
-Marsh Composition and Allometry,allometry - stem measurements,stem_number,"Optional; use a numeric identifier for the eight individuals measured for each species in the quadrat (1, 2, 3, 4, 5, 6, 7, 8)",numeric,,,
-Marsh Composition and Allometry,allometry - stem measurements,stem_height_cm,The height of the stem in centimeters,numeric,,centimeters,
-Marsh Composition and Allometry,allometry - stem measurements,stem_diameter_base,"The measured diameter of the stem at the base of the plant, in millimeters",numeric,,millimeters,
-Marsh Composition and Allometry,allometry - stem measurements,stem_diameter_40cm,"The measured diameter of the stem  40 cm above the ground, in millimeters",numeric,,millimeters,
-Marsh Composition and Allometry,allometry - stem measurements,allometry_stem_measurements_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,allometry - stem measurements,stem_number,"Optional; use a numeric identifier for the eight individuals measured for each species in the quadrat (1, 2, 3, 4, 5, 6, 7, 8)",numeric,,,id
+Marsh Composition and Allometry,allometry - stem measurements,stem_height_cm,The height of the stem in centimeters,numeric,,centimeters,measurement
+Marsh Composition and Allometry,allometry - stem measurements,stem_diameter_base,"The measured diameter of the stem at the base of the plant, in millimeters",numeric,,millimeters,measurement
+Marsh Composition and Allometry,allometry - stem measurements,stem_diameter_40cm,"The measured diameter of the stem  40 cm above the ground, in millimeters",numeric,,millimeters,measurement
+Marsh Composition and Allometry,allometry - stem measurements,allometry_stem_measurements_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Composition and Allometry,shrub count per quadrat,site_code,,,,,
 Marsh Composition and Allometry,shrub count per quadrat,location_name,,,,,
 Marsh Composition and Allometry,shrub count per quadrat,transect,,,,,
@@ -69,8 +69,8 @@ Marsh Composition and Allometry,shrub count per quadrat,sample_collection_day,,,
 Marsh Composition and Allometry,shrub count per quadrat,quadrat,,,,,
 Marsh Composition and Allometry,shrub count per quadrat,scientific_name,,,,,
 Marsh Composition and Allometry,shrub count per quadrat,identification_notes,,,,,
-Marsh Composition and Allometry,shrub count per quadrat,shrub_count,The count of shrubs in each quadrat,numeric,,,
-Marsh Composition and Allometry,shrub count per quadrat,shrub_count_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,shrub count per quadrat,shrub_count,The count of shrubs in each quadrat,numeric,,,measurement
+Marsh Composition and Allometry,shrub count per quadrat,shrub_count_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Composition and Allometry,shrub dimensions and stem count,site_code,,,,,
 Marsh Composition and Allometry,shrub dimensions and stem count,location_name,,,,,
 Marsh Composition and Allometry,shrub dimensions and stem count,transect,,,,,
@@ -80,13 +80,13 @@ Marsh Composition and Allometry,shrub dimensions and stem count,sample_collectio
 Marsh Composition and Allometry,shrub dimensions and stem count,quadrat,,,,,
 Marsh Composition and Allometry,shrub dimensions and stem count,scientific_name,,,,,
 Marsh Composition and Allometry,shrub dimensions and stem count,identification_notes,,,,,
-Marsh Composition and Allometry,shrub dimensions and stem count,bush_id,An numeric identifier for each shrub measured in the quadrat,numeric,,,
-Marsh Composition and Allometry,shrub dimensions and stem count,stem_count_alive,The count of alive stems for the sampled bush,numeric,,,
-Marsh Composition and Allometry,shrub dimensions and stem count,stem_count_dead,The count of dead stems for the sampled bush,numeric,,,
-Marsh Composition and Allometry,shrub dimensions and stem count,height_cm,The height of the shrub in centimeters,numeric,,centimeters,
-Marsh Composition and Allometry,shrub dimensions and stem count,dimension_x_cm,The x dimension of the shrub in centimeters,numeric,,centimeters,
-Marsh Composition and Allometry,shrub dimensions and stem count,dimension_y_cm,The y dimension of the shrub in centimeters,numeric,,centimeters,
-Marsh Composition and Allometry,shrub dimensions and stem count,shrub_dimensions_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,shrub dimensions and stem count,bush_id,An numeric identifier for each shrub measured in the quadrat,numeric,,,id
+Marsh Composition and Allometry,shrub dimensions and stem count,stem_count_alive,The count of alive stems for the sampled bush,numeric,,,measurement
+Marsh Composition and Allometry,shrub dimensions and stem count,stem_count_dead,The count of dead stems for the sampled bush,numeric,,,measurement
+Marsh Composition and Allometry,shrub dimensions and stem count,height_cm,The height of the shrub in centimeters,numeric,,centimeters,measurement
+Marsh Composition and Allometry,shrub dimensions and stem count,dimension_x_cm,The x dimension of the shrub in centimeters,numeric,,centimeters,measurement
+Marsh Composition and Allometry,shrub dimensions and stem count,dimension_y_cm,The y dimension of the shrub in centimeters,numeric,,centimeters,measurement
+Marsh Composition and Allometry,shrub dimensions and stem count,shrub_dimensions_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Composition and Allometry,shrub stem measurements,site_code,,,,,
 Marsh Composition and Allometry,shrub stem measurements,location_name,,,,,
 Marsh Composition and Allometry,shrub stem measurements,transect,,,,,
@@ -96,11 +96,11 @@ Marsh Composition and Allometry,shrub stem measurements,sample_collection_day,,,
 Marsh Composition and Allometry,shrub stem measurements,quadrat,,,,,
 Marsh Composition and Allometry,shrub stem measurements,scientific_name,,,,,
 Marsh Composition and Allometry,shrub stem measurements,identification_notes,,,,,
-Marsh Composition and Allometry,shrub stem measurements,bush_id,An numeric identifier for each shrub measured in the quadrat,numeric,,,
-Marsh Composition and Allometry,shrub stem measurements,stem_number,"Optional; use a numeric identifier for the six stems measured per shrub (1, 2, 3, 4, 5, 6)",numeric,,,
-Marsh Composition and Allometry,shrub stem measurements,stem_diameter_mm,The measured diameter of the stem in mm,numeric,,millimeters,
-Marsh Composition and Allometry,shrub stem measurements,alive_or_dead,"Indicate whether the stem count refers to ""alive"" or ""dead"" stems.",text,alive/dead,,
-Marsh Composition and Allometry,shrub stem measurements,shrub_stem_measurements_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Composition and Allometry,shrub stem measurements,bush_id,An numeric identifier for each shrub measured in the quadrat,numeric,,,id
+Marsh Composition and Allometry,shrub stem measurements,stem_number,"Optional; use a numeric identifier for the six stems measured per shrub (1, 2, 3, 4, 5, 6)",numeric,,,id
+Marsh Composition and Allometry,shrub stem measurements,stem_diameter_mm,The measured diameter of the stem in mm,numeric,,millimeters,measurement
+Marsh Composition and Allometry,shrub stem measurements,alive_or_dead,"Indicate whether the stem count refers to ""alive"" or ""dead"" stems.",text,alive/dead,,categorical
+Marsh Composition and Allometry,shrub stem measurements,shrub_stem_measurements_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Fauna,sample metadata,site_code,,,,,
 Marsh Fauna,sample metadata,location_name,,,,,
 Marsh Fauna,sample metadata,sample_collection_year,,,,,
@@ -118,8 +118,8 @@ Marsh Fauna,epifauna abundance,sample_collection_day,,,,,
 Marsh Fauna,epifauna abundance,quadrat,,,,,
 Marsh Fauna,epifauna abundance,scientific_name,,,,,
 Marsh Fauna,epifauna abundance,identification_notes,,,,,
-Marsh Fauna,epifauna abundance,count,The count of each epifauna species in the quadrat,numeric,,,
-Marsh Fauna,epifauna abundance,epifauna_abundance_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Fauna,epifauna abundance,count,The count of each epifauna species in the quadrat,numeric,,,measurement
+Marsh Fauna,epifauna abundance,epifauna_abundance_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Fauna,crab burrow count,site_code,,,,,
 Marsh Fauna,crab burrow count,location_name,,,,,
 Marsh Fauna,crab burrow count,transect,,,,,
@@ -127,8 +127,8 @@ Marsh Fauna,crab burrow count,sample_collection_year,,,,,
 Marsh Fauna,crab burrow count,sample_collection_month,,,,,
 Marsh Fauna,crab burrow count,sample_collection_day,,,,,
 Marsh Fauna,crab burrow count,quadrat,,,,,
-Marsh Fauna,crab burrow count,crab_burrow_count,The count of crab burrows in the quadrat,numeric,,,
-Marsh Fauna,crab burrow count,crab_burrow_counts_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Fauna,crab burrow count,crab_burrow_count,The count of crab burrows in the quadrat,numeric,,,measurement
+Marsh Fauna,crab burrow count,crab_burrow_counts_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Fauna,epifauna measurements,site_code,,,,,
 Marsh Fauna,epifauna measurements,location_name,,,,,
 Marsh Fauna,epifauna measurements,transect,,,,,
@@ -138,10 +138,10 @@ Marsh Fauna,epifauna measurements,sample_collection_day,,,,,
 Marsh Fauna,epifauna measurements,quadrat,,,,,
 Marsh Fauna,epifauna measurements,scientific_name,,,,,
 Marsh Fauna,epifauna measurements,identification_notes,,,,,
-Marsh Fauna,epifauna measurements,sample_id,"Optional; use a numeric identifier for each sample measured (e.g. 1, 2, 3, etc.). Remember to only provide the measurements for the first 25 individuals per species in the quadrat",numeric,,,
-Marsh Fauna,epifauna measurements,total_length_mm,"The total length of the bivalve or shelled gastropod, in millimeters",numeric,,millimeters,
-Marsh Fauna,epifauna measurements,carapace_width_mm,"The measured carapace width for crabs ONLY, in mm",numeric,,millimeters,
-Marsh Fauna,epifauna measurements,epifauna_measurements_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Marsh Fauna,epifauna measurements,sample_id,"Optional; use a numeric identifier for each sample measured (e.g. 1, 2, 3, etc.). Remember to only provide the measurements for the first 25 individuals per species in the quadrat",numeric,,,id
+Marsh Fauna,epifauna measurements,total_length_mm,"The total length of the bivalve or shelled gastropod, in millimeters",numeric,,millimeters,measurement
+Marsh Fauna,epifauna measurements,carapace_width_mm,"The measured carapace width for crabs ONLY, in mm",numeric,,millimeters,measurement
+Marsh Fauna,epifauna measurements,epifauna_measurements_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Marsh Fauna,infauna lab data,site_code,,,,,
 Marsh Fauna,infauna lab data,location_name,,,,,
 Marsh Fauna,infauna lab data,transect,,,,,
@@ -154,5 +154,5 @@ Marsh Fauna,infauna lab data,sample_processing_day,,,,,
 Marsh Fauna,infauna lab data,quadrat,,,,,
 Marsh Fauna,infauna lab data,scientific_name,,,,,
 Marsh Fauna,infauna lab data,identification_notes,,,,,
-Marsh Fauna,infauna lab data,count,The count of each species in the sample,numeric,,,
-Marsh Fauna,infauna lab data,infauna_lab_notes,"Any additional notes regarding observations, context, or concerns about the data.",,,,
+Marsh Fauna,infauna lab data,count,The count of each species in the sample,numeric,,,measurement
+Marsh Fauna,infauna lab data,infauna_lab_notes,"Any additional notes regarding observations, context, or concerns about the data.",,,,note

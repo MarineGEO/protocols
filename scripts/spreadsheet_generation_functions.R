@@ -14,7 +14,7 @@ generateSpreadsheets <- function(schema, protocol_filename){
     
     glossary_raw <- schema %>%
       filter(protocol_name == protocol) %>%
-      select(-protocol_name, -field_sheet_notes) 
+      select(-protocol_name) 
     
     full_dictionary <- glossary_raw %>%
       filter(!field_name %in% metadata_definitions$field_name) %>%
@@ -27,7 +27,9 @@ generateSpreadsheets <- function(schema, protocol_filename){
       summarize(table_name_summary = paste(sheet_name, collapse = ", ")) %>%
       arrange(field_name) 
     
-    final_glossary <- merge(organize_glossary, full_dictionary, by="field_name", all.x=T, all.y=F) %>%
+    final_glossary_full_cols <- merge(organize_glossary, full_dictionary, by="field_name", all.x=T, all.y=F) 
+    
+    final_glossary <- final_glossary_full_cols %>%
       select(field_name, definition, field_type, format_text, unit, table_name_summary) 
     
     writeData(wb, sheet = 1, x = toupper(protocol), xy = c(2,1))
@@ -104,10 +106,19 @@ generateSpreadsheets <- function(schema, protocol_filename){
   marinegeo_schemas <- read_csv("./resources/marinegeo_schemas.csv")
   
   if(!doi %in% marinegeo_schemas$version){
-    marinegeo_schemas <- schema %>%
-      mutate(version = doi) %>%
-      bind_rows(marinegeo_schemas)
     
-    write_csv(marinegeo_schemas, "./resources/marinegeo_survey_schemas.csv")
+    column_metadata <- c("definition", "field_type", "format_text", "unit", "variable_type")
+    
+    definitions <- final_glossary_full_cols %>%
+      select(field_name, all_of(column_metadata)) 
+    
+    schema_modified <- schema %>%
+      select(-all_of(column_metadata)) %>%
+      left_join(definitions, by="field_name") %>%
+      mutate(version = doi) %>%
+      select(protocol_name, sheet_name, field_name, definition, variable_type, field_type, format_text, unit, version) %>%
+      bind_rows(marinegeo_schemas) 
+    
+    write_csv(schema_modified, "./resources/marinegeo_schemas.csv")
   }
 }

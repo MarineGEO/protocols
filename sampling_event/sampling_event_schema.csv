@@ -1,32 +1,32 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Sampling Event Protocol,site metadata,site_code,,,,,
 Sampling Event Protocol,site metadata,location_name,,,,,
 Sampling Event Protocol,site metadata,sample_collection_year,,,,,
 Sampling Event Protocol,site metadata,sample_collection_month,,,,,
 Sampling Event Protocol,site metadata,sample_collection_day,,,,,
-Sampling Event Protocol,site metadata,visibility_m,Site visibility in meters,,,meters,
-Sampling Event Protocol,site metadata,habitat_type,"The habitat type of the site location, such as ""seagrass"", ""coral reef"", ""oyster reef"", ""rocky reef"", ""mangrove""",text,,,
-Sampling Event Protocol,site metadata,temperature_c,"Temperature, measured with a probe or sonde, in degrees Celsius",numeric,,,
-Sampling Event Protocol,site metadata,salinity_ppt,"Salinity, measured with a probe, sonde, or refractometer, in parts per thousand",numeric,,,
-Sampling Event Protocol,site metadata,dissolved_oxygen,Dissolved oxygen measured by a sonde or probe,numeric,,,
-Sampling Event Protocol,site metadata,dissolved_oxygen_unit,Unit associated with dissolved oxygen,text,,,
-Sampling Event Protocol,site metadata,sample_event_personnel,Person(s) participatating in sampling event. Separate multiple names with a comma,text,,,
+Sampling Event Protocol,site metadata,visibility_m,Site visibility in meters,,,meters,measurement
+Sampling Event Protocol,site metadata,habitat_type,"The habitat type of the site location, such as ""seagrass"", ""coral reef"", ""oyster reef"", ""rocky reef"", ""mangrove""",text,,,categorical
+Sampling Event Protocol,site metadata,temperature_c,"Temperature, measured with a probe or sonde, in degrees Celsius",numeric,,,measurement
+Sampling Event Protocol,site metadata,salinity_ppt,"Salinity, measured with a probe, sonde, or refractometer, in parts per thousand",numeric,,,measurement
+Sampling Event Protocol,site metadata,dissolved_oxygen,Dissolved oxygen measured by a sonde or probe,numeric,,,measurement
+Sampling Event Protocol,site metadata,dissolved_oxygen_unit,Unit associated with dissolved oxygen,text,,,categorical
+Sampling Event Protocol,site metadata,sample_event_personnel,Person(s) participatating in sampling event. Separate multiple names with a comma,text,,,pii
 Sampling Event Protocol,site metadata,photo_filename,,,,,
-Sampling Event Protocol,site metadata,photo_location,"The location where the photograph was captured, either as a latitude and longitude in decimal degrees or as a short text description, e.g. “start of transect 2”",,,,
-Sampling Event Protocol,site metadata,photo_direction,"The direction of the camera when the image is captured, in degrees (0-359)",numeric,,,
-Sampling Event Protocol,site metadata,camera_used,The model or type of camera used to capture the site photograph,text,,,
-Sampling Event Protocol,site metadata,photographer,Person who captured the site photograph,text,,,
-Sampling Event Protocol,site metadata,site_notes,"Any additional notes regarding observations, context, or concerns about the site location",text,,,
+Sampling Event Protocol,site metadata,photo_location,"The location where the photograph was captured, either as a latitude and longitude in decimal degrees or as a short text description, e.g. “start of transect 2”",text,,,
+Sampling Event Protocol,site metadata,photo_direction,"The direction of the camera when the image is captured, in degrees (0-359)",numeric,,,categorical
+Sampling Event Protocol,site metadata,camera_used,The model or type of camera used to capture the site photograph,text,,,categorical
+Sampling Event Protocol,site metadata,photographer,Person who captured the site photograph,text,,,pii
+Sampling Event Protocol,site metadata,site_notes,"Any additional notes regarding observations, context, or concerns about the site location",text,,,note
 Sampling Event Protocol,logger deployment,site_code,,,,,
 Sampling Event Protocol,logger deployment,location_name,,,,,
 Sampling Event Protocol,logger deployment,sample_collection_year,,,,,
 Sampling Event Protocol,logger deployment,sample_collection_month,,,,,
 Sampling Event Protocol,logger deployment,sample_collection_day,,,,,
-Sampling Event Protocol,logger deployment,logger_identifier,"A unique identifier assigned to each logger using the EnvLogger application. View the ""Sampling Event Protocol"" for instructions on creating IDs",text,,,
-Sampling Event Protocol,logger deployment,logger_serial_number,The serial number associated with the logger. It can be viewed using the EnvLogger application. ,text,,,
-Sampling Event Protocol,logger deployment,logger_depth,The depth at which the logger is deployed,numeric,,meters,
+Sampling Event Protocol,logger deployment,logger_identifier,"A unique identifier assigned to each logger using the EnvLogger application. View the ""Sampling Event Protocol"" for instructions on creating IDs",text,,,id
+Sampling Event Protocol,logger deployment,logger_serial_number,The serial number associated with the logger. It can be viewed using the EnvLogger application. ,text,,,id
+Sampling Event Protocol,logger deployment,logger_depth,The depth at which the logger is deployed,numeric,,meters,measurement
 Sampling Event Protocol,logger deployment,deployment_location,"The location of the logger at a sit, either as a latitude and longitude in decimal degrees or as a short text description, e.g. “start of transect 2”",text,,,
-Sampling Event Protocol,logger deployment,logger_deployment_notes,"Any additional notes regarding observations, context, or concerns about the logger deployment",text,,,
+Sampling Event Protocol,logger deployment,logger_deployment_notes,"Any additional notes regarding observations, context, or concerns about the logger deployment",text,,,note
 Sampling Event Protocol,transect metadata,site_code,,,,,
 Sampling Event Protocol,transect metadata,location_name,,,,,
 Sampling Event Protocol,transect metadata,transect,,,,,
@@ -39,4 +39,4 @@ Sampling Event Protocol,transect metadata,transect_end_decimal_latitude,,,,,
 Sampling Event Protocol,transect metadata,transect_end_decimal_longitude,,,,,
 Sampling Event Protocol,transect metadata,depth_min_m,,,,,
 Sampling Event Protocol,transect metadata,depth_max_m,,,,,
-Sampling Event Protocol,transect metadata,transect_notes,"Any additional notes regarding observations, context, or concerns about the transect",text,,,
+Sampling Event Protocol,transect metadata,transect_notes,"Any additional notes regarding observations, context, or concerns about the transect",text,,,note

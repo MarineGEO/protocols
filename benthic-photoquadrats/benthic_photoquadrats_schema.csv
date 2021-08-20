@@ -1,4 +1,4 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Benthic Photoquadrats,sample metadata,site_code,,,,,
 Benthic Photoquadrats,sample metadata,location_name,,,,,
 Benthic Photoquadrats,sample metadata,transect,,,,,
@@ -6,6 +6,6 @@ Benthic Photoquadrats,sample metadata,sample_collection_year,,,,,
 Benthic Photoquadrats,sample metadata,sample_collection_month,,,,,
 Benthic Photoquadrats,sample metadata,sample_collection_day,,,,,
 Benthic Photoquadrats,sample metadata,photo_filename,,,,,
-Benthic Photoquadrats,sample metadata,meter_number,The meter along the transect at which the photo was taken,numeric,,meter,
-Benthic Photoquadrats,sample metadata,data_collector,The individual who conducted the survey for this transect,text,,,
-Benthic Photoquadrats,sample metadata,photoquadrat_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Benthic Photoquadrats,sample metadata,meter_number,The meter along the transect at which the photo was taken,numeric,,meter,measurement
+Benthic Photoquadrats,sample metadata,data_collector,The individual who conducted the survey for this transect,text,,,pii
+Benthic Photoquadrats,sample metadata,photoquadrat_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note

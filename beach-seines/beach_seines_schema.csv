@@ -1,14 +1,14 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Beach Seines,sample metadata,site_code,,,,,
 Beach Seines,sample metadata,location_name,,,,,
 Beach Seines,sample metadata,transect,,,,,
 Beach Seines,sample metadata,sample_collection_year,,,,,
 Beach Seines,sample metadata,sample_collection_month,,,,,
 Beach Seines,sample metadata,sample_collection_day,,,,,
-Beach Seines,sample metadata,seine_mesh_size_mm,"The mesh size on the beach seine, in millimeters",numeric,,millimeters,
-Beach Seines,sample metadata,seine_width_m,"The width of the beach seine, in meters",numeric,,meters,
-Beach Seines,sample metadata,seine_height_m,"The height of the beach seine, in meters",numeric,,meters,
-Beach Seines,sample metadata,seine_distance_m,"The distance towed along the transect, in meters (may or may not be 50 m)",numeric,,meters,
+Beach Seines,sample metadata,seine_mesh_size_mm,"The mesh size on the beach seine, in millimeters",numeric,,millimeters,measurement
+Beach Seines,sample metadata,seine_width_m,"The width of the beach seine, in meters",numeric,,meters,measurement
+Beach Seines,sample metadata,seine_height_m,"The height of the beach seine, in meters",numeric,,meters,measurement
+Beach Seines,sample metadata,seine_distance_m,"The distance towed along the transect, in meters (may or may not be 50 m)",numeric,,meters,measurement
 Beach Seines,sample metadata,data_collector,,,,,
 Beach Seines,sample metadata,data_entry_person,,,,,
 Beach Seines,sample metadata,sample_metadata_notes,,,,,
@@ -20,8 +20,8 @@ Beach Seines,abundance data,sample_collection_month,,,,,
 Beach Seines,abundance data,sample_collection_day,,,,,
 Beach Seines,abundance data,scientific_name,,,,,
 Beach Seines,abundance data,identification_notes,,,,,
-Beach Seines,abundance data,abundance,Total abundance of each fish taxon.,numeric,,,
-Beach Seines,abundance data,abundance_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Beach Seines,abundance data,abundance,Total abundance of each fish taxon.,numeric,,,measurement
+Beach Seines,abundance data,abundance_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
 Beach Seines,length data,site_code,,,,,
 Beach Seines,length data,location_name,,,,,
 Beach Seines,length data,transect,,,,,
@@ -30,5 +30,5 @@ Beach Seines,length data,sample_collection_month,,,,,
 Beach Seines,length data,sample_collection_day,,,,,
 Beach Seines,length data,scientific_name,,,,,
 Beach Seines,length data,identification_notes,,,,,
-Beach Seines,length data,length_mm,"Length, in millimeters, of the first 20 individuals per taxon. Each cell should contain only one length measurement.",numeric,,Millimeters,
-Beach Seines,length data,length_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Beach Seines,length data,length_mm,"Length, in millimeters, of the first 20 individuals per taxon. Each cell should contain only one length measurement.",numeric,,Millimeters,measurement
+Beach Seines,length data,length_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note

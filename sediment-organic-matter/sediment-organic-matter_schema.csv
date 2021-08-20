@@ -1,4 +1,4 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 Sediment Organic Matter,sample_metadata,site_code,,,,,
 Sediment Organic Matter,sample_metadata,location_name,,,,,
 Sediment Organic Matter,sample_metadata,transect,,,,,
@@ -15,9 +15,9 @@ Sediment Organic Matter,sample_data,quadrat,,,,,
 Sediment Organic Matter,sample_data,sample_processing_year,,,,,
 Sediment Organic Matter,sample_data,sample_processing_month,,,,,
 Sediment Organic Matter,sample_data,sample_processing_day,,,,,
-Sediment Organic Matter,sample_data,tin_mass_g,"Empty tin mass, in grams.",decimal,XX.XX,grams,
-Sediment Organic Matter,sample_data,sediment_volume_ml,"Sediment volume, in milliliters.",decimal,XX.XX,milliliters,
-Sediment Organic Matter,sample_data,tin_and_sediment_dry_mass_g,Mass of the tin and sediment after drying to a constant weight.,decimal,XX.XX,grams,
-Sediment Organic Matter,sample_data,tin_and_sediment_ash_free_dry_mass_g,Mass of the tin and ass free sediment after placing in a muffle furnace.,decimal,XX.XX,grams,
+Sediment Organic Matter,sample_data,tin_mass_g,"Empty tin mass, in grams.",decimal,XX.XX,grams,measurement
+Sediment Organic Matter,sample_data,sediment_volume_ml,"Sediment volume, in milliliters.",decimal,XX.XX,milliliters,measurement
+Sediment Organic Matter,sample_data,tin_and_sediment_dry_mass_g,Mass of the tin and sediment after drying to a constant weight.,decimal,XX.XX,grams,measurement
+Sediment Organic Matter,sample_data,tin_and_sediment_ash_free_dry_mass_g,Mass of the tin and ass free sediment after placing in a muffle furnace.,decimal,XX.XX,grams,measurement
 Sediment Organic Matter,sample_data,sample_processing_person,,,,,
-Sediment Organic Matter,sample_data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+Sediment Organic Matter,sample_data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note

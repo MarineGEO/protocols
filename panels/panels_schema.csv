@@ -1,4 +1,4 @@
-﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,field_sheet_notes
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
 PANELS,site metadata,site_code,,,,,
 PANELS,site metadata,location_name,,,,,
 PANELS,site metadata,panel_deployment_year,The year the panel was deployed in the field,text,,,
@@ -7,37 +7,37 @@ PANELS,site metadata,panel_deployment_day,The day the panel was collected in the
 PANELS,site metadata,sample_retrieval_year,,,,,
 PANELS,site metadata,sample_retrieval_month,,,,,
 PANELS,site metadata,sample_retrieval_day,,,,,
-PANELS,site metadata,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,
+PANELS,site metadata,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,id
 PANELS,site metadata,decimal_latitude,"Latitude of the site location, in decimal degrees (to five decimal places)",numeric,xx.xxxxx,,
 PANELS,site metadata,decimal_longitude,"Longitude of the site location, in decimal degrees (to five decimal places)",numeric,xxx.xxxxx,,
-PANELS,site metadata,salinity_ppt,"Salinity, measured with a probe, sonde, or refractometer, in parts per thousand",numeric,,,
-PANELS,site metadata,salinity_method,"Method used to measure salinity, such as ""YSI probe"" or ""refractometer""",text,,,
-PANELS,site metadata,dissolved_oxygen,Dissolved oxygen measured by a sonde or probe,numeric,,,
-PANELS,site metadata,dissolved_oxygen_unit,Unit associated with dissolved oxygen,text,,,
-PANELS,site metadata,dissolved_oxygen_method,"Method used to measure salinity, such as ""YSI probe""",text,,,
-PANELS,site metadata,site_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-PANELS,topdown photos,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,
-PANELS,topdown photos,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,
+PANELS,site metadata,salinity_ppt,"Salinity, measured with a probe, sonde, or refractometer, in parts per thousand",numeric,,,measurement
+PANELS,site metadata,salinity_method,"Method used to measure salinity, such as ""YSI probe"" or ""refractometer""",text,,,categorical
+PANELS,site metadata,dissolved_oxygen,Dissolved oxygen measured by a sonde or probe,numeric,,,measurement
+PANELS,site metadata,dissolved_oxygen_unit,Unit associated with dissolved oxygen,text,,,categorical
+PANELS,site metadata,dissolved_oxygen_method,"Method used to measure salinity, such as ""YSI probe""",text,,,categorical
+PANELS,site metadata,site_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
+PANELS,topdown photos,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,id
+PANELS,topdown photos,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,id
 PANELS,topdown photos,photo_filename,,,,,
-PANELS,topdown photos,topdown_photos_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-PANELS,3D photos,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,
-PANELS,3D photos,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,
+PANELS,topdown photos,topdown_photos_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
+PANELS,3D photos,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,id
+PANELS,3D photos,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,id
 PANELS,3D photos,jpg_range,The range of numbers associated with the images taken for generating the 3D model. See the protocol for more information.,text,,,
-PANELS,3D photos,3d_photos_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-PANELS,eDNA,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,
-PANELS,eDNA,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,
+PANELS,3D photos,3d_photos_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
+PANELS,eDNA,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,id
+PANELS,eDNA,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,id
 PANELS,eDNA,jonah_ventures_code,The code printed on the foil packet included with the eDNA kit.,text,,,
-PANELS,eDNA,eDNA_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-PANELS,wet mass,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,
-PANELS,wet mass,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,
-PANELS,wet mass,container_weight_g,The weight of the container prior to adding the sample,numeric,,,
-PANELS,wet mass,container_and_community_weight_g,The total weight of the community sample and the container,numeric,,,
-PANELS,wet mass,community_wet_weight_g,The total wet mass of the entire community that was scrapped off of the panel,numeric,,,
-PANELS,wet mass,wet_mass_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
-PANELS,species list,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,
-PANELS,species list,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,
+PANELS,eDNA,eDNA_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
+PANELS,wet mass,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,id
+PANELS,wet mass,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,id
+PANELS,wet mass,container_weight_g,The weight of the container prior to adding the sample,numeric,,,measurement
+PANELS,wet mass,container_and_community_weight_g,The total weight of the community sample and the container,numeric,,,measurement
+PANELS,wet mass,community_wet_weight_g,The total wet mass of the entire community that was scrapped off of the panel,numeric,,,measurement
+PANELS,wet mass,wet_mass_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
+PANELS,species list,community_age,"The age of the community at retrieval time, either 30, 60, or 90 days",numeric,,,id
+PANELS,species list,panel_id,"A unique ID assigned to each panel with the format ""year_site-code_age_replicate"" (ex. 2021_USA-MDA_30d_01). Type ""control"" as the panel ID on the eDNA sheet for samples without a panel ID. If you have deployments at multiple locations, include a unique location abbreviation after the site code (year_site-code-location_age_replicate) and indicate the full location name in the ""location_name"" column of the site metadata sheet.",text,,,id
 PANELS,species list,scientific_name,,,,,
 PANELS,species list,identification_notes,,,,,
 PANELS,species list,sample_processing_person,,,,,
 PANELS,species list,photo_filename,,,,,
-PANELS,species list,species_list_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,
+PANELS,species list,species_list_notes,"Any additional notes regarding observations, context, or concerns about the data.",text,,,note
