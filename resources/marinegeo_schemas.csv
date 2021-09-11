@@ -802,3 +802,53 @@ Beach Seines,length data,scientific_name,"Scientific name using standard scienti
 Beach Seines,length data,identification_notes,"Any additional notes regarding observations, context, or concerns about the data.",note,text,NA,NA,10.25573/serc.14925105.v1
 Beach Seines,length data,length_mm,"Length, in millimeters, of the first 20 individuals per taxon. Each cell should contain only one length measurement.",measurement,numeric,NA,Millimeters,10.25573/serc.14925105.v1
 Beach Seines,length data,length_notes,"Any additional notes regarding observations, context, or concerns about the data.",note,text,NA,NA,10.25573/serc.14925105.v1
+SED-BIOME,transect_metadata,site_number,Enter the number of your site. Site numbers can be found in the map that you received in the package or on the MarineGEO protocol website: https://marinegeo.github.io/projects/sed-biome,id,integer,,,SED-BIOME
+SED-BIOME,transect_metadata,country,,categorical,,,,SED-BIOME
+SED-BIOME,transect_metadata,city,,categorical,,,,SED-BIOME
+SED-BIOME,transect_metadata,transect_begin_decimal_latitude,"Latitude of the transect beginning, in decimal degrees (to five decimal places)",measurement,numeric,xx.xxxxx,,SED-BIOME
+SED-BIOME,transect_metadata,transect_begin_decimal_longitude,"Longitude of the transect beginning, in decimal degrees (to five decimal places)",measurement,numeric,xxx.xxxxx,,SED-BIOME
+SED-BIOME,transect_metadata,transect_end_decimal_latitude,"Latitude of the transect ending, in decimal degrees (to five decimal places)",measurement,numeric,xx.xxxxx,,SED-BIOME
+SED-BIOME,transect_metadata,transect_end_decimal_longitude,"Latitude of the transect ending, in decimal degrees (to five decimal places)",measurement,numeric,xxx.xxxxx,,SED-BIOME
+SED-BIOME,transect_metadata,depth_min_m,Minimum site depth in meters,measurement,numeric,,,SED-BIOME
+SED-BIOME,transect_metadata,depth_max_m,Maximum site depth in meters,measurement,numeric,,,SED-BIOME
+SED-BIOME,transect_metadata,habitat_type,Provide the habitat type of the site location,categorical,,,,SED-BIOME
+SED-BIOME,transect_metadata,sediment_classification,Classify the sediment at the site location,categorical,text,,,SED-BIOME
+SED-BIOME,transect_metadata,human_impact_source,Describe any human impacts relevant to the site location,categorical,,,,SED-BIOME
+SED-BIOME,transect_metadata,sample_processing_date,The date the sample was processed in the lab,date,date,YYYY-MM-DD,,SED-BIOME
+SED-BIOME,transect_metadata,data_collector,Name(s) of data collector(s),pii,text,,,SED-BIOME
+SED-BIOME,transect_metadata,data_entry_person,Full name of data entry person,pii,text,,,SED-BIOME
+SED-BIOME,transect_metadata,sample_metadata_notes,"Any additional notes regarding observations, context, or concerns about the data.",note,text,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,site_number,Enter the number of your site. Site numbers can be found in the map that you received in the package or on the MarineGEO protocol website: https://marinegeo.github.io/projects/sed-biome,id,integer,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,sample_id,The unique ID of the sample,id,,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,type,A brief description of the type of sample collected,categorical,text,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,collection_date,The date the sample was collected in the field (YYYY-MM-DD),date,,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,data_collector,Name(s) of data collector(s),pii,text,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,sample_processing_persons,The full name of the person processing the sample (no initials; ONLY one name per sample),pii,text,,,SED-BIOME
+SED-BIOME,minicore_and_syringe_metadata,sample_collection_notes,"Any additional notes regarding observations, context, or concerns about the data.",note,text,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,sample_deployment_date,The date the sample was deployed in the field (YYYY-MM-DD),date,date,YYYY-MM-DD,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,sample_retrieval_date,date of the retrieval of the traps,date,date,YYYY-MM-DD,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,site_number,Enter the number of your site. Site numbers can be found in the map that you received in the package or on the MarineGEO protocol website: https://marinegeo.github.io/projects/sed-biome,id,integer,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,frame_number,Number of the frame as indicated on the boyant chain and map (1 to 16),id,numeric,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,frame_id,ID of the frame as indicated on the boyant chain and map (SiteX-C/FX),id,text,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,tea_bag_sample_id,ID of the laminated label placed in mesh bag,id,text,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,short_tea_bag_sample_id,Short ID written on the tea bag,id,text,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,treatment,Control or fertilised. Control frames are labelled as SiteX-CX  and fertilised frames as SiteX-FX.,categorical,,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,tea_type,Type of tea used: Rooibos tea or Green tea.,categorical,text,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,final_tea_bag_weight_g,"weight, in grams of the tea bags. Please refer to the protocol for instructions for weighing the tea bags.",measurement,text,0.0000g,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,sample_processing_person,The full name of the person processing the sample (no initials; ONLY one name per sample),pii,text,,,SED-BIOME
+SED-BIOME,teabag_decomposition_data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",note,text,,,SED-BIOME
+SED-BIOME,sedimentation_data,sample_deployment_date,date of the deploment of the traps,date,date,YYYY-MM-DD,,SED-BIOME
+SED-BIOME,sedimentation_data,sample_retrieval_date,date of the retrieval of the traps,date,date,YYYY-MM-DD,,SED-BIOME
+SED-BIOME,sedimentation_data,total_days_of_deployment,total number of days,measurement,numeric,,,SED-BIOME
+SED-BIOME,sedimentation_data,site_number,Enter the number of your site. Site numbers can be found in the map that you received in the package or on the MarineGEO protocol website: https://marinegeo.github.io/projects/sed-biome,id,integer,,,SED-BIOME
+SED-BIOME,sedimentation_data,treatment,Indicate whether the frame is deployment using a control or fertilizer treatment.,categorical,text,,,SED-BIOME
+SED-BIOME,sedimentation_data,bottle_id,Number of the bottle as indicated on the bottle (Site X - C /F- BX),id,text,,,SED-BIOME
+SED-BIOME,sedimentation_data,weight_initial_jar,initial weight of the jar without sediment,measurement,numeric,0.01,g,SED-BIOME
+SED-BIOME,sedimentation_data,weight_initial_jar_and_dried_sediment,initial weight of the jar and dried sediment,measurement,numeric,0.01,g,SED-BIOME
+SED-BIOME,sedimentation_data,weight_dried_sediment_g,weight of the dried sediment in g,measurement,numeric,0.01,g,SED-BIOME
+SED-BIOME,sedimentation_data,organisms_removed_from_jar,type of organisms removed fron the jar before drying,measurement,numeric,,,SED-BIOME
+SED-BIOME,sedimentation_data,weight_sediment_mg,weight of the dried sediment in mg,measurement,numeric,0.01,mg,SED-BIOME
+SED-BIOME,sedimentation_data,bottom_area_jar_cm2,area of the jar,measurement,numeric,36.2984,cm2,SED-BIOME
+SED-BIOME,sedimentation_data,sedimentation_rate_mg_cm2_d1,sedimentation rate per day,measurement,numeric,,mg.cm2.d-1,SED-BIOME
+SED-BIOME,sedimentation_data,sample_processing_person,The full name of the person processing the sample (no initials; ONLY one name per sample),pii,text,,,SED-BIOME
+SED-BIOME,sedimentation_data,sample_data_notes,"Any additional notes regarding observations, context, or concerns about the data.",note,text,,,SED-BIOME
