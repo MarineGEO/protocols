@@ -1,31 +1,31 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.20)  10 AUG 2021 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.13)  13 SEP 2021 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **marinegeo_protocol_seagrass_survey_design.tex
 (./marinegeo_protocol_seagrass_survey_design.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-07-17> (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27> (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count168
-\c@section=\count169
-\c@subsection=\count170
-\c@subsubsection=\count171
-\c@paragraph=\count172
-\c@subparagraph=\count173
-\c@figure=\count174
-\c@table=\count175
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.st
 y
-Package: amsmath 2020/01/20 v2.17e AMS math features
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
 
@@ -35,53 +35,53 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
-\ex@=\dimen135
+\@emptytoks=\toks16
+\ex@=\dimen139
 ))
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen136
+\pmbraise@=\dimen140
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count176
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count177
-\leftroot@=\count178
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count179
-\DOTSCASE@=\count180
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box45
-\strutbox@=\box46
-\big@size=\dimen137
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count181
-\c@MaxMatrixCols=\count182
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
 \dotsspace@=\muskip16
-\c@parentequation=\count183
-\dspbrk@lvl=\count184
-\tag@help=\toks16
-\row@=\count185
-\column@=\count186
-\maxfields@=\count187
-\andhelp@=\toks17
-\eqnshift@=\dimen138
-\alignsep@=\dimen139
-\tagshift@=\dimen140
-\tagwidth@=\dimen141
-\totwidth@=\dimen142
-\lineht@=\dimen143
-\@envbody=\toks18
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks17
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.s
 ty
@@ -96,7 +96,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -140,72 +140,21 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 ty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 2.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
 ty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks20
-\inpenc@posthook=\toks21
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
 ) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.st
 y
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
-e.sty
-Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
+) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.st
 y
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)
-\MT@toks=\toks23
-\MT@count=\count188
-LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen144
-LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count189
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
-e-pdftex.def
-File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 914.
-LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip52
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
-e.cfg
-File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
-))
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip.st
-y
-Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoption
-s.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.
-sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetk
-eys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
-sty
-Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count190
-)) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
-ty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
@@ -216,7 +165,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdfte
 x.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -240,8 +189,12 @@ File: x11nam.def 2016/05/11 v2.12 Predefined colors according to Unix/X11 (UK)
 ))
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.
+sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdfte
 xcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -254,6 +207,15 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
+y
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetk
+eys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvd
 efinekeys.sty
@@ -275,15 +237,24 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 y
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen145
-\Hy@linkcounter=\count191
-\Hy@pagecounter=\count192
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoption
+s.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen148
+\Hy@linkcounter=\count268
+\Hy@pagecounter=\count269
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-
+langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.
 sty
@@ -293,28 +264,28 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count193
-Package hyperref Info: Option `unicode' set `true' on input line 4338.
+\Hy@SavedSpaceFactor=\count270
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count194
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count271
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen146
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen149
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.st
 y
@@ -325,39 +296,42 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count195
-\Field@Width=\dimen147
-\Fld@charsize=\dimen148
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+\Fld@menulength=\count272
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegsh
-i.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.
+sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count196
-\c@Item=\count197
-\c@Hfootnote=\count198
+\Hy@abspage=\count273
+\c@Item=\count274
+\c@Hfootnote=\count275
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.d
 ef
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/atveryend/atveryen
-d.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx
+.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
 )
-\Fld@listcount=\count199
-\c@bookmark@seq@number=\count266
+\Fld@listcount=\count276
+\c@bookmark@seq@number=\count277
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -370,7 +344,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip52
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 46.
 
@@ -381,26 +355,26 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count267
-\Gm@cntv=\count268
-\c@Gm@tempcnt=\count269
-\Gm@bindingoffset=\dimen149
-\Gm@wd@mp=\dimen150
-\Gm@odd@mp=\dimen151
-\Gm@even@mp=\dimen152
-\Gm@layoutwidth=\dimen153
-\Gm@layoutheight=\dimen154
-\Gm@layouthoffset=\dimen155
-\Gm@layoutvoffset=\dimen156
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks24
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
 sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
 sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
@@ -408,77 +382,76 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen157
-\Gin@req@width=\dimen158
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
 y
-\wrapoverhang=\dimen159
-\WF@size=\dimen160
-\c@WF@wrappedlines=\count270
-\WF@box=\box47
+\wrapoverhang=\dimen162
+\WF@size=\dimen163
+\c@WF@wrappedlines=\count281
+\WF@box=\box52
 \WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.st
 y
-Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.s
 ty
-Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen161
-\captionmargin@=\dimen162
-\captionwidth=\dimen163
-\caption@tempdima=\dimen164
-\caption@indent=\dimen165
-\caption@parindent=\dimen166
-\caption@hangindent=\dimen167
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen164
+\captionmargin@=\dimen165
+\captionwidth=\dimen166
+\caption@tempdima=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count271
-\c@continuedfloat=\count272
+\c@caption@flags=\count282
+\c@continuedfloat=\count283
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count273
+\c@float@type=\count284
 \float@exts=\toks26
-\float@box=\box48
+\float@box=\box53
 \@float@everytoks=\toks27
-\@floatcapt=\box49
+\@floatcapt=\box54
 )
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
 sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip54
-\f@nch@O@elh=\skip55
-\f@nch@O@erh=\skip56
-\f@nch@O@olh=\skip57
-\f@nch@O@orh=\skip58
-\f@nch@O@elf=\skip59
-\f@nch@O@erf=\skip60
-\f@nch@O@olf=\skip61
-\f@nch@O@orf=\skip62
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 66.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 66.
 
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
-d-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count274
-\l__pdf_internal_box=\box50
+d-pdftex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box55
 ) (./marinegeo_protocol_seagrass_survey_design.aux)
 \openout1 = `marinegeo_protocol_seagrass_survey_design.aux'.
 
@@ -500,23 +473,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
-LaTeX Info: Redefining \microtypecontext on input line 75.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 75.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
 
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.c
-fg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -528,12 +485,11 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box51
 Package hyperref Info: Link coloring ON on input line 75.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.
 sty
@@ -543,7 +499,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count275
+\c@section@level=\count286
 )
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
@@ -593,22 +549,22 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 7.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
 7.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 77.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 77.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 77.
@@ -621,18 +577,10 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.c
-fg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
 LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.c
-fg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 82.
@@ -640,121 +588,171 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 82.
-<../graphics/seagrass_survey_design_landing_page.png, id=20, 276.19109pt x 207.
-14331pt>
-File: ../graphics/seagrass_survey_design_landing_page.png Graphic file (type pn
-g)
-<use ../graphics/seagrass_survey_design_landing_page.png>
-Package pdftex.def Info: ../graphics/seagrass_survey_design_landing_page.png  u
-sed on input line 82.
+<../graphics//seagrass_survey_design_landing_page.png, id=20, 276.19109pt x 207
+.14331pt>
+File: ../graphics//seagrass_survey_design_landing_page.png Graphic file (type p
+ng)
+<use ../graphics//seagrass_survey_design_landing_page.png>
+Package pdftex.def Info: ../graphics//seagrass_survey_design_landing_page.png  
+used on input line 82.
 (pdftex.def)             Requested size: 276.1904pt x 207.14279pt.
-<../graphics/title_logo.jpg, id=22, 2673.99pt x 1165.35374pt>
-File: ../graphics/title_logo.jpg Graphic file (type jpg)
-<use ../graphics/title_logo.jpg>
-Package pdftex.def Info: ../graphics/title_logo.jpg  used on input line 91.
+<../graphics//title_logo.jpg, id=22, 2673.99pt x 1165.35374pt>
+File: ../graphics//title_logo.jpg Graphic file (type jpg)
+<use ../graphics//title_logo.jpg>
+Package pdftex.def Info: ../graphics//title_logo.jpg  used on input line 91.
 (pdftex.def)             Requested size: 227.59216pt x 99.18712pt.
 [1
 
 {c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map} <../graphics/seagrass_survey_design_landing_page.png> <../graphics/title
-_logo.jpg>]
+x.map} <../graphics//seagrass_survey_design_landing_page.png> <../graphics//tit
+le_logo.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 28.
 (c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<../graphics/marinegeo.png, id=36, 1691.31876pt x 578.16pt>
-File: ../graphics/marinegeo.png Graphic file (type png)
-<use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 204.
+<../graphics//marinegeo.png, id=37, 1691.31876pt x 578.16pt>
+File: ../graphics//marinegeo.png Graphic file (type png)
+<use ../graphics//marinegeo.png>
+Package pdftex.def Info: ../graphics//marinegeo.png  used on input line 196.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 32.05098pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.05098pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.05098pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.05098pt}.
 
 [1
 
- <../graphics/marinegeo.png>]
-File: ../graphics/marinegeo.png Graphic file (type png)
-<use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 298.
+ <../graphics//marinegeo.png>]
+File: ../graphics//marinegeo.png Graphic file (type png)
+<use ../graphics//marinegeo.png>
+Package pdftex.def Info: ../graphics//marinegeo.png  used on input line 298.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.05098pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.05098pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.05098pt}.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.298 
        [2]
-<../graphics/seagrass_transects_survey_design.png, id=76, 694.84593pt x 523.204
-68pt>
-File: ../graphics/seagrass_transects_survey_design.png Graphic file (type png)
-<use ../graphics/seagrass_transects_survey_design.png>
-Package pdftex.def Info: ../graphics/seagrass_transects_survey_design.png  used
- on input line 301.
+<../graphics//seagrass_transects_survey_design.png, id=77, 694.84593pt x 523.20
+468pt>
+File: ../graphics//seagrass_transects_survey_design.png Graphic file (type png)
+
+<use ../graphics//seagrass_transects_survey_design.png>
+Package pdftex.def Info: ../graphics//seagrass_transects_survey_design.png  use
+d on input line 301.
 (pdftex.def)             Requested size: 211.38167pt x 159.16605pt.
-File: ../graphics/marinegeo.png Graphic file (type png)
-<use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 429.
+File: ../graphics//marinegeo.png Graphic file (type png)
+<use ../graphics//marinegeo.png>
+Package pdftex.def Info: ../graphics//marinegeo.png  used on input line 423.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.05098pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.05098pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.05098pt}.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.429 
-       [3 <../graphics/seagrass_transects_survey_design.png>]
-<../graphics/transect_modules_survey_design.png, id=112, 944.02687pt x 785.4343
-7pt>
-File: ../graphics/transect_modules_survey_design.png Graphic file (type png)
-<use ../graphics/transect_modules_survey_design.png>
-Package pdftex.def Info: ../graphics/transect_modules_survey_design.png  used o
-n input line 459.
+l.423       E
+             pifauna (preserved): at leisure [3 <../graphics//seagrass_transect
+s_survey_design.png>]
+<../graphics//transect_modules_survey_design.png, id=109, 944.02687pt x 785.434
+37pt>
+File: ../graphics//transect_modules_survey_design.png Graphic file (type png)
+<use ../graphics//transect_modules_survey_design.png>
+Package pdftex.def Info: ../graphics//transect_modules_survey_design.png  used 
+on input line 457.
 (pdftex.def)             Requested size: 469.76515pt x 390.8466pt.
-<../graphics/transect_assays_survey_design.png, id=113, 1022.31938pt x 755.3218
-7pt>
-File: ../graphics/transect_assays_survey_design.png Graphic file (type png)
-<use ../graphics/transect_assays_survey_design.png>
-Package pdftex.def Info: ../graphics/transect_assays_survey_design.png  used on
- input line 465.
-(pdftex.def)             Requested size: 469.74225pt x 347.06041pt.
-File: ../graphics/marinegeo.png Graphic file (type png)
-<use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 469.
+File: ../graphics//marinegeo.png Graphic file (type png)
+<use ../graphics//marinegeo.png>
+Package pdftex.def Info: ../graphics//marinegeo.png  used on input line 461.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.05098pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.05098pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.05098pt}.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 
-       [4 <../graphics/transect_modules_survey_design.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
-File: ../graphics/marinegeo.png Graphic file (type png)
-<use ../graphics/marinegeo.png>
-Package pdftex.def Info: ../graphics/marinegeo.png  used on input line 470.
+l.461 
+       [4]
+<../graphics//transect_assays_survey_design.png, id=123, 1533.47906pt x 1132.98
+282pt>
+File: ../graphics//transect_assays_survey_design.png Graphic file (type png)
+<use ../graphics//transect_assays_survey_design.png>
+Package pdftex.def Info: ../graphics//transect_assays_survey_design.png  used o
+n input line 463.
+(pdftex.def)             Requested size: 469.73445pt x 347.05466pt.
+File: ../graphics//marinegeo.png Graphic file (type png)
+<use ../graphics//marinegeo.png>
+Package pdftex.def Info: ../graphics//marinegeo.png  used on input line 467.
 (pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.05098pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.05098pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.05098pt}.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.470 \end{document}
-                     [5 <../graphics/transect_assays_survey_design.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
-(./marinegeo_protocol_seagrass_survey_design.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+l.467 
+       [5 <../graphics//transect_modules_survey_design.png>]
+File: ../graphics//marinegeo.png Graphic file (type png)
+<use ../graphics//marinegeo.png>
+Package pdftex.def Info: ../graphics//marinegeo.png  used on input line 468.
+(pdftex.def)             Requested size: 83.2289pt x 28.45094pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.05098pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.05098pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.05098pt}.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.468 \end{document}
+                     [6 <../graphics//transect_assays_survey_design.png>] (./ma
+rinegeo_protocol_seagrass_survey_design.aux)
 Package rerunfilecheck Info: File `marinegeo_protocol_seagrass_survey_design.ou
 t' has not changed.
 (rerunfilecheck)             Checksum: E7B43034F55B7040CD5C00248629FA96;409.
  ) 
 Here is how much of TeX's memory you used:
- 13919 strings out of 482854
- 212561 string characters out of 5954975
- 515533 words of memory out of 5000000
- 28898 multiletter control sequences out of 15000+600000
- 579111 words of font info for 102 fonts, out of 8000000 for 9000
+ 11737 strings out of 480559
+ 181018 string characters out of 5901528
+ 502060 words of memory out of 5000000
+ 29099 multiletter control sequences out of 15000+600000
+ 444351 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,15n,45p,840b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,15n,67p,610b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}{c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1
 .enc}<c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/l
@@ -763,11 +761,11 @@ mbx12.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
 blic/lm/lmr17.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
 1/public/lm/lmri10.pfb><c:/Users/mlonn/AppData/Roaming/TinyTeX/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb>
-Output written on marinegeo_protocol_seagrass_survey_design.pdf (6 pages, 45969
-28 bytes).
+Output written on marinegeo_protocol_seagrass_survey_design.pdf (7 pages, 46021
+44 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 177 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
  64 named destinations out of 1000 (max. 500000)
- 12351 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

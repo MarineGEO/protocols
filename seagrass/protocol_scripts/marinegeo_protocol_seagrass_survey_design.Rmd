@@ -49,7 +49,6 @@ Required protocols for MarineGEO Partners:
 
 * Sampling Event & Environmental Monitoring (temperature, salinity, turbidity) - https://doi.org/10.25573/serc.14555511
 *	Seagrass density (cover, composition, shoot density)
-*	Seagrass macroalgae (biomass)
 *	Seagrass shoots (leaf length, width, epiphytes)
 *	Predation (bait loss; ‘Squidpops’) - https://doi.org/10.25573/serc.14717802
 
@@ -59,6 +58,7 @@ Recommended protocols:
 * Sediment organic matter (bulk density, organic carbon) - https://doi.org/10.25573/serc.14925111
 *	Seagrass biomass (biomass, shoot density)
 *	Seagrass epifauna (composition, biomass)
+* Seagrass macroalgae (biomass)
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -142,7 +142,7 @@ Materials:
 3.	Score 24-h bait loss from predation assay. Retrieve stakes and any associated markers.
 4.	Along each transect, conduct the following (Fig. 2):
       a.	Use Seagrass density protocol to survey percent cover, composition, and shoot density (every 4 m, n = 12 per transect).
-      b.	Use Seagrass macroalgae protocol to collect macroalgae from within the quadrats used for the Seagrass density protocol (every 8 m, n = 6 per transect).
+      b.	RECOMMENDED: Use Seagrass macroalgae protocol to collect macroalgae from within the quadrats used for the Seagrass density protocol (every 8 m, n = 6 per transect).
       c.	Use Seagrass shoots protocol to collect shoots for later measurement of leaf characteristics, fouling load, and disease in the lab (every 8 m, n = 6 per transect).
       d.	RECOMMENDED: Use Sediment organic matter protocol to sample organic carbon in sediments for later processing in the lab (every 16 m, n = 3 per transect).
       e.	RECOMMENDED: Use Seagrass biomass protocol to sample above- and belowground biomass of seagrass and shoot density for later processing in the lab (every 16 m, n = 3 per transect).
@@ -156,7 +156,7 @@ Materials:
 
 1.	Activities from Day 1 require no post-processing. 
 2.	The samples on Day 2 should be processed within the following time frames:
-      a.	Seagrass macroalgae: within 24-48 h
+      a.	RECOMMENDED: Seagrass macroalgae: within 24-48 h
       b.	Seagrass shoot collections: within 24-h
       c.	RECOMMENDED: Sediment organic matter: within 1-3 days
       d.	RECOMMENDED: Seagrass biomass cores: 
@@ -166,8 +166,6 @@ Materials:
             i.	Macrophytes: within 24-h;
             ii.	Dry mass: within 1-3 days;
             iii.	Epifauna (preserved): at leisure
-
-\pagebreak
 
 \noindent\rule{\textwidth}{0.4pt}
 
