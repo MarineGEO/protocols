@@ -1,8 +1,11 @@
 # Create seagrass data entry spreadsheets from schema
 
 library(openxlsx)
-library(tidyverse)
+#library(tidyverse)
 
+library(dplyr)
+library(tidyr)
+library(readr)
 seagrass_schema <- read_csv("./seagrass/seagrass_schema.csv")
 
 doi <- "10.25573/serc.14925114.v1"
