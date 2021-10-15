@@ -1,4 +1,4 @@
-protocol_name,sheet_name,field_name,definition,variable_type,field_type,format_text,unit,version
+protocol,table,attribute,definition,variable_type,field_type,format_text,unit,version
 seagrass shoots,sample metadata,sample_collection_year,The year the sample was collected in the field,date,numeric,YYYY,NA,10.25573/serc.14925114.v1
 seagrass shoots,sample metadata,sample_collection_month,The month the sample was collected in the field,date,numeric,MM,NA,10.25573/serc.14925114.v1
 seagrass shoots,sample metadata,sample_collection_day,The day the sample was collected in the field,date,numeric,DD,NA,10.25573/serc.14925114.v1
