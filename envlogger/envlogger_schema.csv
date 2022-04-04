@@ -1,0 +1,18 @@
+﻿protocol_name,sheet_name,field_name,definition,field_type,format_text,unit,variable_type
+EnvLogger Deployment,logger deployment,site_code,,,,,
+EnvLogger Deployment,logger deployment,location_name,,,,,
+EnvLogger Deployment,logger deployment,logger_identifier,"A unique identifier assigned to each logger using the EnvLogger application. View the ""Sampling Event Protocol"" for instructions on creating IDs",text,,,id
+EnvLogger Deployment,logger deployment,logger_serial_number,The serial number associated with the logger. It can be viewed using the EnvLogger application. ,text,,,id
+EnvLogger Deployment,logger deployment,deployment_location,"The location of the logger at a site, either as a latitude and longitude in decimal degrees or as a short text description, e.g. “start of transect 2”",text,,,
+EnvLogger Deployment,logger deployment,deployment_year,,,,,
+EnvLogger Deployment,logger deployment,deployment_month,,,,,
+EnvLogger Deployment,logger deployment,deployment_day,,,,,
+EnvLogger Deployment,logger deployment,deployment_time,,,,,
+EnvLogger Deployment,logger deployment,latitude_decimal_degrees,,,,,
+EnvLogger Deployment,logger deployment,longitude_decimal_degrees,,,,,
+EnvLogger Deployment,logger deployment,habitat_type,,,,,
+EnvLogger Deployment,logger deployment,logger_depth,The depth at which the logger is deployed,numeric,,meters,measurement
+EnvLogger Deployment,logger deployment,institution,,,,,
+EnvLogger Deployment,logger deployment,first_name_point_of_contact,,,,,
+EnvLogger Deployment,logger deployment,surname_point_of_contact,,,,,
+EnvLogger Deployment,logger deployment,logger_deployment_notes,"Any additional notes regarding observations, context, or concerns about the logger deployment",text,,,note

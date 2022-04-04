@@ -25,3 +25,13 @@ sample_processing_person,The full name of the person processing the sample (no i
 sample_retrieval_year,The year the sample was retrieved from the field,numeric,YYYY,,date
 sample_retrieval_month,The month the sample was retrieved from the field,numeric,MM,,date
 sample_retrieval_day,The day the sample was retrieved from the field,numeric,DD,,date
+deployment_year,The year the instrument was deployed in the field,numeric,YYYY,,date
+deployment_month,The month the instrument was deployed in the field,numeric,MM,,date
+deployment_day,The day the instrument was deployed in the field,numeric,DD,,date
+deployment_time,"The time the instrument was deployed in the field, recorded in 24-hour format and in the local time",text,HH:MM,,time
+habitat_type,"The habitat type of the site location, such as ""seagrass"", ""coral reef"", ""oyster reef"", ""rocky reef"", ""mangrove""",text,,,categorical
+institution,The institution responsible for sampling or deployment,text,,,categorical
+latitude_decimal_degrees,"Deployment latitude, in decimal degrees (to five decimal places)",,,,
+longitude_decimal_degrees,"Deployment longitude, in decimal degrees (to five decimal places)",,,,
+first_name_point_of_contact,First name of the point of contact for this dataset,,,,
+surname_point_of_contact,Surname of the point of contact for this dataset,,,,
