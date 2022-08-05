@@ -4,6 +4,8 @@ generateSpreadsheets <- function(schema, protocol_filename){
   
   for(protocol in unique(schema$protocol_name)){
     
+    browser()
+    
     wb <- loadWorkbook(file = "./resources/data_entry_spreadsheet_template.xlsx")
     
     writeData(wb, sheet = 1, x = toupper(protocol), xy = c(2,1))
@@ -101,29 +103,29 @@ generateSpreadsheets <- function(schema, protocol_filename){
     saveWorkbook(wb, file = filename, overwrite = T)
     
     # Save schema to CSV of all schemas for use in data submission portal
-    marinegeo_schemas <- read_csv("./resources/marinegeo_schemas.csv")
-    
-    current_schema <- marinegeo_schemas %>%
-      filter(version == doi,
-             protocol_name == protocol)
-    
-    if(nrow(current_schema) == 0){
-      
-      column_metadata <- c("definition", "field_type", "format_text", "unit", "variable_type")
-      
-      definitions <- final_glossary_full_cols %>%
-        select(field_name, all_of(column_metadata)) 
-      
-      schema_modified <- schema %>%
-        filter(protocol_name == protocol) %>%
-        select(-all_of(column_metadata)) %>%
-        left_join(definitions, by="field_name") %>%
-        mutate(version = doi) %>%
-        select(protocol_name, sheet_name, field_name, definition, variable_type, field_type, format_text, unit, version) %>%
-        bind_rows(marinegeo_schemas) 
-      
-      write_csv(schema_modified, "./resources/marinegeo_schemas.csv")
-    }
+    # marinegeo_schemas <- read_csv("./resources/marinegeo_schemas.csv")
+    # 
+    # current_schema <- marinegeo_schemas %>%
+    #   filter(version == doi,
+    #          protocol_name == protocol)
+    # 
+    # if(nrow(current_schema) == 0){
+    #   
+    #   column_metadata <- c("definition", "field_type", "format_text", "unit", "variable_type")
+    #   
+    #   definitions <- final_glossary_full_cols %>%
+    #     select(field_name, all_of(column_metadata)) 
+    #   
+    #   schema_modified <- schema %>%
+    #     filter(protocol_name == protocol) %>%
+    #     select(-all_of(column_metadata)) %>%
+    #     left_join(definitions, by="field_name") %>%
+    #     mutate(version = doi) %>%
+    #     select(protocol_name, sheet_name, field_name, definition, variable_type, field_type, format_text, unit, version) %>%
+    #     bind_rows(marinegeo_schemas) 
+    #   
+    #   write_csv(schema_modified, "./resources/marinegeo_schemas.csv")
+    # }
   }
 }
   
