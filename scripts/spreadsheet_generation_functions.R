@@ -4,8 +4,6 @@ generateSpreadsheets <- function(schema, protocol_filename){
   
   for(protocol in unique(schema$protocol_name)){
     
-    browser()
-    
     wb <- loadWorkbook(file = "./resources/data_entry_spreadsheet_template.xlsx")
     
     writeData(wb, sheet = 1, x = toupper(protocol), xy = c(2,1))
